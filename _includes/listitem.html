@@ -1,0 +1,29 @@
+{% if post.publishedOn %}
+{% assign date = post.publishedOn %}
+{% else %}
+{% assign date =post.date %}
+{% endif %}
+ <div class="archyitem">
+        <div class="archydate_mobile  garamond">
+          <span>
+          {{ post.date | date: "%b %-d, %Y" }}
+          </span>
+        </div>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail"><img src="{{post.coverImg | prepend: site.imageurl }}" alt="">
+          <div class="vcenter archycover">
+            <div class="vcenter archydate">
+              <span class="big">
+              {{ post.date | date: "%d" }}
+              </span><br>
+              {{ post.date | date: "%b %Y" }}
+            </div>
+          </div>
+        </a>
+        <div class="archytitle garamond">
+          <span>
+          <a class="opacity_hover" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a><br>
+          </span>
+        </div>
+      </div>

@@ -1,0 +1,17 @@
+---
+layout: default
+extraClasses: ["dailylog"]
+---
+
+{% assign posts_groups = site.posts | group_by:"postType" %}
+{% for posts_group in posts_groups %}
+{% if posts_group.name == "dailylog" %}
+{% assign posts = posts_group.items %}
+{% assign displayExtract = 1 %}
+{% for page in posts %}
+<div class="log{% cycle '1', '2', '3', '2'%}">
+{% include log.html %}
+</div>
+{% endfor %}
+{% endif %}
+{% endfor %}

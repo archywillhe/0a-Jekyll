@@ -1,0 +1,18 @@
+---
+layout: default
+subspace: "Interesting<br>Things"
+---
+{%include post/title.html %}
+<div class="container">
+<article class="archypost garamond">
+<div class="archycoverpic showInMobile">
+        <img src="{{page.coverImg | prepend: site.imageurl }}" alt="">
+      </div>
+<div class="archycontent">{{content}}</div>
+</article>
+</div>
+{% if page.js%}
+{% for js in page.js %}
+<link rel="stylesheet" href="/assets/js/{{ js }}">
+{% endfor %}
+{% endif %}

@@ -1,0 +1,45 @@
+<header class="archyhead_wrap">
+  <div class="archyhead">
+    <div class="page_meta_info_wrapper">
+      <div class="page_meta_info">
+          {% if page.subspace %}
+         {% include 0a.html %}
+        <div class="arrow inline hideInMobile">
+          <img src="/assets/img/arrow.png">
+        </div>
+        <div class="current_region inline hideInMobile">
+          <a href={% unless page.postType == "dailylog" or page.permalink == "/dailylogs/"  %}"/"{% else %}"/dailylogs/"{% endunless %}><span>{{page.subspace}}</span></a>
+
+        </div>
+        {% endif %}
+        {% if page.coverImg %}
+        <div class="arrow inline hideInMobile">
+          <img src="/assets/img/arrow.png">
+        </div>
+        <div class="archyitem inline hideInMobile">
+          <a class="forward_to_post thumbnail"><img class="article_meta_cover_picture" src="{{page.coverImg | prepend: site.imageurl }}" alt="">
+          </a>
+          <div class="archytitle garamond"><a class="forward_to_post">{{page.title}}</a></div>
+        </div>
+        {% endif %}
+        {% if page.postType == "dailylog" %}
+        <div class="arrow inline hideInMobile">
+          <img src="/assets/img/arrow.png">
+        </div>
+          <div class="readmore inline hideInMobile">
+          <p class="text-center">{{page.date | date: "%b %-d<br>%Y" }}</p></div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+     {% unless page.subspace %}
+   {% include 0a.html %}
+    <div class="about_me  garamond">
+      <div class="about_0a_content">
+        <sub>{{site.author.bioTitle}}</sub>
+        {{site.author.bio}}
+      </div>
+    </div>
+    {% endunless %}
+  </div>
+</header>

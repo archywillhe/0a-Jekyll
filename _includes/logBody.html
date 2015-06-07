@@ -1,0 +1,10 @@
+<article class="archypost {% if page.font %} {{page.font}} {% else %} lato {%endif%}">
+<div class="archycontent">{% if displayExtract %} {{page.extract | markdownify}} {% else %} {{content }} {% endif %}</div>
+{% if displayExtract %}
+<div class="readmore"> <a href="{{page.url}}">Read more</a></div>
+{% else %}
+<div class="kudobox">
+<div class="kudos" data-url="{{page.url | prepend: site.identity}}"></div>
+</div>
+{% endif %}
+</article>

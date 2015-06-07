@@ -1,0 +1,28 @@
+<div class="central block0a">
+    <div class="inline headerDOM">
+  <a class="_0a" href="/">
+    <div class="logo">
+      <span>0a</span>
+      <img src="/assets/img/0a.png" alt="0a">
+    </div>
+  </a>
+  <div class="views_choices">
+       <div class="nav_choices">
+       <a href="/about" class="opacity_hover about_trigger"><div class="nav_choice"><span>About</span></div></a>
+      {% if page.aboutPage == 1 %}
+      <a href="/" class="opacity_hover"><div class="nav_choice"><i class="fa fa-cube fa-lg"></i> </div></a>
+       <a href="/dailylogs" class="opacity_hover"><div class="nav_choice"><i class="fa fa-key fa-lg"></i> </div></a>
+      {% else %}
+      
+     {% unless page.subspace == "Daily Logs<br>of Arch's" %} 
+       <a href="/dailylogs" class="opacity_hover"><div class="nav_choice"><i class="fa fa-key fa-lg"></i> </div></a>
+     {% else %}
+     <a href="/" class="opacity_hover"><div class="nav_choice"><i class="fa fa-cube fa-lg"></i> </div></a>
+     {% endunless %}
+     {% endif %}
+      <a href="https://twitter.com/archwilhes" class="opacity_hover" target="_blank"><div class="nav_choice"><span><i class="fa fa-twitter fa-lg"></i> </span></div></a>
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="opacity_hover" target="_blank"><div class="nav_choice"><span><i class="fa fa-rss fa-lg"></i> </span></div></a>
+    </div>
+  </div>
+</div>
+</div>

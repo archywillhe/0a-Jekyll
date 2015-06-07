@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign filterBy = "postType" %}
+{% assign posts_groups = site.posts | group_by:filterBy %}
+{% for listFilter in page[filterBy] %}
+{% assign listFilterName = listFilter.name %}
+{% assign listFilterTitle = listFilter.title %}
+{% for posts_group in posts_groups %}
+    {% include list.html %}
+{% endfor %}
+{% endfor %}

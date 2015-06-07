@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.metaTitle %}{{ page.metaTitle }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}</title>
+  <meta name="description" content="{{ site.metaDescription }}">
+  {% if page.font %}
+  {% case page.font %}
+  {% when 'garamond' %}
+  <script type="text/javascript" src="//use.typekit.net/agx1ofd.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  {% else %}
+  <link href='{{page.fontLink}}' rel='stylesheet' type='text/css'>
+  {% endcase %}
+  {% else %}
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  {% endif %}
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link href="/assets/fonts/yellowtail/stylesheet.css" rel="stylesheet" type="text/css">
+  <script src="/assets/js/core.js"></script>
+   {% if page.headBlock%}{{page.headBlock}}{% endif %}
+    {% if page.maths == 1%}{%include mathsRendering.html %}{% endif %}
+</head>

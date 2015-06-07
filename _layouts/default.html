@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
+{% include general/head.html %}
+{% if page.subspace %}
+{% assign bodyClass = page.extraClasses | join " " | prepend: "notHomePage " %}
+{% else %}
+{% assign bodyClass = page.extraClasses | join " " %}
+{% endif %}
+<body class="{{bodyClass}}">
 
-  {% include head.html %}
+{% include general/header.html %}
+{{ content }}
+{% include general/footer.html %}
+</body>
 
-  <body>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
 
 </html>

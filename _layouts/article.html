@@ -1,0 +1,26 @@
+---
+layout: default
+subspace: "Stuff<br>I wrote"
+---
+{%include post/title.html %}
+<div class="container">
+<article class="archypost {% if page.font %} {{page.font}} {% else %} lato {%endif%}">
+<div class="archycoverpic showInMobile">
+        <img src="{{page.coverImg | prepend: site.imageurl }}" alt="">
+      </div>
+<div class="archycontent">{{content}}</div>
+<div class="kudobox">
+<div class="kudos" data-url="{{page.url | prepend: site.identity}}"></div>
+</div>
+</article>
+</div>
+{%include post/subtitleBottom.html %}
+<script src="/assets/js/kudosplease.js">
+</script>
+<script src="/assets/js/article.js">
+</script>
+{% if page.js%}
+{% for js in page.js %}
+<link rel="stylesheet" href="/assets/js/{{ js }}">
+{% endfor %}
+{% endif %}

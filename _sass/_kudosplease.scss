@@ -1,0 +1,184 @@
+$c : #2b6dde;
+$c2 : #24baff;
+$c_ : #3c8df6;
+$white: #fff;
+.kudos {
+    color: #000;
+    position: relative;
+    width: 6em;
+    height: 6em;
+    margin: .5em auto 1.5em auto;
+    background: $white;
+    box-shadow: inset 0 0 0 0.45em #000, inset 0 0 0 2.3em $white, inset 0 0 0 6em #000;
+    line-height: 6em;
+    text-align: center;
+    border-radius: 50%;
+    font-family: "yellowtailregular" "Times";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-transition: box-shadow 0.225s ease-out;
+    -moz-transition: box-shadow 0.225s ease-out;
+    -o-transition: box-shadow 0.225s ease-out;
+    transition: box-shadow 0.225s ease-out
+}
+.kudos:before {
+    -webkit-transition: font-size 0.45s ease-in;
+    -moz-transition: font-size 0.45s ease-in;
+    -o-transition: font-size 0.45s ease-in;
+    transition: font-size 0.45s ease-in;
+    font-size: 1.75em;
+    line-height: 1.75;
+    color: $white
+}
+.kudos.active {
+    -webkit-transition: box-shadow 1.5s linear;
+    -moz-transition: box-shadow 1.5s linear;
+    -o-transition: box-shadow 1.5s linear;
+    transition: box-shadow 1.5s linear;
+    box-shadow: inset 0 0 0 0.25em #000, inset 0 0 0 0 $white, inset 0 0 0 0.75em $c, inset 0 0 0 6em $c2
+}
+.kudos.active:after {
+    content: 'Don\'t move!'
+}
+.kudos.finish {
+    -webkit-transition: box-shadow 0.45s linear, -webkit-transform 0.2625s ease-in-out;
+    -moz-transition: box-shadow 0.45s linear, -moz-transform 0.2625s ease-in-out;
+    -o-transition: box-shadow 0.45s linear, -o-transform 0.2625s ease-in-out;
+    transition: box-shadow 0.45s linear, transform 0.2625s ease-in-out;
+    box-shadow: inset 0 0 0 0.25em $c_, inset 0 0 0 0.5em $white, inset 0 0 0 0.75em $c, inset 0 0 0 1em $white, inset 0 0 0 0 $white, inset 0 0 0 6em $c2
+}
+.kudos.finish{
+
+    animation: bounce 1s;
+    animation-iteration-count: 1;
+    transform: scale(1);
+    -webkit-transition-property: none;
+    -webkit-animation: bounce 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform: scale(1);
+    -moz-transition-property: none;
+    -moz-animation: bounce 1s;
+    -moz-animation-iteration-count: 1;
+    -moz-transform: scale(1)
+}
+.kudos.finish:before {
+    font-size: 2.25em;
+    line-height: 2.25;
+    color: $white;
+}
+.kudos.finish:after {
+    color:$c
+}
+.kudos:after {
+    position: absolute;
+    content: attr(data-amount) " Kudos";
+    top: 0%;
+    right: -5.5em;
+    width: 6em;
+    text-align: center;
+    height: 3em;
+    font-size: 1.8em;
+    vertical-align: middle;
+}
+
+.kudobox{
+    display: inline-block;
+    font-size: 9px;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: scale(1.2);
+        opacity: 1
+    }
+
+    50% {
+        transform: scale(1.8);
+        opacity: 0.7
+    }
+
+    60% {
+        transform: scale(0.6);
+        opacity: 1
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform: scale(1.2);
+        opacity: 1
+    }
+
+    50% {
+        -webkit-transform: scale(1.8);
+        opacity: 0.7
+    }
+
+    60% {
+        -webkit-transform: scale(0.6);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: scale(1)
+    }
+}
+
+@-moz-keyframes bounce {
+    0% {
+        -moz-transform: scale(1.2);
+        opacity: 1
+    }
+
+    50% {
+        -moz-transform: scale(1.8);
+        opacity: 0.7
+    }
+
+    60% {
+        -moz-transform: scale(0.6);
+        opacity: 1
+    }
+
+    100% {
+        -moz-transform: scale(1)
+    }
+}
+
+
+$c : #16dfd8;
+$c2 : #24ffba;
+$c_ : #3cf6f3;
+$white: #f3f3f3;
+
+.dailylog{
+    .kudos {
+        background: $white;
+        box-shadow: inset 0 0 0 0.45em #000, inset 0 0 0 2.3em $white, inset 0 0 0 6em #000;
+    }
+    .kudos:before {
+        color: $white
+    }
+    .kudos.active {
+        box-shadow: inset 0 0 0 0.25em #000, inset 0 0 0 0 $white, inset 0 0 0 0.75em $c, inset 0 0 0 6em $c2
+    }
+
+    .kudos.finish {
+        box-shadow: inset 0 0 0 0.25em $c_, inset 0 0 0 0.5em $white, inset 0 0 0 0.75em $c, inset 0 0 0 1em $white, inset 0 0 0 0 $white, inset 0 0 0 6em $c2
+    }
+
+    .kudos.finish:before {
+        color: $white;
+    }
+    .kudos.finish:after {
+        color:$c
+    }
+}

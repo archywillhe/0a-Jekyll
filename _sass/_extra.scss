@@ -1,0 +1,56 @@
+.archyhead .central .nav_choices .fa-twitter{
+  font-size:1.25em !important
+}
+.headerDOM{
+  position: relative;
+      -webkit-transition: left 400ms ease-in-out;
+    -moz-transition: left 400ms ease-in-out;
+    -ms-transition: left 400ms ease-in-out;
+    -o-transition: left 400ms ease-in-out;
+    transition: left 400ms ease-in-out;
+}
+.loggingEachDay{
+  font-size: 15px;
+  a{
+    color:#3A539B
+  }
+}
+.relative{
+  position: relative;
+}
+
+.overflow-hidden{
+  overflow:hidden
+}
+
+
+.inline{
+  display:inline-block !important;
+}
+.margin-left-20px{
+  margin-left: 20px;
+}
+.margin-left-11px{
+  margin-left: 11px;
+}
+
+.hideInMobile{
+    @media (max-width: 767px){
+    display: none !important
+  }
+}
+.showInMobile{
+   @media (max-width: 767px){
+    display: block !important
+  }
+  display: none
+}
+.max100{
+    @media (max-width: 485px){
+    overflow-x: scroll; overflow-y: visible;
+    width:100%
+  }
+}
+.hiding{
+  display: none
+}

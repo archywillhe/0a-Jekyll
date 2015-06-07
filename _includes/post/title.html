@@ -1,0 +1,39 @@
+<div class="archywrap">
+<div class="container">
+<div class="archypost garamond postTitle">
+{% if page.postType == "dailylog" %}
+{% assign subtitle = page.date | date: "%b %-d, %Y" | prepend: "Latest Log: " %}
+{% else %}
+{% assign subtitle = page.subtitle %}
+{% endif %}
+{% unless noSubtitle == 1 %}
+<div class="archysub">{{subtitle}}</div>
+{% endunless %}
+<h1><span>
+{% if displayExtract %}
+<a class="linkToLog" href="{{page.url}}">
+{% endif %}
+{{ page.title }}
+{% if displayExtract %}
+</a>
+{% endif %}
+</span></h1>
+<p class="belowtitle"><i class="fa fa-dot-circle-o fa-lg"></i> {{ page.date | date: "%b %-d, %Y" }} 
+{% unless page.postType == "dailylog" %}
+<span class="margin-left-20px"> 
+<i class="fa fa-bullseye fa-lg"></i>{% if page.readingTime %}{{page.readingTime}}{% else %} 1 min {%endif %} read </span>
+{% endunless %}
+<span class="margin-left-11px">
+{%capture facebook %} https://www.facebook.com/sharer/sharer.php?u={{page.url | prepend: site.url}} {%endcapture%}
+<a href="{{facebook}}"  onclick="window.open('{{facebook}}', 'newwindow', 'width=400, height=350'); return false;">
+<i class="fa fa-facebook fa-lg smaller"></i>
+</a>
+{%capture twitter %} https://twitter.com/intent/tweet?text={{page.title}}&url={{page.url | prepend: site.url}}{%endcapture%}
+<a href="{{twitter}}"  onclick="window.open('{{twitter}}', 'newwindow', 'width=400, height=350'); return false;"><i class="fa fa-twitter fa-lg smaller"></i></a>
+</span></p>
+</div>
+{% if page.postType == "dailylog" %}
+{% include logBody.html %}
+{% endif %}
+</div>
+</div>
