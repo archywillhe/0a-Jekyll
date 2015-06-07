@@ -4,7 +4,8 @@ layout: article
 postType: article
 title: "On screwing up: I was still a loser in human interaction"
 metaTitle:
-metaDescription: 
+metaDescription: |
+    A story about how I screwed up. It was awkward.
 category: 
 publishedOn: 
 updateAt: 

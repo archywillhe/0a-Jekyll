@@ -64,8 +64,8 @@ extraClasses: ['aboutPage']
 ---
 <!-- The session on top is Front Matter -->
 <div class="archywrap">
-<h2> {{site.author.bioTitle}}</h2>
-{{site.author.bio}}
+<h2> {{site.data.author.bioTitle}}</h2>
+{{site.data.author.bio}}
 </div>
 {% endraw %}
 {% endhighlight %}

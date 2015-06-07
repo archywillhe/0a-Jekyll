@@ -5,7 +5,8 @@ postType: article
 title: "0a explains: Set Theory and Axiomatic Systems (with pics and gifs)"
 permalink: set-theory-and-axiomatic-systems
 metaTitle:
-metaDescription: 
+metaDescription: |
+    Set Theory and Axiomatic Systems explained. For anyone who is new to axiomatic set theory. 
 category: 
 publishedOn:
 updateAt: 

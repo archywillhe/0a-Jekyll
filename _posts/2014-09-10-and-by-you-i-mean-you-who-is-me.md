@@ -4,7 +4,8 @@ layout: article
 postType: article
 title: "And by you I mean <i>you</i> who is me"
 metaTitle: "And by you I mean you who is me"
-metaDescription: 
+metaDescription: |
+    Something is off. 
 category: 
 publishedOn: 
 updateAt: 

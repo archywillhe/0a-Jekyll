@@ -4,7 +4,8 @@ layout: article
 postType: article
 title: "The Game That Matters"
 metaTitle:
-metaDescription: 
+metaDescription: |
+    There is only one game in life that actually matters, and that is life itself.
 category:
 publishedOn:
 updateAt: 

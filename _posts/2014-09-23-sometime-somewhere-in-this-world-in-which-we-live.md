@@ -4,7 +4,8 @@ layout: article
 postType: article
 title: "Sometime, somewhere, in this world in which we live"
 metaTitle:
-metaDescription: 
+metaDescription: |
+    A poem about science and a sum-up of what the black hole information paradox is about.
 publishedOn: 
 updateAt: 
 readingTime: 2 to 4 mins

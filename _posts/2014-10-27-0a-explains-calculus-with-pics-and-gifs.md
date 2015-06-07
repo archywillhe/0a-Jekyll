@@ -4,7 +4,8 @@ postType: article
 title: "0a explains: Calculus (with pics and gifs)"
 permalink: calculus
 metaTitle:
-metaDescription: 
+metaDescription: |
+    Calculus explained with images and animations. For anyone who is new to limit, differentiation and integration. 
 category: 
 publishedOn:
 updateAt: 
@@ -187,7 +188,7 @@ But this is only true for linear function. For functions that are not linear, ev
 
 $$\begin{align}f(3)&=8 \\\\f(4)&=16 \\\\f(5)&=32 \\\\ f(6)&=64 \\\\ f(7)&=128 \end{align}$$
 
-<p class="text-center"><img src="/assets/img/well.png"></p>
+<p class="text-center"><img src="/assets/img/well.jpg"></p>
 
 This is when we cannot use a constant to represent the "slope": we need to use a function that gives us different "slope" (rate of change) at different point. Or rather, we shouldn't even call it a "slope" anymore since the rate of change is not constant. We call it derivative. 
 
