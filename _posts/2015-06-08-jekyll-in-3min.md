@@ -5,7 +5,7 @@ title: "Jekyll in 3min - a quick tour for those who plan to make a customized Gi
 permalink: Jekyll-in-3min-for-your-GitHub-page
 metaTitle:
 metaDescription: |
-    This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll
+    This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll.
 updateAt:
 extract: |
     ###1st minute: General Overview (267 words)
@@ -16,9 +16,9 @@ extract: |
 
     >That doesn’t mean you have to use Jekyll for a Github Page. You can always use some other static site generator to generate the site (e.g. [Hakyll](http://jaspervdj.be/hakyll/)) before pushing the repo of generated files (aka static files ready for access).
 
-    Keep in mind Github Pages&trade; supports only Jekyll 2.4.0 as of June 2015. To have a local environment for making Github Pages&trade; supporting Jekyll website, you are advised to [install Jekyll via The Github Pages&trade; Gem](https://github.com/github/pages-gem) (instead of installing Jekyll separately by yourself). [The Github Pages&trade; Gem also includes Jekyll-coffeescript, Jekyll-sass-converter, Liquid, etc](https://pages.github.com/versions.json). That is to say, Github Pages&trade; will generate a site for you with these components. 
+    Keep in mind GitHub Pages&trade; supports only Jekyll 2.4.0 as of June 2015. To have a local environment for making GitHub Pages&trade; supporting Jekyll website, you are advised to [install Jekyll via The GitHub Pages&trade; Gem](https://github.com/github/pages-gem) (instead of installing Jekyll separately by yourself). [The GitHub Pages&trade; Gem also includes Jekyll-coffeescript, Jekyll-sass-converter, Liquid, etc](https://pages.github.com/versions.json). That is to say, GitHub Pages&trade; will generate a site for you with these components. 
 
-    To sum up, Github Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain.
+    To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain.
 
     >But if you've got <a href="http://0a.io/">an even cooler domain</a>, you can always <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">choose to use it instead</a>.
 
@@ -29,7 +29,7 @@ extract: |
     Jekyll is made in [Ruby](https://www.ruby-lang.org/en/). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
 ---
 
-<div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. It is meant to be a browse-through material. To learn more about Jekyll, <a href="http://jekyllrb.com/docs/home/">check the doc out</a>.</div>
+<div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. To learn more about Jekyll, <a href="http://jekyllrb.com/docs/home/">check the doc out</a>.</div>
 
 
 ###1st minute: General Overview (267 words)
@@ -40,9 +40,9 @@ With a Github acc, anyone can [set up his or her Github Page for free with ease]
 
 >That doesn’t mean you have to use Jekyll for a Github Page. You can always use some other static site generator to generate the site (e.g. [Hakyll](http://jaspervdj.be/hakyll/)) before pushing the repo of generated files (aka static files ready for access).
 
-Keep in mind Github Pages&trade; supports only Jekyll 2.4.0 as of June 2015. To have a local environment for making Github Pages&trade; supporting Jekyll website, you are advised to [install Jekyll via The Github Pages&trade; Gem](https://github.com/github/pages-gem) (instead of installing Jekyll separately by yourself). [The Github Pages&trade; Gem also includes Jekyll-coffeescript, Jekyll-sass-converter, Liquid, etc](https://pages.github.com/versions.json). That is to say, Github Pages&trade; will generate a site for you with these components. 
+Keep in mind GitHub Pages&trade; supports only Jekyll 2.4.0 as of June 2015. To have a local environment for making GitHub Pages&trade; supporting Jekyll website, you are advised to [install Jekyll via The GitHub Pages&trade; Gem](https://github.com/github/pages-gem) (instead of installing Jekyll separately by yourself). [The GitHub Pages&trade; Gem also includes Jekyll-coffeescript, Jekyll-sass-converter, Liquid, etc](https://pages.github.com/versions.json). That is to say, GitHub Pages&trade; will generate a site for you with these components. 
 
-To sum up, Github Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain.
+To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain.
 
 >But if you've got <a href="http://0a.io/">an even cooler domain</a>, you can always <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">choose to use it instead</a>.
 
@@ -109,7 +109,7 @@ Lastly, I would like to introduce two very special types of files: [*Post* file]
 
 ###3rd minute: on the Liquid templating language (336 words)
 
-Liquid is a Templating languages [ written in Ruby](https://github.com/Shopify/Liquid) and can be [easily extended by exporting methods from your modules to the list of "filters"](https://github.com/Shopify/Liquid/wiki/Liquid-for-Programmers). If you would like to stick to the Jekyll that is supported by Github Pages&trade;, you can't extend Liquid ([or Jekyll](http://jekyllrb.com/docs/plugins/)) by yourself . That is to say, there would be some limitation on the Liquid that you are working with, data-manipulation-wise. This is why if the website you want to build consists of a lot of data-manipulating, you are advices to use frameworks like [Angular](https://angularjs.org) to have a better architecture (e.g. [MVC](http://stackoverflow.com/tags/model-view-controller/info)) and it would make your life easier too.
+Liquid is a Templating languages [ written in Ruby](https://github.com/Shopify/Liquid) and can be [easily extended by exporting methods from your modules to the list of "filters"](https://github.com/Shopify/Liquid/wiki/Liquid-for-Programmers). If you would like to stick to the Jekyll that is supported by GitHub Pages&trade;, you can't extend Liquid ([or Jekyll](http://jekyllrb.com/docs/plugins/)) by yourself . That is to say, there would be some limitation on the Liquid that you are working with, data-manipulation-wise. This is why if the website you want to build consists of a lot of data-manipulating, you are advices to use frameworks like [Angular](https://angularjs.org) to have a better architecture (e.g. [MVC](http://stackoverflow.com/tags/model-view-controller/info)) and it would make your life easier too.
 
 There are basically 3 things in Liquid: Variable, Logic Blocks and Filter. Variables defined in Front Matter is accessed as `page.variableName`, while in `/_config.yml` it is as `site.variableName`. A variable can be either a primitive (e.g. an integer), an array, or a object. Pretty standard. Variables can be printed/echoed out as string, much the same way as [Handlebar](http://handlebarsjs.com) & [mustache](http://mustache.github.io):
 
@@ -222,7 +222,7 @@ where <code>b</code> is an array or object already defined in Front Matter. So t
 </li>
 <li>
 <p>
-Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to define tasks to run in CLI. Tasks such as the ones in this <a href="https://github.com/plusjade/jekyll-bootstrap">Jekyll Bootstrap Repo</a> for <a href="https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile">creating posts</a>. For that, an alternative is to use <a href="https://github.com/jekyll/jekyll-compose">jekyll-compose</a>. (But <a href="http://jekyllrb.com/docs/plugins/#commands">Jekyll compose only works for Jekyll 2.5 & Github Pages&trade; supports 2.4 </a>.)
+Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to define tasks to run in CLI. Tasks such as the ones in this <a href="https://github.com/plusjade/jekyll-bootstrap">Jekyll Bootstrap Repo</a> for <a href="https://github.com/plusjade/jekyll-bootstrap/blob/master/Rakefile">creating posts</a>. For that, an alternative is to use <a href="https://github.com/jekyll/jekyll-compose">jekyll-compose</a>. (But <a href="http://jekyllrb.com/docs/plugins/#commands">Jekyll compose only works for Jekyll 2.5 & GitHub Pages&trade; supports 2.4 </a>.)
 </p>
 </li>
 <li>
@@ -230,9 +230,9 @@ Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to 
 </p>
 </li>
 <li>
-<p>Lastly, you don't really need to use the Jekyll, that Github Pages&trade; has built-in support for, for your Github Page if you prefer something else. Or something more advanced - <a href="http://jekyllrb.com/news/2015/01/24/jekyll-3-0-0-beta1-released/)">Try out Jekyll 3.0, it's got hooks</a>. (If you want to use Jekyll 3.0 for production, you'd just need to build locally & push the <code>_site/</code> dir as the repo.) This way you can <a href="http://jekyllrb.com/docs/plugins/">fully customize your Jekyll as well</a>.
+<p>Lastly, you don't really need to stick to the GitHub Pages&trade; Jekyll (the Jekyll that GitHub Pages&trade; has built-in support for) for your GitHub Page if you prefer something else. Or something more advanced - <a href="http://jekyllrb.com/news/2015/01/24/jekyll-3-0-0-beta1-released/)">Try out Jekyll 3.0, it's got hooks</a>. (If you want to use Jekyll 3.0 for production, you'd just need to build locally & push the <code>_site/</code> dir as the repo.) This way you can <a href="http://jekyllrb.com/docs/plugins/">fully customize your Jekyll with plugins as well</a>.
 </p>
 </li>
 </ol>
 
-> Despite advocating for Jekyll 3.0 & Angular, I built this site of mine using Jekyll 2.4 and it depends on no JS framework or heavy library (jQuery is used only by 2 articles, and the reason being that I'm using a small widget I wrote long time ago that needs jQuery. If I have the time I'm thinking of rewriting the widget in vanilla JS). I just want to keep things lightweight & simple (although I do have some really messy templating files as consequence of a pointless challenge I give myself to hack around and stick to the Jekyll that has Github Pages support). The source code is [here](https://github.com/0a-/0a-.github.io).
+> Despite advocating for Jekyll 3.0 & Angular, I built this site of mine using Jekyll 2.4, without any JS framework or heavy library (jQuery is used only by 2 articles, and the reason being that I'm using a small widget I wrote some time ago that depends on jQuery. If I have the time I'm thinking of rewriting the widget in vanilla JS). I just want to keep things lightweight & simple (although I do have some really messy code in my templating files as a consequence of a pointless challenge I gave myself to hack around under the limitation imposed by the GitHub Pages&trade; Jekyll). 
