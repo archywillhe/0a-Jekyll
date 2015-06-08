@@ -307,7 +307,7 @@ $$\forall A ( \varnothing \subseteq A )$$
 
 
 <h3 class="_index"><i>Axiom of specification</i> in Cantor's Paradise</h3>
-<a target="_blank" href ="en.wikipedia.org/wiki/Georg_Cantor">Cantor</a> is consideredly the founder of modern set theory, due to <a target="_blank" href ="http://math.byu.edu/~grant/courses/cantor1874.pdf">his 1874's paper</a> which illustrated a fundamental concept about infinite sets. Cantor's Paradise is the name for the set theory came up by Cantor in the era before there were any axiomatic systems on set theory. 
+<a target="_blank" href ="http://en.wikipedia.org/wiki/Georg_Cantor">Cantor</a> is consideredly the founder of modern set theory, due to <a target="_blank" href ="http://math.byu.edu/~grant/courses/cantor1874.pdf">his 1874's paper</a> which illustrated a fundamental concept about infinite sets. Cantor's Paradise is the name for the set theory came up by Cantor in the era before there were any axiomatic systems on set theory. 
 
 
 > Cantor developed his theory of set in what we called an <a target="_blank" href ="http://en.wikipedia.org/wiki/Intuitionism">"intuitive"</a> approach: he did not formalize the mathematical concepts with formal system such as <a target="_blank" href ="http://en.wikipedia.org/wiki/First-order_logic">first-order logic</a> (which is what's used in ZF and many other axiomatic systems). His set theory is in a sense a paradise due to its simplicity and straightforwardness. A paradise where, back in the early 20th century, many people had comfortably settled in with no plan to leave, even though at that time it was becoming clearer and clearer that such approach to developing a theory of set would result in paradoxes. 
