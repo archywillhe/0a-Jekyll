@@ -66,7 +66,7 @@ extraClasses: ['aboutPage']
 {% endraw %}
 {% endhighlight %}
 
-YAML is like a sister of [JSON](http://json.org). YAML to Json is, syntax-wise, like what [Less](http://en.wikipedia.org/wiki/Less_(stylesheet_language)) is to [Sass](http://en.wikipedia.org/wiki/Sass_(stylesheet_language)).
+YAML is like a sister of [JSON](http://json.org). YAML to JSON is, syntax-wise, like what [Less](http://en.wikipedia.org/wiki/Less_(stylesheet_language)) is to [Sass](http://en.wikipedia.org/wiki/Sass_(stylesheet_language)).
 
 
 >YAML is a recursive acronym for "YAML ain't mark-up language".
