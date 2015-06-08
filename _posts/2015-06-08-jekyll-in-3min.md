@@ -1,7 +1,7 @@
 ---
 layout: dailylog
 postType: dailylog
-title: "Jekyll in 3min - a quick tour for those who plan to make a customized Github Page"
+title: "Jekyll in 3 minutes - a quick tour for those who plan to make a customized Github Page"
 permalink: Jekyll-in-3min-for-your-GitHub-page
 metaTitle:
 metaDescription: |
@@ -18,9 +18,7 @@ extract: |
 
     Keep in mind GitHub Pages&trade; supports only Jekyll 2.4.0 as of June 2015. To have a local environment for making GitHub Pages&trade; supporting Jekyll website, you are advised to [install Jekyll via The GitHub Pages&trade; Gem](https://github.com/github/pages-gem) (instead of installing Jekyll separately by yourself). [The GitHub Pages&trade; Gem also includes Jekyll-coffeescript, Jekyll-sass-converter, Liquid, etc](https://pages.github.com/versions.json). That is to say, GitHub Pages&trade; will generate a site for you with these components. 
 
-    To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain.
-
-    >But if you've got <a href="http://0a.io/">an even cooler domain</a>, you can always <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">choose to use it instead</a>.
+    To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain. <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">(you can still use your own domain if you want)</a>
 
     <p class="text-center"> ● ● ● </p>
 
@@ -42,9 +40,7 @@ With a Github acc, anyone can [set up his or her Github Page for free with ease]
 
 Keep in mind GitHub Pages&trade; supports only Jekyll 2.4.0 as of June 2015. To have a local environment for making GitHub Pages&trade; supporting Jekyll website, you are advised to [install Jekyll via The GitHub Pages&trade; Gem](https://github.com/github/pages-gem) (instead of installing Jekyll separately by yourself). [The GitHub Pages&trade; Gem also includes Jekyll-coffeescript, Jekyll-sass-converter, Liquid, etc](https://pages.github.com/versions.json). That is to say, GitHub Pages&trade; will generate a site for you with these components. 
 
-To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain.
-
->But if you've got <a href="http://0a.io/">an even cooler domain</a>, you can always <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">choose to use it instead</a>.
+To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain. <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">(you can still use your own domain if you want)</a>
 
 <p class="text-center"> ● ● ● </p>
 

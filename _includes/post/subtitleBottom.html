@@ -1,6 +1,6 @@
   <div class="archywrap">
   <div class="container garamond">
-      <div class="archysub subtitleBottom"><span>{{ page.subtitleBottom }}</span></div>
+      <div class="archysub subtitleBottom"><p>{{ page.subtitleBottom }}</p></div>
         {% assign filterBy = "postType" %}
         {% assign posts_groups = site.posts | group_by:filterBy %}
         {% assign listFilterName = page[filterBy] %}

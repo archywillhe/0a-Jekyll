@@ -13,7 +13,8 @@ published: 1
 script: []
 coverImg: "untitled-lettres-1998.jpg"
 subtitle:
-subtitleBottom:
+subtitleBottom: |
+    The artwork is <a href=\"http://www.wikiart.org/en/moon-pil-shim/untitled-lettres-1998\"><i>Untitled (Lettres)</i></a> by <a href=\"http://fr.wikipedia.org/wiki/Moon_Pil_Shim\">Moon-Pil Shim</a>, 1998.
 permalink: prologue-for-0a-explains-set-theory-and-axiomatic-systems
 ---
 

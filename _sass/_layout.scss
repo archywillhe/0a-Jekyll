@@ -340,18 +340,6 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color:inherit;
   text-decoration:none;
 }
-.archysub{
-    left:0;
-    color:#333;
-    font-size: 18px;
-    font-weight: normal;
-    position: absolute;
-    top:-60px;
-    line-height: 60px;
-    font-family: "yellowtailregular" "Times";
-    text-align: center;
-    width: 100%;
-}
 .archypost{ 
   font-size: 20px;
   color: #000;
@@ -637,10 +625,27 @@ h1 span{
      margin-bottom: 59px;
    }
 }
+.archysub{
+    left:0;
+    color:#333;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    top:-60px;
+    top:-53px;
+    line-height: 60px;
+    font-family: "yellowtailregular" "Times";
+    text-align: center;
+    width: 100%;
+}
 .subtitleBottom{
+  top:-60px;
   color:#666 !important;
   a{
     color:#999
+  }
+  p{
+    line-height: 18px;
   }
 }
 .foot {

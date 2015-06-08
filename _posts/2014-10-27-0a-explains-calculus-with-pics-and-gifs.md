@@ -15,7 +15,7 @@ coverImg: "moonlit_night.jpg"
 subtitle: "for anyone who is new to calculus"
 extraClasses: ["border-lined"]
 maths: 1
-subtitleBottom: "Painting is <a target=\"_blank\" href=\"http://www.albertina.at/jart/prj3/albertina/main.jart?rel=en&reserve-mode=active&content-id=1202307119323&ausstellungen_id=1229505194179&images_id=1240983579638\">Moonlit Night</a> by <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Emil_Nolde\">Emil Nolde</a>, 1941."
+subtitleBottom: "The Painting is <a target=\"_blank\" href=\"http://www.albertina.at/jart/prj3/albertina/main.jart?rel=en&reserve-mode=active&content-id=1202307119323&ausstellungen_id=1229505194179&images_id=1240983579638\">Moonlit Night</a> by <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Emil_Nolde\">Emil Nolde</a>, 1941."
 headBlock: |
 
 footBlock: |

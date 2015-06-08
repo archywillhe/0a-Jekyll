@@ -15,7 +15,8 @@ published: 1
 script: []
 coverImg: "radimKacer_painting.jpg"
 subtitle:
-subtitleBottom:
+subtitleBottom: |
+    The painting is by <a href=\"https://plus.google.com/+RadimKacer\">Radim Kacer</a> (2014), for <a href=\"https://plus.google.com/+RadimKacer/posts/1o1AwdpSLmd?pid=6011097811382394914&oid=101995335006047979831\">which he has not yet given a name</a>.
 ---
  
 

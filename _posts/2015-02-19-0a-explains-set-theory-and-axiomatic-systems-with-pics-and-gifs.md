@@ -17,7 +17,8 @@ maths: 1
 code: 1
 coverImg: "the-bride-after-duchamp-1934.jpg"
 subtitle: "dedicated to the curious minds"
-subtitleBottom:
+subtitleBottom: |
+    The painting is <a href=\"http://www.moma.org/collection//browse_results.php?criteria=O%3AAD%3AE%3A6165&page_number=56&template_id=1&sort_order=1\"><i>The Bride, After Duchamp</i></a> by <a href=\"http://en.wikipedia.org/wiki/Jacques_Villon\">Jacques Villon</a>, 1934.
 footBlock: | 
     <div class="loading_maths">
     You may experience lag <br>while maths is being rendered (LaTeX).

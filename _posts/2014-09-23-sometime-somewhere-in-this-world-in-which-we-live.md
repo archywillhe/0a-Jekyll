@@ -12,7 +12,8 @@ readingTime: 2 to 4 mins
 published: 1
 coverImg: "img3.jpg"
 subtitle:
-subtitleBottom: Image is <a target="_blank" href="https://www.flickr.com/photos/nasamarshall/14135176372">Inside the Flame Nebula</a> from the Digitized Sky Survey by <a target="_blank" href="http://www.nasa.gov/mission_pages/chandra/main/index.html"> NASA, Chandra</a>, 05/07/14.
+subtitleBottom: |
+    The image is <a target="_blank" href="https://www.flickr.com/photos/nasamarshall/14135176372">an optical image for <i>Inside the Flame Nebula</i></a> (2014).
 ---
 Sometime, somewhere, in this world in which we live<br>
 a massive astronomical object would collapse and explode <br>
