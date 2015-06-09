@@ -10,7 +10,7 @@ updateAt:
 extract: |
     ###1st minute: General Overview (267 words)
 
-    [Jekyll](https://github.com/Jekyll/Jekyll) is a tool to build static website that exists as merely a directory of files. That said, you can only use it to create websites that don’t have run-time logic in the backend. (such as [a simple article website blog](http://0a.io/)) In other words, it is a web-pages generator.
+    [Jekyll](https://github.com/Jekyll/Jekyll) is a tool to build static website that exists as merely a directory of files. That said, you can only use it to create websites that don’t have run-time logic in the backend. (such as [a simple content-based website or a blog](http://0a.io/)) In other words, it is a web-pages generator.
 
     With a Github acc, anyone can [set up his or her Github Page for free with ease](https://pages.github.com). A Github Page is a static website hosted by Github. GitHub Pages&trade; has built-in support of Jekyll (So just push the code and you’ll have a website).
 
@@ -32,7 +32,7 @@ extract: |
 
 ###1st minute: General Overview (267 words)
 
-[Jekyll](https://github.com/Jekyll/Jekyll) is a tool to build static website that exists as merely a directory of files. That said, you can only use it to create websites that don’t have run-time logic in the backend. (such as [a simple article website blog](http://0a.io/)) In other words, it is a web-pages generator.
+[Jekyll](https://github.com/Jekyll/Jekyll) is a tool to build static website that exists as merely a directory of files. That said, you can only use it to create websites that don’t have run-time logic in the backend. (such as [a simple content-based website or a blog](http://0a.io/)) In other words, it is a web-pages generator.
 
 With a Github acc, anyone can [set up his or her Github Page for free with ease](https://pages.github.com). A Github Page is a static website hosted by Github. GitHub Pages&trade; has built-in support of Jekyll (So just push the code and you’ll have a website).
 
