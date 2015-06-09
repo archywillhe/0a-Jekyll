@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.metaTitle %}{{ page.metaTitle }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}</title>
-  <meta name="description" content="{{ page.metaDescription }}">
+  <meta name="description" content="{{ page.metaDescription | strip_newlines}}">
   {% if page.font %}
   {% case page.font %}
   {% when 'garamond' %}

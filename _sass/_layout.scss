@@ -543,13 +543,6 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 .in_brackets{
   font-size: 0.9em;
 }
-.archycontent .default_anchor{
-  color:inherit !important;
-  cursor: text;
-}
-.archycontent .default_anchor:hover{
-  color:inherit !important;
-}
 
 /*screen*/
 
@@ -732,13 +725,11 @@ footer {
 .dailylog{
   .archypost{
     margin-top:34px;
+    color:#666;
     margin-bottom: 29px;
   }
   .d_shortcuts{
     background-color:#fff;
-  }
-  article{
-    color:#666
   }
 }
 .about_0a_content{
@@ -777,7 +768,7 @@ $bg: (#f4f4f4, #ededed, #e5e5e5);
 $rm: (#17d9b2,#0aced1,#16cef3);
 @for $i from 1 through 3{
   .log#{$i}{
-    article,.belowtitle{
+    .archypost,.belowtitle{
       color:nth($ab, $i) !important
     }
     .linkToLog{

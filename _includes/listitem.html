@@ -3,13 +3,13 @@
 {% else %}
 {% assign date =post.date %}
 {% endif %}
- <div class="archyitem">
+ <div class="archyitem" itemscope itemtype="http://schema.org/Article">
         <div class="archydate_mobile  garamond">
-          <span>
+          <span itemprop="datePublished">
           {{ post.date | date: "%b %-d, %Y" }}
           </span>
         </div>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail"><img src="{{post.coverImg | prepend: site.imageurl }}" alt="">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail"><img src="{{post.coverImg | prepend: site.imageurl }}" alt="" itemprop='thumbnailUrl'>
           <div class="vcenter archycover">
             <div class="vcenter archydate">
               <span class="big">
@@ -21,7 +21,7 @@
         </a>
         <div class="archytitle garamond">
           <span>
-          <a class="opacity_hover" href="{{ post.url | prepend: site.baseurl }}">
+          <a itemprop="name" class="opacity_hover" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}
           </a><br>
           </span>

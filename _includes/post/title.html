@@ -11,14 +11,15 @@
 {% endunless %}
 <h1><span>
 {% if displayExtract %}
-<a class="linkToLog" href="{{page.url}}">
+<a class="linkToLog" href="{{page.url}}" itemprop="name">
 {% endif %}
 {{ page.title }}
 {% if displayExtract %}
 </a>
 {% endif %}
 </span></h1>
-<p class="belowtitle"><i class="fa fa-dot-circle-o fa-lg"></i> <time>{{ page.date | date: "%b %-d, %Y" }}</time> 
+<span class="hiding"> by <span itemprop="author">Arch Wilhes</span> </span>
+<p class="belowtitle"><i class="fa fa-dot-circle-o fa-lg"></i> <time itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
 {% unless page.postType == "dailylog" %}
 <span class="margin-left-20px"> 
 <i class="fa fa-bullseye fa-lg"></i>{% if page.readingTime %}{{page.readingTime}}{% else %} 1 min {%endif %} read </span>

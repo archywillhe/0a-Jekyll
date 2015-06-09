@@ -1,5 +1,5 @@
-<article class="archypost {% if page.font %} {{page.font}} {% else %} lato {%endif%}">
-<div class="archycontent">{% if displayExtract %} {{page.extract | markdownify}} {% else %} {{content }} {% endif %}</div>
+<div class="archypost {% if page.font %} {{page.font}} {% else %} lato {%endif%}" itemprop="datePublished">
+<div class="archycontent">{% if displayExtract %}{{page.extract | markdownify}} {% else %} <div itemprop="articleBody">{{content }}</div> {% endif %}</div>
 {% if displayExtract %}
 <div class="readmore"> <a href="{{page.url}}">Read more</a></div>
 {% else %}
@@ -7,4 +7,8 @@
 <div class="kudos" data-url="{{page.url | prepend: site.identity}}"></div>
 </div>
 {% endif %}
-</article>
+</div>
+<script src="/assets/js/kudosplease.js">
+</script>
+<script src="/assets/js/article.js">
+</script>

@@ -54,3 +54,10 @@
 .hiding{
   display: none
 }
+.default_anchor{
+  color:inherit !important;
+  cursor: text;
+}
+.default_anchor:hover{
+  color:inherit !important;
+}
