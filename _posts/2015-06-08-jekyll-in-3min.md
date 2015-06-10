@@ -27,7 +27,7 @@ extract: |
     Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https://cucumber.io)). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
 ---
 
-<div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. To learn more about Jekyll, <a href="http://jekyllrb.com/docs/home/">check the doc out</a>.</div>
+<div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. To learn more about Jekyll, check the <a href="http://jekyllrb.com/docs/home/">doc</a> & the <a href="https://github.com/jekyll/jekyll">source</a> out.</div>
 
 
 ###1st minute: General Overview (267 words)
@@ -180,7 +180,7 @@ Aside from the default [Liquid Filters](https://github.com/Shopify/Liquid/wiki/L
 
 ###End Note (298 words)
 
-Hope it didn't take you longer than 3 minutes to read through this article! If you still have a bit more time to spare, here are a few tips you will find useful:
+Hope it didn't take you longer than 3 minutes to read through this article! If you still have a bit more time to spare, here are a few tips you may find useful:
 
 <ol>
 <li>
