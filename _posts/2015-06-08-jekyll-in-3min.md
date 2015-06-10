@@ -22,9 +22,9 @@ extract: |
 
     <p class="text-center"> ● ● ● </p>
 
-    ###2nd minute: What you need to know when working with Jekyll (293 words)
+    ###2nd minute: What you need to know when working with Jekyll (314 words)
 
-    Jekyll is made in [Ruby](https://www.ruby-lang.org/en/). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
+    Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https://cucumber.io)). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
 ---
 
 <div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. To learn more about Jekyll, <a href="http://jekyllrb.com/docs/home/">check the doc out</a>.</div>
@@ -44,11 +44,13 @@ To sum up, GitHub Pages&trade; does not execute server-side code. It helps you g
 
 <p class="text-center"> ● ● ● </p>
 
-###2nd minute: What you need to know when working with Jekyll (293 words)
+###2nd minute: What you need to know when working with Jekyll (314 words)
 
-Jekyll is made in [Ruby](https://www.ruby-lang.org/en/). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
+Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https://cucumber.io)). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
 
-Jekyll put all the pieces (of html) you give it together, and that's all. The way Jekyll works relies on [Liquid (a templating language)](http://Liquidmarkup.org) and [YAML Front Matter Block, or <i>Front Matter</i>](http://Jekyllrb.com/docs/frontmatter/). For short, <i>Front Matter</i> is the starting session of each file where you put down meta-information in [YAML format](http://yaml.org).  
+Jekyll puts all the pieces (of html, [md](http://daringfireball.net/projects/markdown/), [textile](http://en.wikipedia.org/wiki/Textile_(markup_language))) you give it together, and that's all. The way Jekyll works relies mainly on [Liquid (a templating language)](http://Liquidmarkup.org) and [YAML Front Matter Block, or <i>Front Matter</i>](http://Jekyllrb.com/docs/frontmatter/) for short. 
+
+<i>Front Matter</i> is the starting session of each file where you put down meta-information in [YAML format](http://yaml.org).  
 
 {% highlight html %}
 {% raw %}
@@ -68,10 +70,15 @@ extraClasses: ['aboutPage']
 
 YAML is like a sister of [JSON](http://json.org). YAML to JSON is, syntax-wise, like what [Less](http://en.wikipedia.org/wiki/Less_(stylesheet_language)) is to [Sass](http://en.wikipedia.org/wiki/Sass_(stylesheet_language)).
 
+For every HTML file you'd be dealing with in Jekyll, it'd either be 
 
->YAML is a recursive acronym for "YAML ain't mark-up language".
+1. an [*Include* File](http://jekyllrb.com/docs/templates/#includes), 
 
-For every HTML file you'd be dealing with in Jekyll, normally it'd either be an [*Include* File](http://jekyllrb.com/docs/templates/#includes), a [*Layout* File](http://jekyllrb.com/docs/structure/) or just a serving file. Include Files, as its name suggested, are to be included in other files with this one-liner: 
+2. a [*Layout* File](http://jekyllrb.com/docs/structure/) 
+
+3. a serving file. 
+
+Include Files, as its name suggested, are to be included in other files with this one-liner: 
 
 {% highlight Django %}
 {% raw %}
@@ -99,7 +106,9 @@ permalink: /about
 {% endhighlight %}
 
 
-Lastly, I would like to introduce two very special types of files: [*Post* file](http://jekyllrb.com/docs/posts/) and [*Data* file](http://jekyllrb.com/docs/datafiles/). Post files are located in `_posts/` while Data Files in `_datas/`. All Post files of a site can be accessed as an array using the variable `site.posts` in your Liquid html files, while all Data Files can be accessed as `site.data.filename`.
+Lastly, I would like to introduce 2 very special types of files: [*Post* file](http://jekyllrb.com/docs/posts/) and [*Data* file](http://jekyllrb.com/docs/datafiles/). Post files are located in `_posts/` while Data Files in `_data/`. All Post files of a site can be accessed as an array using the variable `site.posts` in your Liquid html files, while all Data Files can be accessed as `site.data.filename`.
+
+> You can [define your own kinds of Collections files similar to Post files](http://jekyllrb.com/docs/collections/). (E.g. Blogpost files accessed as `site.blogpost` located in the `_blogpost/` folder after [you've declared it in `_config.yml`](http://jekyllrb.com/docs/collections/#step-1-tell-jekyll-to-read-in-your-collection)).
 
 <p class="text-center"> ● ● ● </p>
 
@@ -231,4 +240,4 @@ Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to 
 </li>
 </ol>
 
-Despite advocating for Jekyll 3.0 & Angular, I built this site of mine using Jekyll 2.4, without any JS framework or heavy library (jQuery is used only by 2 articles, and the reason being that I'm using a small widget I wrote some time ago that depends on jQuery. If I have the time I'm thinking of rewriting the widget in vanilla JS). I just want to keep things lightweight & simple (although I do have some really messy code in my templating files as a consequence of a pointless challenge I gave myself to hack around under the limitation imposed by the GitHub Pages&trade; Jekyll). 
+>Despite advocating for Jekyll 3.0 & Angular, I built this site of mine using Jekyll 2.4, without any JS framework or heavy library (jQuery is used only by 2 articles, and the reason being that I'm using a small widget I wrote some time ago that depends on jQuery. If I have the time I'm thinking of rewriting the widget in vanilla JS). I just want to keep things lightweight & simple (although I do have some really messy code in my templating files as a consequence of a pointless challenge I gave myself to hack around under the limitation imposed by the GitHub Pages&trade; Jekyll). 
