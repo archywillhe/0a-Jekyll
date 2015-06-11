@@ -172,7 +172,7 @@ You can also apply filter after filter
 {% endraw %}
 {% endhighlight %}
 
-The flow of operations moves from left to right, so you would expect the `x` above to be 500 (instead of 306).
+The flow of operations moves from left to right, so you would expect the `x` above to be 500 (instead of 302 or 203).
 
 Aside from the default [Liquid Filters](https://github.com/Shopify/Liquid/wiki/Liquid-for-Designers#standard-filters), [here](http://jekyllrb.com/docs/templates/) is a list of filters (came along with Jekyll) that you can use.
 
