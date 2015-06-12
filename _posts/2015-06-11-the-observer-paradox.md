@@ -2,7 +2,6 @@
 layout: dailylog
 postType: dailylog
 font: 
-maths: 1
 extraClasses: 
 postType: dailylog
 title: "<i>The Observer</i> Paradox"
@@ -32,12 +31,11 @@ extract: |
     What determines you to be the mind A that's constructed by brain A, instead of the mind B constructed by brain B, where A ≠ B?
     </div>
 
-    This is a rather difficult question. Or perhaps a meaningless one, since it can be interpreted as asking "why are you the you you are (but not someone else)?", which can be answered by stating that that is a trivial [tautology](http://en.wikipedia.org/wiki/Tautology_(logic)): you are the you you are simply because the you you are are you. 
+    This is a rather difficult question. Or perhaps a meaningless one, since it can be interpreted as asking "why are you you?", which can be answered by this [tautology](http://en.wikipedia.org/wiki/Tautology_(logic)): you are you because you are you, or else you would not be you. 
 
     <h3>I shall now present to you the Theory of <i>The Observer</i>.</h3>
 
     Let's start off by defining a mind to be some aspect in certain Turing Machine's computation with some aspect satisfying the criteria to be a mind. (I'm giving an arbitrary definition here as that is not important in this hypothetical discussion.)
-
 ---
 
 Imagine you are dead, in which case the biological machinery that you once relied so much on is no longer functioning. Due to the [conversation of energy and mass](en.wikipedia.org/wiki/Conservation_of_energy), the atoms made up this biological system won't just miraculously vanish. Theses atoms would remain pretty much the same, unless [nuclear reaction](http://academic.brooklyn.cuny.edu/physics/sobel/Nucphys/react.html) or [annihilation](http://home.web.cern.ch/topics/antimatter) occurs (though there'd be changes in the configuration of electrons in the process of decomposition). At this point in time, it would be silly to still consider these atoms "you". 
@@ -52,9 +50,7 @@ To you, you are what that constitutes the idea of self. Apparently you possess a
 What determines you to be the mind A that's constructed by brain A, instead of the mind B constructed by brain B, where A ≠ B?
 </div>
 
-This is a rather difficult question. Or perhaps a meaningless one, since it can be interpreted as asking "why are you the you you are (but not someone else)?", which can be answered by stating that that is a trivial [tautology](http://en.wikipedia.org/wiki/Tautology_(logic)): you are the you you are simply because the you you are are you. 
-
-$$(you = you) \Leftrightarrow (you = you)$$
+This is a rather difficult question. Or perhaps a meaningless one, since it can be interpreted as asking "why are you you?", which can be answered by this [tautology](http://en.wikipedia.org/wiki/Tautology_(logic)): you are you because you are you, or else you would not be you. 
 
 ### I shall now present to you the Theory of *The Observer*.
 
