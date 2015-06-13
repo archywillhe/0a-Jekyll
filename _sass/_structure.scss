@@ -107,11 +107,14 @@ overflow-x: scroll; overflow-y: visible;
 
 .garamond{
   font-family: "adobe-garamond-pro", Times, "New Times Roman", serif;
+  code{
+    font-size: 0.9em !important;
+  }
 }
 .lato{
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 17px !important;
   code{
-    font-size: 19px !important;
+    font-size: 1.1em !important;
   }
 }
