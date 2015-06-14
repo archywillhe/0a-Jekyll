@@ -73,6 +73,8 @@ It gave me a good laugh when I looked into [what are supposedly academic papers 
 
 It managed to gain quite some interest and [more people got into the investigation of whether she is a fraud](http://skeptics.stackexchange.com/a/27599). I then submitted the post to the following subreddits: [/internetbullshit](https://www.reddit.com/r/internetbullshit/comments/34yjvh/manahel_thabet_a_phd_in_quantum_mathematics_and_a/) , [/skeptic](https://www.reddit.com/r/skeptic/comments/34xtk3/manahel_thabet_a_phd_in_quantum_mathematics_and_a/), [/quityourbullshit](https://www.reddit.com/r/quityourbullshit/comments/34rldx/manahel_thabet_a_phd_in_quantum_mathematics_and_a/), and also [cross-posted it in the subreddit /IsItBullshit](https://www.reddit.com/r/IsItBullshit/comments/34xusr/isitbullshit_manahel_thabet_a_phd_in_quantum/). A few weeks later, the subreddit (/IsItBullshit) and Skeptics SE posts both made their way to [the first page of the search results](https://www.google.com.sg/#q=Manahel+Thabet), in the shadow of the Wikiepdia entry which had been labeled "blatant hoax" and erased from existence.
 
+> Fun fact: I just tweeted this article and [mentioned her (@manahelthabet), who have 50k followers, in my tweet](https://twitter.com/ArchWilhes/status/610222987661324288). I think I'll be getting blocked, similar to [what happened to the guy who asked her about the supposedly ground-breaking paper on Twitter](http://skeptics.stackexchange.com/questions/27566/did-manahel-thabet-develop-a-groundbreaking-formula-to-measure-distance-in-space#comment102663_27566).
+
 
   [1]: http://en.wikipedia.org/wiki/Manahel_Thabet
   [2]: https://twitter.com/manahelthabet
