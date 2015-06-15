@@ -27,7 +27,7 @@ extract: |
     Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https://cucumber.io)). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
 ---
 
-<div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. To learn more about Jekyll, check the <a href="http://jekyllrb.com/docs/home/">doc</a> & the <a href="https://github.com/jekyll/jekyll">source</a> out.</div>
+<div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. To learn more about Jekyll, check the <a href="http://jekyllrb.com/docs/home/">doc</a> & <a href="https://github.com/jekyll/jekyll">source</a> out.</div>
 
 
 ###1st minute: General Overview (267 words)
@@ -40,7 +40,7 @@ With a Github acc, anyone can [set up his or her Github Page for free with ease]
 
 Keep in mind GitHub Pages&trade; supports only Jekyll 2.4.0 as of June 2015. To have a local environment for making GitHub Pages&trade; supporting Jekyll website, you are advised to [install Jekyll via The GitHub Pages&trade; Gem](https://github.com/github/pages-gem) (instead of installing Jekyll separately by yourself). [The GitHub Pages&trade; Gem also includes Jekyll-coffeescript, Jekyll-sass-converter, Liquid, etc](https://pages.github.com/versions.json). That is to say, GitHub Pages&trade; will generate a site for you with these components. 
 
-To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain. <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">(you can still use your own domain if you want)</a>
+To sum up, GitHub Pages&trade; does not execute server-side code. It helps you generate static website (using Jekyll) if you give it the source code. That is as much as it does, aside from also hosting the static website for you and giving you a super cool github.io subdomain. <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">(You can still use your own domain if you want.)</a>
 
 <p class="text-center"> ● ● ● </p>
 
@@ -240,4 +240,6 @@ Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to 
 </li>
 </ol>
 
->Despite advocating for Jekyll 3.0 & Angular, I built this site of mine using Jekyll 2.4, without any JS framework or heavy library (jQuery is used only by 2 articles, and the reason being that I'm using a small widget I wrote some time ago that depends on jQuery. If I have the time I'm thinking of rewriting the widget in vanilla JS). I just want to keep things lightweight & simple (although I do have some really messy code in my templating files as a consequence of a pointless challenge I gave myself to hack around under the limitation imposed by the GitHub Pages&trade; Jekyll). 
+> If you are interested in server architecture, you can learn about the new infrastructure used by GitHub Pages&trade; in production (since Jan 2015) [here](http://githubengineering.com/rearchitecting-github-pages/).
+>
+>Despite advocating for Jekyll 3.0 & Angular, I built this site of mine using Jekyll 2.4, without any JS framework or heavy library (jQuery is used only by 2 articles because they rely on a small jQuery widget I wrote some time ago). I just want to keep things lightweight & simple (although I do have some really messy code in my templating files as a consequence of a pointless challenge I gave myself to hack around under the limitation imposed by the GitHub Pages&trade; Jekyll). So I'm considering using Angular.
