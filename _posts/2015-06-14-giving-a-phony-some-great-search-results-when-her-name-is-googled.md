@@ -78,6 +78,8 @@ It managed to gain quite some interest and [more people got into the investigati
 >Update: Yup, I'm blocked.
 >
 > ![proof](/assets/img/blocked.jpg)
+>
+>Tweet this article and mention [@manahelthabet](https://twitter.com/manahelthabet) too if you want to be blocked :D
 
 
   [1]: http://en.wikipedia.org/wiki/Manahel_Thabet
