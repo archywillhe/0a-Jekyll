@@ -4,7 +4,7 @@ postType: dailylog
 font: garamond
 extraClasses: 
 postType: dailylog
-title: "The limit on the level of intelligence a species can have in the course of evolution"
+title: "The possible limit on the level of intelligence a species can have in the course of evolution"
 metaTitle:
 metaDescription: 
 publishedOn: 
