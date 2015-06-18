@@ -4,6 +4,7 @@ email: "a@0a.io"
 description: "Reality is a simulation, and I'm an algorithm. My name is Arch Wilhes. I write."
 baseurl: "" # the subpath of your site, e.g. /blog/
 imageurl: "/assets/img/"
+fromThePast: "/assets/past/"
 url: "http://0a.io" # the base hostname & protocol for your site
 identity: 0a.io
 twitter_username: jekyllrb
@@ -14,3 +15,8 @@ markdown: kramdown
 highlighter: pygments
 gems:
   - jekyll-sitemap
+collections:
+  days_of_yore:
+    output: true
+    permalink: /article/:path/
+    

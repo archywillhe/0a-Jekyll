@@ -1,0 +1,5 @@
+---
+layout: redirect
+directTo: /article/an-interesting-experiment-I-conducted-in-ACJC
+permalink: AIEICIA
+---

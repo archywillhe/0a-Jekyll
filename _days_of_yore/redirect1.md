@@ -1,0 +1,5 @@
+---
+layout: redirect
+directTo: /article/i-have-to-be-more-productive
+permalink: IHTBMP
+---

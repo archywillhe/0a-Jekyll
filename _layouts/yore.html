@@ -1,0 +1,10 @@
+---
+layout: default
+extraClasses: ["yore"]
+---
+{% assign posts =  site.days_of_yore | sort: 'num', %}
+{% assign posts_groups = posts | group_by:"layout" %}
+{% for posts_group in posts_groups %}
+{% assign listFilterName = "article" %}
+{% include list.html %}
+{% endfor %}

@@ -762,6 +762,30 @@ footer {
 
 
 
+.yore {
+
+  .h{
+    display: none
+  }
+  .picture{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-align: center;
+    img{
+      max-width: 100%
+    }
+  }
+  .solution,.hint{
+    color:#eee
+  }
+  .solution:hover,.hint:hover{
+    color:#111
+  }
+  math{
+    color:#f00544
+  }
+}
+
 $ab: (#727272,#434343,#111);
 $a: (#6f6f6f,#434343,#000);
 $bg: (#f4f4f4, #ededed, #e5e5e5);

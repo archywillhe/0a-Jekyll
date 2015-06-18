@@ -9,7 +9,7 @@
           {{ post.date | date: "%b %-d, %Y" }}
           </span>
         </div>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail"><img src="{{post.coverImg | prepend: site.imageurl }}" alt="" itemprop='thumbnailUrl'>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail"><img src=" {% if post.coverImg == 0 %} {{post.img}} {% else %}{{post.coverImg | prepend: site.imageurl }} {% endif %}" alt="" itemprop='thumbnailUrl'>
           <div class="vcenter archycover">
             <div class="vcenter archydate">
               <span class="big">

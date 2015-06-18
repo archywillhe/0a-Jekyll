@@ -1,0 +1,5 @@
+---
+layout: redirect
+directTo: /article/iq-questions
+permalink: IQ
+---

@@ -1,0 +1,37 @@
+<div class="archylist"><h2><span>{{listFilterTitle}}</span></h2>
+  <div class="row">
+    <div class="col-sm-4 archyitemdimension">
+    {% assign number = -1 %}
+    {% for post in posts%}
+    {% unless post.title == page.title %}
+      {%assign number = number | plus: 1 | modulo: 3 %}
+      {% if number == 0 %}
+      {% include listitem.html %}
+      {% endif %}
+    {% endunless %}
+    {% endfor %}
+    </div>
+    <div class="col-sm-4 archyitemdimension">
+    {% assign number = -1 %}
+    {% for post in posts%}
+    {% unless post.title == page.title %}
+      {%assign number = number | plus: 1 | modulo: 3 %}
+      {% if number == 1 %}
+      {% include listitem.html %}
+      {% endif %}
+    {% endunless %}
+    {% endfor %}
+    </div>
+    <div class="col-sm-4 archyitemdimension">
+    {% assign number = -1 %}
+    {% for post in posts%}
+    {% unless post.title == page.title %}
+      {%assign number = number | plus: 1 | modulo: 3 %}
+      {% if number == 2 %}
+      {% include listitem.html %}
+      {% endif %}
+    {% endunless %}
+    {% endfor %}
+    </div>
+</div>
+</div>
