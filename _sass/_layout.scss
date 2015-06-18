@@ -781,8 +781,15 @@ footer {
   .solution:hover,.hint:hover{
     color:#111
   }
-  math{
+  fmath,math{
     color:#f00544
+  }
+}
+.container{
+  .archycontent .archywrap{
+      .container{
+        width: 100%;
+      }
   }
 }
 

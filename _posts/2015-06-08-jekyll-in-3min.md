@@ -235,6 +235,10 @@ Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to 
 </p>
 </li>
 <li>
+<p><small>This is added on 19th June</small> If you are working with custom url for Collection files, remember to always end the permalink with `/` (e.g. `myCat/` instead of `myCat`) [or the file would be served raw](https://github.com/jekyll/jekyll/issues/3800).
+</p>
+</li>
+<li>
 <p>Lastly, you don't really need to stick to the GitHub Pages&trade; Jekyll (the Jekyll that GitHub Pages&trade; has built-in support for) for your GitHub Page if you prefer something else. Or something more advanced - <a href="http://jekyllrb.com/news/2015/01/24/jekyll-3-0-0-beta1-released/)">Try out Jekyll 3.0, it's got hooks</a>. (If you want to use Jekyll 3.0 for production, you'd just need to build locally & push the <code>_site/</code> dir as the repo.) This way you can <a href="http://jekyllrb.com/docs/plugins/">fully customize your Jekyll with plugins as well</a>.
 </p>
 </li>

@@ -7,7 +7,7 @@ subspace: "Stuff<br>I wrote"
 <div class="container">
 <div class="archypost {% if page.font %} {{page.font}} {% else %} lato {%endif%}">
 <div class="archycoverpic showInMobile">
-        <img src="{{page.coverImg | prepend: site.imageurl }}" alt="">
+        <img src="{% if page.coverImg == 0 %} {{page.img}} {%else%} {{page.coverImg | prepend: site.imageurl }} {% endif %}" alt="">
       </div>
 <div class="archycontent" itemprop="articleBody">{{content}}</div>
 <div class="kudobox">
