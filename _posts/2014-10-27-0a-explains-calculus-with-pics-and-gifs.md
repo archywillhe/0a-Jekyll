@@ -56,7 +56,7 @@ Oct 2014<br>
 
 </blockquote>
 
-Calculus is just a fanciful name for the study of change in maths. Calculus in general refers to the branch of maths that was made famous by Newton (considered one of the founders of calculus) in the 17th century. Don't confuse it with <a target="_blank" href="http://en.wikipedia.org/wiki/Lambda_calculus">Lambda calculus</a>, <a target="_blank" href="http://en.wikipedia.org/wiki/Propositional_calculus">propositional calculus</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Situation_calculus">Situation calculus</a> and <a target="_blank" href="http://pencildrawings.files.wordpress.com/2008/04/unicorn-pencil-drawings.jpg?w=300">unicorns</a>, which are completely different things.
+Calculus is just a fanciful name for the study of change in maths. Calculus in general refers to the branch of maths that was made famous by Newton (considered one of the founders of calculus) in the 17th century. Don't confuse it with <a target="_blank" href="http://en.wikipedia.org/wiki/Lambda_calculus">Lambda calculus</a>, <a target="_blank" href="http://en.wikipedia.org/wiki/Propositional_calculus">propositional calculus</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Situation_calculus">Situation calculus</a> and <a target="_blank" href="http://www.amazon.com/gp/product/0385375557/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0385375557&linkCode=as2&tag=0aarhe-20&linkId=G75NU4TLDFAYKFK2">unicorns</a>, which are completely different things.
 
 To understand calculus, one needs to be able to visualize the concepts of <a class="go_click">function</a>, <a class="go_click">limit</a>, <a class="go_click">differentiation</a>, and <a class="go_click">integration</a>.
 

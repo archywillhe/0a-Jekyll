@@ -449,15 +449,20 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
   .MathJax_Display{
   margin:10px 0 !important;
-  .MathJax{
-    color:#fd9d58;
-  }
+    .MathJax{
+      color:#fd9d58;
+    }
       @media (max-width: 485px){ 
         overflow-x: scroll; overflow-y: visible;
         max-width: 100%
       }
   }
-
+  hr.maths{
+    border-top:none;
+    height:1px;
+    background-color:#fd9d58;
+    width: 160px;
+  }
   .d_shortcuts{
   background-color:#f3f3f3;
   max-width: 750px;

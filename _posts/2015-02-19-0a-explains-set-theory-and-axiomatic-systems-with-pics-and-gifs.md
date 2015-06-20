@@ -359,7 +359,7 @@ $$\exists U (U = \{x \in A    x \text{ is a normal set}\}) \\ \text{ here A is s
 
 We can't just "squeeze" $$U$$ into $$A$$ before $$U$$ is defined. So $$A$$ can't contain $$U$$. The paradox can't occur.
 
-> On the other hand, to avoid this paradox, Russell invented a theory of "type" (and included it in <a target="_blank" href ="https://archive.org/details/PrincipiaMathematicaVolumeI">Principia Mathematica</a>, a book he co-wrote with Whitehead). It basically states that every set has a "type number" based on what it contains. 
+> On the other hand, to avoid this paradox, Russell invented a theory of "type" (and included it in <a target="_blank" href ="http://www.amazon.com/gp/product/1603864377/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603864377&linkCode=as2&tag=0aarhe-20&linkId=ROHQ2FJTIJ7KKDBG">Principia Mathematica</a>, a book he co-wrote with Whitehead). It basically states that every set has a "type number" based on what it contains. 
 >
 > In this universe, urelements exist. And they exist with type number 0. Sets containing urelements are type 1 objects. Sets containing type 1 objects are type 2 objects. And so on. We can only define a set by first having objects of lower types. This hierarchy of types prevent a set from containing itself because self-referencing is not possible in a system like this. 
 
@@ -376,7 +376,7 @@ We can't just "squeeze" $$U$$ into $$A$$ before $$U$$ is defined. So $$A$$ can't
 >
 > This marks the end of our journey into the world of axiomatic systems on set theory (which are often referred to as "axiomatic set theories", since each of them builds up a slightly different theory of set).
 >
-> For the maths students who happen to be reading this article, you may find this rather short journey unsatisfactory. Many interesting things are not covered - <a target="_blank" href ="http://mathworld.wolfram.com/GoedelsIncompletenessTheorem.html">the Gödel's incompleteness theorem</a>, <a target="_blank" href ="http://en.wikipedia.org/wiki/Skolem%27s_paradox">Skolem's paradox</a>, <a target="_blank" href ="http://math.stackexchange.com/questions/6489/can-you-explain-the-axiom-of-choice-in-simple-terms">the axiom of choice</a>, <a target="_blank" href ="http://en.wikipedia.org/wiki/Non-well-founded_set_theory"> well-foundedness</a>, <a target="_blank" href ="http://standish.stanford.edu/pdf/00000056.pdf">Aczel's anti-foundation axiom (AFA)</a>, etc - basically stuff that you would expect to see in textbooks on axiomatic set theory and logic. Please keep in mind that this is in no mean an attempt to be a comprehensive and thorough guide on axiomatic systems.
+> For the maths students who happen to be reading this article, you may find this rather short journey unsatisfactory. Many interesting things are not covered - <a target="_blank" href ="http://mathworld.wolfram.com/GoedelsIncompletenessTheorem.html">the Gödel's incompleteness theorem</a>, <a target="_blank" href ="http://en.wikipedia.org/wiki/Skolem%27s_paradox">Skolem's paradox</a>, <a target="_blank" href ="http://math.stackexchange.com/questions/6489/can-you-explain-the-axiom-of-choice-in-simple-terms">the axiom of choice</a>, <a target="_blank" href ="http://en.wikipedia.org/wiki/Non-well-founded_set_theory"> well-foundedness</a>, <a target="_blank" href ="http://standish.stanford.edu/pdf/00000056.pdf">Aczel's anti-foundation axiom (AFA)</a>, etc - basically stuff that you would expect to see in <a target="_blank" href="http://www.amazon.com/gp/product/0387900500/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0387900500&linkCode=as2&tag=0aarhe-20&linkId=ZRDMG2EY62VWR3VB">textbooks on axiomatic set theory and logic</a>. Please keep in mind that this is in no mean an attempt to be a comprehensive and thorough guide on axiomatic systems.
 >
 > This article is more for those who would like to take a glimpse into what an axiomatic system is and how a theory of set can be constructed from axioms. If you are one of these curious mind, I hope you are enjoying your expedition so far ;)
 >
@@ -669,7 +669,7 @@ $$\text{There is no infinity between } \aleph_0 \text{ and } 2^{\aleph_0}$$
 $$2^{\aleph_0} = \aleph_1$$
 
 ><small>this was added in on 20th Feb</small>
-> Just roughly 70 years ago, <a target="_blank" href="http://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Gödel</a> showed that <a target="_blank" href="http://press.princeton.edu/titles/1034.html">CH cannot be disproved</a> in ZF & ZFC (ZF with <a href="http://publish.uwo.ca/~jbell/Axiom%20of%20choice%20book3.pdf">the axiom of choice</a>). 
+> Just roughly 70 years ago, <a target="_blank" href="http://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Gödel</a> showed that <a target="_blank" href="http://press.princeton.edu/titles/1034.html">CH cannot be disproved</a> in ZF & ZFC (ZF with <a href="http://www.amazon.com/gp/product/0486466248/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0486466248&linkCode=as2&tag=0aarhe-20&linkId=U3BBFLSJIBOP2R36">the axiom of choice</a>). 
 > 
 > Two decades later, <a target="_blank" href="http://en.wikipedia.org/wiki/Paul_Cohen_(mathematician)">Cohen</a> showed that <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300611/">no contradiction would arise if CH is defined to be false</a> in ZF & ZFC. 
 > 
