@@ -14,7 +14,7 @@ h2{
   font-family: 'PT Serif', serif;
   margin-bottom: 20px;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   color:#111;
   display: inline-block;
 }
@@ -98,7 +98,7 @@ a:hover,a:focus,a:visited{
     position:absolute;
     top:50%;
     left:50%;
-    font-size: 17px;
+    font-size: 13px;
     @media (max-width: 790px){
       div{
       font-size: 0.9em !important
@@ -196,7 +196,7 @@ a:hover,a:focus,a:visited{
 .archy_scroll_view_controller{
    @media (max-width: 767px){
     h2{
-      font-size: 18px
+      font-size: 15px
     }
    }
 overflow:hidden;
@@ -228,8 +228,9 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 0.85em !important
       }
       @media (max-width: 767px){
-        font-size: 19px;
-        text-align: center
+        // font-size: 19px;
+        // text-align: center
+        //hmm what is this for?
       }
     }
   }
