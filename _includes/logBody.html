@@ -1,5 +1,5 @@
-<div class="archypost {% if page.font %} {{page.font}} {% else %} lato {%endif%}" itemprop="datePublished">
-<div class="archycontent">{% if displayExtract %}{{page.extract | markdownify}} {% else %} <div itemprop="articleBody">{{content }}</div> {% endif %}</div>
+<div class="archypost  {% if page.font %} {{page.font}} {% else %} lato {%endif%}" itemprop="datePublished">
+<div class="archycontent">{% if displayExtract %}{{page.extract | markdownify}} {% else %} <div class="articleBody" itemprop="articleBody">{{content }}</div> {% endif %}</div>
 {% if displayExtract%}
 {% unless page.noreadmore == 1%}
 <div class="readmore"> <a href="{{page.url}}">Read more</a></div>

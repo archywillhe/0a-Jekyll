@@ -113,7 +113,9 @@ overflow-x: scroll; overflow-y: visible;
 }
 .lato{
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 17px !important;
+  .articleBody{
+    font-size: 0.85em !important;
+  }
   code{
     font-size: 1.1em !important;
   }
