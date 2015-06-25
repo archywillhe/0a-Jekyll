@@ -79,7 +79,7 @@ It managed to gain quite some interest and [more people got into the investigati
 >
 > ![proof](/assets/img/blocked.jpg)
 >
->Simply tweet this article and mention [@manahelthabet](https://twitter.com/manahelthabet) if you too want to be blocked :D
+>Simply tweet this article and mention [@manahelthabet](https://twitter.com/manahelthabet) if you'd like to be blocked too :D
 
 
   [1]: http://en.wikipedia.org/wiki/Manahel_Thabet

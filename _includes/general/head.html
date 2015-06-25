@@ -8,8 +8,11 @@
   {% if page.font %}
   {% case page.font %}
   {% when 'garamond' %}
-  <script type="text/javascript" src="//use.typekit.net/agx1ofd.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+   <!-- garamond is no longer in used; 
+   <script type="text/javascript" src="//use.typekit.net/agx1ofd.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script> -->
+ <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
   {% else %}
   <link href='{{page.fontLink}}' rel='stylesheet' type='text/css'>
   {% endcase %}

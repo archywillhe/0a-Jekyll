@@ -106,16 +106,15 @@ overflow-x: scroll; overflow-y: visible;
 }
 
 .garamond{
-  font-family: "adobe-garamond-pro", Times, "New Times Roman", serif;
+  //font-family: "adobe-garamond-pro", Times, "New Times Roman", serif;
+  //use merriweather 
+  font-family: 'Merriweather', Times, "New Times Roman", serif;
   code{
     font-size: 0.9em !important;
   }
 }
 .lato{
-  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  .articleBody{
-    font-size: 0.85em !important;
-  }
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   code{
     font-size: 1.1em !important;
   }

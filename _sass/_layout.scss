@@ -4,6 +4,7 @@
 body{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color:#fff;
+  font-size: 16px;
   line-height: 1.42857143;
 }
 .whitebg{
@@ -74,7 +75,7 @@ a:hover,a:focus,a:visited{
           width: 195px;
         }
         .archytitle{
-          font-size: 14px;
+          font-size: 11px;
           text-align: center;
           position:relative;
           left:-15px;
@@ -255,7 +256,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 .archyitem{
   margin-top:10px;
   .archytitle{
-    font-size: 19px;
+    font-size: 15px;
     height:80px;
     line-height: 80px;
     
@@ -341,11 +342,10 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-decoration:none;
 }
 .archypost{ 
-  font-size: 20px;
   color: #000;
   font-weight: 400;
   font-style: normal;
-  line-height: 1.4;
+  line-height: 1.7em;
   max-width:1000px;
   margin:0 auto;
   margin-top:50px;
@@ -360,7 +360,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
   h1{
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.4em;
     font-size: 2em;
     margin:0;
     padding:20px 0;
@@ -603,6 +603,7 @@ h1 span{
   }
   .smaller{
     font-size: 1.1em;
+    line-height: 0.1em;
     margin: 0 10px
   }
   @media (max-width: 568px){
@@ -732,6 +733,7 @@ footer {
   .archypost{
     margin-top:34px;
     color:#666;
+    max-width: 52em;
     margin-bottom: 29px;
   }
   .d_shortcuts{
@@ -799,11 +801,15 @@ footer {
   }
 }
 
+.dailylogs .archypost{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
 .wordsToRead{
-  max-width: 38em !important;
+  max-width: 44em !important;
 }
 .entirelog .archypost{
-  max-width: 45em !important;
+  max-width: 47em !important;
 }
 
 
