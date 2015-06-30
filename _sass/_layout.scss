@@ -260,7 +260,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     height:80px;
     line-height: 80px;
-    
+
     a{
       color:#5b5b5b;
       cursor: pointer;
@@ -304,7 +304,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       .archydate{
         color:#52FFFF;
         font-size:20px;
-        line-height:20px;   
+        line-height:20px;
         -moz-opacity: 0;
         -webkit-transition: color 4s ease-in-out;
         transition: color 4s ease-in-out;
@@ -342,7 +342,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color:inherit;
   text-decoration:none;
 }
-.archypost{ 
+.archypost{
   color: #000;
   font-weight: 400;
   font-style: normal;
@@ -454,7 +454,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       color:#02c5a8;
       font-size:0.85em;
     }
-      @media (max-width: 485px){ 
+      @media (max-width: 485px){
         overflow-x: scroll; overflow-y: visible;
         max-width: 100%
       }
@@ -728,7 +728,7 @@ footer {
     color:#5AC8FB
   }
 }
- 
+
 }
 .dailylog{
   .archypost{
@@ -742,7 +742,9 @@ footer {
   }
 }
 .about_0a_content{
-  margin-top: -4px
+  margin-top: -4px;
+  line-height: 1.8em;
+
 }
 .dailylog code{
   background-color: #fff
