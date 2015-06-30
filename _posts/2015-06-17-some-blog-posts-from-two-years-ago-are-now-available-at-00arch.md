@@ -1,29 +1,27 @@
 ---
 layout: dailylog
 postType: dailylog
-font: 
-extraClasses: 
+font:
+extraClasses:
 postType: dailylog
 title: "Some articles from an old Blog of mine are now available at 0a.io/0.0ar.ch"
 metaTitle:
 permalink: some-blog-posts-from-two-years-ago-are-now-available-at/0.0ar.ch
-metaDescription: 
-publishedOn: 
-updateAt: 
-readingTime: 
+metaDescription:
+publishedOn:
+updateAt:
+readingTime:
 published: 1
-coverImg: 
+coverImg:
 subtitle:
 subtitleBottom:
-extract: |        
-    These were some articles I wrote roughly two years ago. At that time I was still a kid (and quite an arrogant one, just like any other kids who are confident about themselves but have not seen the world or experienced anything outside of their comfort zone, to realize how unrealistic the assumptions about the world their preternatural self-assurance is based on), preparing for his univ applications. A lot has changed since then. (One thing is that I no longer write in that manner, or at least that is what I incline to think.)
+extract: |
+    These were some stuff I wrote roughly two years ago. At that time I was still a kid (and quite an overconfident one - occassionally, if not most of the time, acting in an arrogant way - just like any other optimistic self-assured kids who but have not seen the world or experienced anything outside of their comfort zone, to realize how unrealistic the assumptions about reality many of their beliefs are based on), preparing for his univ applications. A lot has changed since then. (One thing is that I no longer write in that manner, or at least that is what I incline to think.)
 
     You can check them out at [0a.io/0.0ar.ch](http://0a.io/0.0ar.ch), but mind you, they are not so nicely written. As a redditor with 7k karma would put it, ["This guy is an intolerably bad writer, narcissistic and sophomoric and lacking real insights."](http://www.reddit.com/r/lifehack/comments/1v943g/how_to_excel_at_anything_in_life_the_key_here_is/). (And I agree.) Or simply click on the pictures & links below:
 ---
 
-
-
-These were some articles I wrote roughly two years ago. At that time I was still a kid (and quite an arrogant one, just like any other kids who are confident about themselves but have not seen the world or experienced anything outside of their comfort zone, to realize how unrealistic the assumptions about the world their preternatural self-assurance is based on), preparing for his univ applications. A lot has changed since then. (One thing is that I no longer write in that manner, or at least that is what I incline to think.)
+These were some stuff I wrote roughly two years ago. At that time I was still a kid (and quite an overconfident one - occassionally, if not most of the time, acting in an arrogant way - just like any other optimistic self-assured kids who but have not seen the world or experienced anything outside of their comfort zone, to realize how unrealistic the assumptions about reality many of their beliefs are based on), preparing for his univ applications. A lot has changed since then. (One thing is that I no longer write in that manner, or at least that is what I incline to think.)
 
 You can check them out at [0a.io/0.0ar.ch](http://0a.io/0.0ar.ch), but mind you, they are not so nicely written. As a redditor with 7k karma would put it, ["This guy is an intolerably bad writer, narcissistic and sophomoric and lacking real insights."](http://www.reddit.com/r/lifehack/comments/1v943g/how_to_excel_at_anything_in_life_the_key_here_is/). (And I agree.) Or simply click on the pictures & links below:
 

@@ -99,6 +99,6 @@ function get_only_few_lines($content,$id){
 
 </blockquote>
 
-Rewriting everything was an impractical idea, considering that I am not entirely familiar with WordPress' APIs, and right now I need to be more "result-oriented", or I would seldom get things done. (That was how things had been and I'd like a change.) It'd be neat to have danceprince.com open-source, but I have to prioritize things well.
+Rewriting everything was an impractical idea, considering that I am not entirely familiar with WordPress' APIs, and right now I need to be more productivity-focus and "result-oriented", or I would seldom get things done. (That was how things had been and I'd like a change.) It'd be neat to have danceprince.com open-source, but I have to prioritize things well.
 
 At the moment I'm still going through textbooks & papers and working on the upcoming article, *0a explains: Logic*. I figured I should resume *DailyLog of Arch's* since things are going on in my life as usual, and it appears [I'm just using writing article as an excuse to take a break from logging](http://localhost:4000/halt1/).
