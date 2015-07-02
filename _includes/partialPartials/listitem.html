@@ -4,7 +4,7 @@
       {% raw %}{{ post.date }} {% endraw %}
       </span>
     </div>
-    <a href="{% raw %}{{ post.siteurl }}{% endraw %}" class="thumbnail"><img src=" {% raw %}{{ post.img }}{% endraw %} {% if post.coverImg == 0 %} {{post.img}} {% else %}{{post.coverImg | prepend: site.imageurl }} {% endif %}" alt="" itemprop='thumbnailUrl'>
+    <a href="{% raw %}{{ post.url }}{% endraw %}" class="thumbnail"><img ng-src="{% raw %}{{ post.img }}{% endraw %}" alt="" itemprop='thumbnailUrl'>
       <div class="vcenter archycover">
         <div class="vcenter archydate">
           <span class="big">
@@ -16,7 +16,7 @@
     </a>
     <div class="archytitle PTSerif">
       <span>
-      <a itemprop="name" class="opacity_hover" href="{% raw %}{{ post.siteurl }}{% endraw %}">
+      <a itemprop="name" class="opacity_hover" href="{% raw %}{{ post.url }}{% endraw %}">
         {% raw %}{{ post.title }} {% endraw %}
       </a><br>
       </span>

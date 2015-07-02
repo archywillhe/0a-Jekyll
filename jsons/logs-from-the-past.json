@@ -1,0 +1,21 @@
+---
+layout: raw
+permalink: /api/logs-from-the-past.json
+---
+{% assign listFilterName = "older_log" %}
+{% assign filterBy = "postType" %}
+{% assign posts_groups = site.posts | group_by:filterBy %}
+{% capture json %}
+{ "posts" : [
+    {% for posts_group in posts_groups %}{% if posts_group.name == listFilterName %}{% for post in posts_group.items %}
+        {
+            "title": {{post.title | jsonify}},
+            "img": {% if post.coverImg == 0 %} {{post.img | jsonify}} {% else %}{{post.coverImg | prepend: site.imageurl | jsonify}} {% endif %},
+            "day":  {{ post.date | date: "%d" | jsonify}},
+            "monthyear":  {{ post.date | date: "%b %Y" | jsonify}},
+            "date":  {{ post.date | date: "%b %-d, %Y" | jsonify}},
+            "url": {{ post.url | jsonify }}
+        }{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}{% endfor %}
+] }
+{% endcapture %}
+{{json }}
