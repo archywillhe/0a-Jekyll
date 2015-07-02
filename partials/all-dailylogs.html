@@ -1,0 +1,33 @@
+---
+layout: raw
+---
+
+<div class="log1" data-ng-repeat="post in posts">
+<article itemscope itemtype="http://schema.org/Article">
+<div class="archywrap">
+<div class="container">
+<div class="archypost garamond postTitle">
+<h1><span>
+
+<a class="linkToLog" href="{{post.url}}" itemprop="name">
+{{ post.title }}
+</a>
+</span></h1>
+<span class="hiding"> by <span itemprop="author">Arch Wilhes</span> </span>
+<p class="belowtitle"><i class="fa fa-dot-circle-o fa-lg"></i> <time itemprop="datePublished">
+{{ post.date }}
+</time>
+
+<span class="margin-left-11px">
+<a href="https://www.facebook.com/sharer/sharer.php?u={{post.siteurl}}"  onclick="window.open('{{facebook}}', 'newwindow', 'width=400, height=350'); return false;">
+<i class="fa fa-facebook fa-lg smaller"></i>
+</a>
+<a href="https://twitter.com/intent/tweet?text={{post.title}}&url={{post.siteurl}}"  onclick="window.open('{{twitter}}', 'newwindow', 'width=400, height=350'); return false;"><i class="fa fa-twitter fa-lg smaller"></i></a>
+</span></p>
+</div>
+{{post.content}}
+</div>
+</div>
+
+</article>
+</div>

@@ -3,11 +3,11 @@ layout: article
 postType: article
 title: "0a explains: JavaScript closure and design patterns "
 permalink: JavaScript-closure-and-design-patterns
-metaTitle: 
+metaTitle:
 metaDescription: "JavaScript closure and design patterns explained in possibly the most comprehensible way possible."
-category: 
+category:
 publishedOn:
-updateAt: 
+updateAt:
 readingTime: 3 to 9 mins
 published: 1
 code: 1
@@ -15,7 +15,7 @@ script: []
 coverImg: "img2.jpg"
 subtitle:
 subtitleBottom: "Painting is Church Street El by <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Charles_Sheeler\">Charles Sheeler</a>, 1920."
-footBlock: | 
+footBlock: |
 ---
 A <i>JavaScript closure</i> is not really <a target="_blank" class="default_anchor" href="http://0ar.ch/">a</a> thing. It is just a term we use to describe what happens when we have a function that has access to outside variables other functions cannot access.
 
@@ -115,7 +115,7 @@ var c = a; //c is a function
  
 alert(c); //the entire function will be alerted
  
-alert(c()); //alert 6. 
+alert(c()); //alert 6.
 {% endhighlight %}
 >
 ><a target="_blank" onclick="var c = function (){ return 6 }; alert(c)">Click here</a> if you are curious what invoking <code>alert(c)</code> will do in the code above.
@@ -124,7 +124,7 @@ alert(c()); //alert 6.
 <p class="text-center"> ● ● ● </p>
 
 <h3>Bonus: Ternary Operator</h3>
-In the example above you can see that I am doing something like this:  
+In the example above you can see that I am doing something like this:
 
 {% highlight JavaScript %}
 x = (x+1 === 2)? 0 : 1;
@@ -149,14 +149,14 @@ x = (condition)? if true : if false;
 
 <h3>Bonus: Strict Comparison Operators (<code>===</code> and <code>!==</code>)</h3>
 
-The <code>===</code> in the code above is known as a Strict Comparison Operator. It is slightly different from <code>==</code>. When we compare two variables like this: <code>a === b</code>, the JavaScript engine will first look at the variables' <i>types</i>, and if they are not the same <i>type</i>, <code>false</code> will be returned immediately. 
+The <code>===</code> in the code above is known as a Strict Comparison Operator. It is slightly different from <code>==</code>. When we compare two variables like this: <code>a === b</code>, the JavaScript engine will first look at the variables' <i>types</i>, and if they are not the same <i>type</i>, <code>false</code> will be returned immediately.
 
 {% highlight JavaScript %}
-(0 === null) //false; 
+(0 === null) //false;
 
 (0 === "0") //false;
 
-(0 === []) //false; 
+(0 === []) //false;
 
 (0 === 0) //true;
 {% endhighlight %}
@@ -169,7 +169,7 @@ If we compare two variables using <code>==</code>, a type conversion would happe
 
 (0 == "0") //true; because JS engine has converted the string "0" into integer 0
 
-(0 == []) //true; because JS engine has converted the empty array [] into integer 0 
+(0 == []) //true; because JS engine has converted the empty array [] into integer 0
 
 (0 == 0) //true;
 {% endhighlight %}
@@ -194,7 +194,7 @@ var Archy = (function(){
     var nyan = ["meow","I am a cat"];
     var x = 0;
     var a =  function(){
-        alert(nyan[x]); 
+        alert(nyan[x]);
     };
     var b = function(){
         x = (x+1===2)? 0 : 1;
@@ -279,7 +279,7 @@ There are many design patterns in JavaScript. Different design patterns are just
 
 In this case, <code>x</code> and <code>nyan</code> are private variables, while <code>name</code> is a public variable and <code>speak()</code> and <code>transform()</code> are public functions. In class-based OO language, when something is public, it simply means that it is globally accessible. When something is private, only the instance and class functions (In this case there isn't a class function) are able to access it.
 
-</blockquote> 
+</blockquote>
 
 
 Now let's move on to The Singleton Pattern, another beginner design pattern that makes good use of closure. The Singleton Pattern is like an upgrade version of The Module Pattern. Besides creating an illusion of a class object, it creates an illusion of a class function that either constructs the object (an instance of the class) or returns an already constructed object.
@@ -308,7 +308,7 @@ var Archy = (function(){
             console.log("instance already created. nyannannn.");
         }
         return instance;
-        } 
+        }
     }
     return _static;
 })();
@@ -337,7 +337,7 @@ var _static = {
             console.log("instance already created. nyannannn.");
         }
         return instance;
-        } 
+        }
     }
 {% endhighlight %}
 

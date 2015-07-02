@@ -1,13 +1,13 @@
 ---
 font: garamond
-layout: article
-postType: article
+layout: older_log
+postType: older_log
 title: "Prologue for 0a explains: Set Theory and Axiomatic Systems"
 metaTitle:
-metaDescription: 
-category: 
+metaDescription:
+category:
 publishedOn:
-updateAt: 
+updateAt:
 readingTime:
 published: 1
 script: []
@@ -21,11 +21,11 @@ permalink: prologue-for-0a-explains-set-theory-and-axiomatic-systems
 
 ><p class="text-center"><b>PROLOGUE </b> </p>
 >
->I've never imagined that writing <a href="http://0a.io/0a-explains-calculus">an article on calculus</a> and making some animated gifs can have such a huge impact in my life. 
+>I've never imagined that writing <a href="http://0a.io/0a-explains-calculus">an article on calculus</a> and making some animated gifs can have such a huge impact in my life.
 >
->I left school at the age of 16 to pursue what I wanted to do in life. I had ambitious dreams. But throughout the years I learnt to be conscious of my naivety and ignorance. I understand that it is perfectly normal if it turns out that all this time I have been living in a delusional state. So far every project I started had failed. Things have not once gone as planned. 
+>I left school at the age of 16 to pursue what I wanted to do in life. I had ambitious dreams. But throughout the years I learnt to be conscious of my naivety and ignorance. I understand that it is perfectly normal if it turns out that all this time I have been living in a delusional state. So far every project I started had failed. Things have not once gone as planned.
 >
->And they never will. 
+>And they never will.
 >
 >Now and then I wondered if everything I'd done was just trick I played to make me feel better about myself, that I was nothing more than a pathetic idealist, kidding himself along on a senseless odyssey. So I was greatly surprised when I learnt that 30 thousand people had visited my website in a day because of an article I wrote. The link to the article had got good number of upvotes on both <a target="_blank" href="/0a-explains-calculus">Reddit</a> and <a target="_blank" href="https://news.ycombinator.com/item?id=8523150">HackerNews</a>. Some commented and told me it was good. Certainly this was nothing comparing to, say, proving P != NP, but I think I had never been this happy in my life before. The joy I felt - that could not be described in words.
 >

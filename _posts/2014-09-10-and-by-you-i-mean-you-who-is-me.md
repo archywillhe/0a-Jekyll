@@ -1,19 +1,20 @@
 ---
 font: garamond
-layout: article
-postType: article
+layout: older_log
+postType: older_log
+subspace: "Older Logs<br>of Arch's"
 title: "And by you I mean <i>you</i> who is me"
 metaTitle: "And by you I mean you who is me"
 metaDescription: |
-    Something is off. 
-category: 
-publishedOn: 
-updateAt: 
+    Something is off.
+category:
+publishedOn:
+updateAt:
 readingTime:
 published: 1
 coverImg: "img.jpg"
 subtitle:
-subtitleBottom: Painting is <a href=\"http://en.wikipedia.org/wiki/Not_to_be_Reproduced\">La reproduction interdite</a> by <a href=\"http://en.wikipedia.org/wiki/Ren%C3%A9_Magritte\">René Magritte</a>, 1937. 
+subtitleBottom: Painting is <a href=\"http://en.wikipedia.org/wiki/Not_to_be_Reproduced\">La reproduction interdite</a> by <a href=\"http://en.wikipedia.org/wiki/Ren%C3%A9_Magritte\">René Magritte</a>, 1937.
 ---
 Something is <i>off</i>.
 
@@ -22,6 +23,6 @@ The mental constructs in my consciousness are as vivid as usual - I am fully awa
 Have I always been like this?
 
 <p class="text-center"> ● ● ● </p>
-Have <i>you</i> always been like this? If true, then this probably has to do with one very fundamental aspect of you that governs your behaviors. To bring yourself to do something that's always in your mind but you have great difficulty actually engaging in doing, you have to understand yourself, form an accurate mental representation of yourself, analyze it and see where this conflict of interest lays. There is always a reason for the existence of such inconsistency in actions and thoughts. Find out what it is, and I believe you will figure out a way to change the situation, my friend. 
+Have <i>you</i> always been like this? If true, then this probably has to do with one very fundamental aspect of you that governs your behaviors. To bring yourself to do something that's always in your mind but you have great difficulty actually engaging in doing, you have to understand yourself, form an accurate mental representation of yourself, analyze it and see where this conflict of interest lays. There is always a reason for the existence of such inconsistency in actions and thoughts. Find out what it is, and I believe you will figure out a way to change the situation, my friend.
 
 Have faith in yourself.

@@ -1,4 +1,4 @@
-.col-sm-4,.col-sm-6{
+.col-sm-3,.col-sm-4,.col-sm-6{
     width: 33.33333333%;
     float: left;
     position: relative;
@@ -9,10 +9,16 @@
 .col-sm-6{
 width: 50%;
 }
+.col-sm-3{
+  width: 25%;
+}
 @media (max-width: 767px){
   .col-sm-4,.col-sm-6{
     width:100%;
     float: none;
+  }
+  .col-sm-3{
+    width: 50%;
   }
 }
 .row{
@@ -107,7 +113,7 @@ overflow-x: scroll; overflow-y: visible;
 
 .garamond{
   //font-family: "adobe-garamond-pro", Times, "New Times Roman", serif;
-  //use merriweather 
+  //use merriweather
   font-family: 'Merriweather', Times, "New Times Roman", serif;
   code{
     font-size: 0.9em !important;

@@ -19,3 +19,4 @@ collections:
   days_of_yore:
     output: true
     permalink: /article/:path/
+encoding: utf-8

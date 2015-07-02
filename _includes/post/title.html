@@ -27,7 +27,7 @@
 {% endif %}
 </time>
 {% if page.postType == "article" %}
-<span class="margin-left-20px"> 
+<span class="margin-left-20px">
 <i class="fa fa-bullseye fa-lg"></i>{% if page.readingTime %}{{page.readingTime}}{% else %} 1 min {%endif %} read </span>
 {% endif %}
 <span class="margin-left-11px">
@@ -39,8 +39,6 @@
 <a href="{{twitter}}"  onclick="window.open('{{twitter}}', 'newwindow', 'width=400, height=350'); return false;"><i class="fa fa-twitter fa-lg smaller"></i></a>
 </span></p>
 </div>
-{% if page.postType == "dailylog" %}
 {% include logBody.html %}
-{% endif %}
 </div>
 </div>

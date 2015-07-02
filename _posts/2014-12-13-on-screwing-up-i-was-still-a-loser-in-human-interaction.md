@@ -1,14 +1,14 @@
 ---
 font: garamond
-layout: article
-postType: article
+layout: older_log
+postType: older_log
 title: "On screwing up: I was still a loser in human interaction"
 metaTitle:
 metaDescription: |
     A story about how I screwed up. It was awkward.
-category: 
-publishedOn: 
-updateAt: 
+category:
+publishedOn:
+updateAt:
 permalink: i-was-still-a-loser-in-human-interaction
 readingTime: 5 to 8 mins
 published: 1
@@ -20,8 +20,8 @@ subtitleBottom: |
 ---
  
 
->The painting above perfectly describes my state of mind as I write about what happened 
-last night. 
+>The painting above perfectly describes my state of mind as I write about what happened
+last night.
 >
 ><p style="text-align:right">- Archy, 5th Dec 2014</p>
 
@@ -31,19 +31,19 @@ The story began with Gjermund and I coming out of a bar where a cloud computing 
 
 "Nothing. It leads to a construction site," said the girl, "I thought it may be the way to Fort Canning park."
 
-They started chitchatting as we waited for the traffic light to change. This is one of the things I liked about Gjermund. He always makes initiating conversation with a stranger look so easy, and sustaining the conversation look so natural. I wish one day I can be like him; I wish one day I can be sociable. 
+They started chitchatting as we waited for the traffic light to change. This is one of the things I liked about Gjermund. He always makes initiating conversation with a stranger look so easy, and sustaining the conversation look so natural. I wish one day I can be like him; I wish one day I can be sociable.
 
 It turned out that she is from Belarus and this is her first time in Singapore. She was finding her way to Fort Canning park, which she thought was a cool place to visit by herself at 11PM in a Thursday night. Gjermund decided to give her a lift. We got into the car.
 
 "So what do you do?" she asked me, with a smile on her lips.
 
-I could see her eyes glowed with excitement that can't be described in words when she learnt that Gjermund and I are programmers. "I do programming too. I code in Java." My heart skipped a beat as she said these words. This was the least expected way to meet a lady programmer around my age. The boundary between fantasy and reality began to fade and I felt like I was lucid dreaming when I learnt that she did her degree in applied maths. There is something incredibly awesome about a girl who majors in maths, even when she doesn’t have a PhD in topology. 
+I could see her eyes glowed with excitement that can't be described in words when she learnt that Gjermund and I are programmers. "I do programming too. I code in Java." My heart skipped a beat as she said these words. This was the least expected way to meet a lady programmer around my age. The boundary between fantasy and reality began to fade and I felt like I was lucid dreaming when I learnt that she did her degree in applied maths. There is something incredibly awesome about a girl who majors in maths, even when she doesn’t have a PhD in topology.
 
 But what's most mind-boggling is the probability for the occurrence of this very incident in this reality: the probability of me encountering a lady programmer from another part of the world with a maths degree on Armenian Street is like randomly picking a point in a <a target="_blank" href="http://en.wikipedia.org/wiki/Metric_space">metric space</a> and getting a rational number. You will not even get a rational number if you are able to write a randomized algorithm for that and theoretically loop it in a super computer until the <a target="_blank" href="http://www.ted.com/talks/gian_giudice_why_our_universe_might_exist_on_a_knife_edge?language=en">Higgs Field in our universe undergoes a phase transition</a> and transforms into an ultra-dense state. <a target="_blank" href="http://math.stackexchange.com/a/798558/65082">The probability is zero.</a>
 
 We arrived at Fort Canning park a minute later. There was basically nothing besides plants that you can’t tell the color of under dim light. Since what she wanted was to check out interesting places on this island and she had not yet been to Orchard, Gjermund suggested that we go there and submerge ourselves with the artificial Xmas atmosphere in Singapore. She was also thinking of having dinner. Most places were closed then. So we ended up heading to the magical place in River Valley where the closing time of restaurants is <i>undefined</i>.
 
-The three of us chit-chatted in the car for about five minutes before arriving at our destination. The more I got to know her, the more I realized we can be good friends (if circumstances allowed). I wasn't looking forward to a special relationship or anything. Right now the only thing in my mind, besides becoming more productive at work and starting contributing to open-source, is to get into the CSE graduate program at MIT by 21. But the truth is I don’t have female friends and I rarely interact with ladies around my age. Or I should put it this way, I have very little friends and the number of human beings with whom I have longer-than-five-minutes interaction in real life each week on average is less than five. Recently I have been trying to increase this number. I have been going to conferences and meet-ups and managed to pull the number up a bit in the past few days. Despite sometimes getting myself into completely avoidable awkward situations, more or less I had been able to behave naturally and express thoughts and ideas that were on my mind in real-time, while maintaining eye contact as I mimicked how people in real life would interact. 
+The three of us chit-chatted in the car for about five minutes before arriving at our destination. The more I got to know her, the more I realized we can be good friends (if circumstances allowed). I wasn't looking forward to a special relationship or anything. Right now the only thing in my mind, besides becoming more productive at work and starting contributing to open-source, is to get into the CSE graduate program at MIT by 21. But the truth is I don’t have female friends and I rarely interact with ladies around my age. Or I should put it this way, I have very little friends and the number of human beings with whom I have longer-than-five-minutes interaction in real life each week on average is less than five. Recently I have been trying to increase this number. I have been going to conferences and meet-ups and managed to pull the number up a bit in the past few days. Despite sometimes getting myself into completely avoidable awkward situations, more or less I had been able to behave naturally and express thoughts and ideas that were on my mind in real-time, while maintaining eye contact as I mimicked how people in real life would interact.
 
 Just when I thought I would not screw things up this time, my anxiety kicked in. We were in one of the Chinese restaurants at River Valley. She was sitting right in front of me. I have always got a bit of social anxiety disorder (with it being especially true when I was sitting face-to-face a beautiful girl). Not a severe one but one enough to make me shut the fuck up when two people are talking, in spite of the fact that I know it is alright to join in the conversation. So most of the time Gjermund was the one chatting with her.
 

@@ -1,13 +1,13 @@
 ---
 font: garamond
-layout: article
-postType: article
+layout: older_log
+postType: older_log
 title: "Sometime, somewhere, in this world in which we live"
 metaTitle:
 metaDescription: |
     A poem about science and a sum-up of what the black hole information paradox is about.
-publishedOn: 
-updateAt: 
+publishedOn:
+updateAt:
 readingTime: 2 to 4 mins
 published: 1
 coverImg: "img3.jpg"
@@ -45,7 +45,7 @@ sometime, somewhere, in this world in which we live<br>
 
 <p class="text-center"> ● ● ● </p>
 
-<a class="default_anchor" href="http://0ar.ch/">Author's</a> Note: On line 10, by <i>no “escape”</i> I do not mean that photons would be "entrapped" in the <a href="http://en.wikipedia.org/wiki/Black_hole">black hole</a> for eternity, and information is forever lost upon entering the <a href="http://en.wikipedia.org/wiki/Event_horizon">event horizon</a>, which violates the conservation of information in the universe (this is actually known as the <a href="http://en.wikipedia.org/wiki/Black_hole_information_paradox">black hole information paradox</a>). 
+<a class="default_anchor" href="http://0ar.ch/">Author's</a> Note: On line 10, by <i>no “escape”</i> I do not mean that photons would be "entrapped" in the <a href="http://en.wikipedia.org/wiki/Black_hole">black hole</a> for eternity, and information is forever lost upon entering the <a href="http://en.wikipedia.org/wiki/Event_horizon">event horizon</a>, which violates the conservation of information in the universe (this is actually known as the <a href="http://en.wikipedia.org/wiki/Black_hole_information_paradox">black hole information paradox</a>).
 
 A black hole is constantly evaporating and would eventually disappear. Now and then, pairs of <a target="_blank" href="http://en.wikipedia.org/wiki/Virtual_particle">virtual particles</a> are produced in the vacuum near the event horizon due to a phenomenon known as <a href="http://en.wikipedia.org/wiki/Quantum_fluctuation">quantum fluctuation</a> that happens everywhere in this universe. In the usual case they will just <a href="http://en.wikipedia.org/wiki/Annihilation">annihilate</a> each other and back to non-existence. But there are times when one of them falls into the black hole, while the other escapes as <a href="http://en.wikipedia.org/wiki/Black-body_radiation">black body radiation</a> known as <a href="http://en.wikipedia.org/wiki/Hawking_radiation">Hawking radiation</a>. When this happens, the particle that falls into the black hole would appear to have negative energy. The creation of the particle pair requires energy. If they manage to annihilate each other within <a href="http://en.wikipedia.org/wiki/Planck_time">Planck time</a>, they stay <a href="http://en.wikipedia.org/wiki/Virtual_state_(physics)">"virtual"</a> throughout their existence. If one of them becomes "real", a nearby region with high energy potential would experience a decrease in energy. And thus a black hole shrinks over time and loses its energy (<a href="http://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence">in the form of mass</a>). The total lifespan of a black hole of M solar masses is <a href="http://xaonon.dyndns.org/hawking/">calculated</a> to be roughly 2 x 10<span class="sup">67</span> M<span class="sup">3</span> years, which is still pretty long.
 

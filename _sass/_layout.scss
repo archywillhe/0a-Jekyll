@@ -1,3 +1,5 @@
+$coolFont: "yellowtailregular" "Courier New" "Courier" "Impact" "Palatino Linotype";
+
 .zeroA{
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -65,7 +67,7 @@ a:hover,a:focus,a:visited{
       position: relative;
       }
       .current_region{
-        font-family: "yellowtailregular" "Times";
+        font-family: $coolFont;
         text-align: center;
         font-size: 18px;
       }
@@ -418,7 +420,7 @@ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   padding-bottom:50px;
   max-width: 1000px;
   margin:0 auto;
-  font-family: "yellowtailregular" "Times";
+  font-family: $coolFont;
   font-size:16px;
   line-height: 1.3;
   a{
@@ -635,7 +637,7 @@ h1 span{
     top:-60px;
     top:-53px;
     line-height: 60px;
-    font-family: "yellowtailregular" "Times";
+    font-family: $coolFont;
     text-align: center;
     width: 100%;
 }
@@ -751,7 +753,7 @@ footer {
 }
 
 .readmore{
-  font-family: "yellowtailregular" "Times";
+  font-family: $coolFont;
   font-size: 1.4em;
   margin: 40px 0;
    //also used in header as an inline-item
@@ -815,6 +817,66 @@ footer {
   max-width: 47em !important;
 }
 
+.homelogs {
+  .archysub{
+    display: none !important;
+  }
+  .log2 {
+    .archypost{
+      margin-top: 24px;
+    }
+  }
+  .kudos {
+    background: #ededed;
+    box-shadow: inset 0 0 0 0.45em #000, inset 0 0 0 2.3em #f4f4f4, inset 0 0 0 6em #000;
+  }
+  .displayChoiceWrapper{
+    height: 200px;
+  }
+  .displayChoice{
+    /*overwrite */
+    top:0 !important;
+    margin-top:0 !important;
+    height:100% !important;
+    font-family: $coolFont;
+    background-image: url("/assets/img/not-so-black.png");
+    }
+    .displayChoiceInner{
+      color:#fff;
+      .big{
+        font-size: 30px;
+        line-height: 50px;
+      }
+      .twoline{
+        line-height: 36px;
+      }
+    }
+    .showLatestLog{
+        img{
+          margin-top:-9px
+        }
+    }
+    .showAllLogs{
+        img{
+          margin-top:-6px
+        }
+    }
+    .showLogsBefore{
+        img{
+          margin-top:-30px
+        }
+    }
+    .chosen .displayChoiceInner{
+      color:#52FFBF
+    }
+    .displayChoiceInner:hover{
+      color:#52FFBF
+    }
+  .homelogstitle{
+    background-color: #ededed
+  }
+
+}
 
 $ab: (#727272,#434343,#111);
 $a: (#6f6f6f,#434343,#000);

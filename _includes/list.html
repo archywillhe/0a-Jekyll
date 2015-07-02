@@ -1,12 +1,11 @@
 
+{% if posts_group.name == listFilterName %}
 <div class="archywrap">
 <div class="container">
 <div class="archy_scroll_view_controller">
-
-{% if posts_group.name == listFilterName %}
 {% assign posts = posts_group.items %}
 {% include listOf3.html %}
+</div>
+</div>
+</div>
 {% endif %}
-</div>
-</div>
-</div>
