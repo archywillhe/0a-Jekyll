@@ -28,7 +28,7 @@ layout: raw
 <div class="archycontent" ng-bind-html="post.extract">
 
 </div>
-<div ng-if="post.readmore" class="readmore"> <a href="{{page.url}}">Read more</a></div>
+<div ng-if="post.readmore" class="readmore"> <a href="{% raw %}{{post.url}}{% endraw %}" target="_self" >Read more</a></div>
 </div>
 </div>
 </div>

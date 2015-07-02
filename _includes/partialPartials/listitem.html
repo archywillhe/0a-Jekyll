@@ -16,8 +16,7 @@
     </a>
     <div class="archytitle PTSerif">
       <span>
-      <a itemprop="name" class="opacity_hover" href="{% raw %}{{ post.url }}{% endraw %}">
-        {% raw %}{{ post.title }} {% endraw %}
+      <a itemprop="name" class="opacity_hover" href="{% raw %}{{ post.url }}{% endraw %}" ng-bind-html="post.title">
       </a><br>
       </span>
     </div>

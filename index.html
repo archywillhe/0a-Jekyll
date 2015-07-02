@@ -23,7 +23,7 @@ footBlock: |
 <div class="container">
 <div class="archy_scroll_view_controller">
 <div class="archylist">
-<h2><span>Daily Logs of Arch's: Lastest Log</span></h2>
+<h2 ng-controller="MainCtrl"><span ng-bind="showingTitle">Daily Logs of Arch's: Lastest Log</span></h2>
     <div class="row">
     {% for choice in (1..3) %}
     <div class="col-sm-4">
