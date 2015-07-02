@@ -18,7 +18,8 @@ permalink: /api/all-dailylogs.json
             "date": {{date | strip_newlines | remove: '  ' | jsonify}},
             "extract": {{ post.extract | markdownify | jsonify }},
             "url": {{ post.url | jsonify }},
-            "siteurl": {{ post.url | prepend: site.url | jsonify }}
+            "siteurl": {{ post.url | prepend: site.url | jsonify }}{% unless post.noreadmore %},
+            "readmore": true {% endunless %}
         }{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}{% endfor %}
 ] }
 {% endcapture %}

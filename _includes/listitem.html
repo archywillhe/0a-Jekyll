@@ -1,10 +1,5 @@
-{% if post.publishedOn %}
-{% assign date = post.publishedOn %}
-{% else %}
-{% assign date =post.date %}
-{% endif %}
  <div class="archyitem" itemscope itemtype="http://schema.org/Article">
-        <div class="archydate_mobile  garamond">
+        <div class="archydate_mobile PTSerif">
           <span itemprop="datePublished">
           {{ post.date | date: "%b %-d, %Y" }}
           </span>
@@ -19,7 +14,7 @@
             </div>
           </div>
         </a>
-        <div class="archytitle garamond">
+        <div class="archytitle PTSerif">
           <span>
           <a itemprop="name" class="opacity_hover" href="{{ post.url | prepend: site.baseurl }}">
             {{ post.title }}

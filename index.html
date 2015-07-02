@@ -47,7 +47,7 @@ footBlock: |
 </div>
 </div>
 <div class="notHomePage">
-<div class="latestPost">
+<div class="latestPost entirelog">
   {% assign posts_groups = site.posts | group_by:"postType" %}
   {% for posts_group in posts_groups %}
   {% if posts_group.name == "dailylog" %}

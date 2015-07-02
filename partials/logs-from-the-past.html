@@ -1,3 +1,22 @@
 ---
 layout: raw
 ---
+<div class="archylist">
+  <div class="row" ng-if="screen.wide">
+    <div class="col-sm-4 archyitemdimension"  ng-repeat="post in postsCol1 track by $index">
+     {% include partialPartials/listitem.html %}
+    </div>
+    <div class="col-sm-4 archyitemdimension" ng-repeat="post in postsCol2 track by $index">
+    {% include partialPartials/listitem.html %}
+    </div>
+    <div class="col-sm-4 archyitemdimension" ng-repeat="post in postsCol3 track by $index">
+     {% include partialPartials/listitem.html %}
+    </div>
+</div>
+<div class="row" ng-if="screen.wide == false">
+<div class="col-sm-4 archyitemdimension"  ng-repeat="post in posts track by $index">
+{% include partialPartials/listitem.html %}
+</div>
+</div>
+</div>
+

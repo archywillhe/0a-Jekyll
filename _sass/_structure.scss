@@ -12,7 +12,19 @@ width: 50%;
 .col-sm-3{
   width: 25%;
 }
+.showIFFNotWideScreen{
+    display: none
+}
+.showIFFWideScreen{
+  display: block
+}
 @media (max-width: 767px){
+  .showIFFNotWideScreen{
+    display: block
+  }
+  .showIFFWideScreen{
+    display: none
+  }
   .col-sm-4,.col-sm-6{
     width:100%;
     float: none;
@@ -118,6 +130,9 @@ overflow-x: scroll; overflow-y: visible;
   code{
     font-size: 0.9em !important;
   }
+}
+.PTSerif{
+  font-family: 'PT Serif', Times, "New Times Roman", serif;
 }
 .lato{
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;

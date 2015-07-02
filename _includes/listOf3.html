@@ -1,9 +1,10 @@
 <div class="archylist"><h2><span>{{listFilterTitle}}</span></h2>
-  <div class="row">
+  <div class="row showIFFWideScreen">
     <div class="col-sm-4 archyitemdimension">
     {% assign number = -1 %}
     {% for post in posts%}
     {% unless post.title == page.title %}
+    <!-- this is for the read more session of a post; such that it doesnt show own link -->
       {%assign number = number | plus: 1 | modulo: 3 %}
       {% if number == 0 %}
       {% include listitem.html %}
@@ -15,6 +16,7 @@
     {% assign number = -1 %}
     {% for post in posts%}
     {% unless post.title == page.title %}
+    <!-- this is for the read more session of a post; such that it doesnt show own link -->
       {%assign number = number | plus: 1 | modulo: 3 %}
       {% if number == 1 %}
       {% include listitem.html %}
@@ -26,6 +28,7 @@
     {% assign number = -1 %}
     {% for post in posts%}
     {% unless post.title == page.title %}
+    <!-- this is for the read more session of a post; such that it doesnt show own link -->
       {%assign number = number | plus: 1 | modulo: 3 %}
       {% if number == 2 %}
       {% include listitem.html %}
@@ -33,5 +36,15 @@
     {% endunless %}
     {% endfor %}
     </div>
+</div>
+<div class="row showIFFNotWideScreen">
+{% for post in posts%}
+{% unless post.title == page.title %}
+<!-- this is for the read more session of a post; such that it doesnt show own link -->
+      <div class="col-sm-4 archyitemdimension">
+      {% include listitem.html %}
+    </div>
+{% endunless %}
+{% endfor %}
 </div>
 </div>

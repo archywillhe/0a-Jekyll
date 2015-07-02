@@ -1,38 +1,80 @@
 'use strict';
 
-var DOMs = {};
-var getDOM = function(DOMClassName){
-    if(DOMs[DOMClassName] === undefined){
-        DOMs[DOMClassName] = document.getElementsByClassName(DOMClassName)[0];
+function getDOM(){
+  var DOMs = {};
+  var events = {
+    latestPost: function(){
+      getDOM("NGVIEW").style.minHeight = getDOM("latestPost").offsetHeight + "px"
     }
-    return DOMs[DOMClassName];
-}
-var getPosts = function(jsonName,$scope,$http){
-    $http.get('api/'+jsonName+'.json').success(function(data) {
-      console.log(data.posts);
-        $scope.posts = data.posts;
-        $scope.logNumber = function(a){ return (a%3)+2 };
-    }).error(function(data, status, headers, config) {
-      console.log("err",status);
-    });
+  };
+  var getDOM = function(DOMClassName){
+      if(!DOMs.hasOwnProperty(DOMClassName)){
+          DOMs[DOMClassName] = document.getElementsByClassName(DOMClassName)[0];
+          if(events.hasOwnProperty(DOMClassName)){
+            //call events
+            events[DOMClassName]();
+          }
+      }
+      return DOMs[DOMClassName];
+  }
+  return getDOM;
 }
 
+function getPosts(){
+  var logNumbers = [2,3,2,1];
+  var getPosts = function(jsonName,$scope,$http){
+      $http.get('api/'+jsonName+'.json').success(function(data) {
+        //console.log(data.posts);
+          $scope.posts = data.posts;
+          $scope.logNumber = function(a){ return logNumbers[a%4] };
+      }).error(function(data, status, headers, config) {
+        console.log("err",status);
+      });
+  }
+  return getPosts;
+}
+
+function chooseViewChoice(){
+  var chosen = undefined;
+  var defaultClassName = "archyitem";
+  var makeChosen = function(DOMClassName){
+    chosen = { //default
+        DOM: getDOM( DOMClassName ),
+        className: DOMClassName
+      }
+  };
+  var chooseViewChoice = function(DOMClassName){
+    if(chosen === undefined)
+      makeChosen("showLatestLog"); //default
+    chosen.DOM.className = defaultClassName + " " + chosen.className;
+    makeChosen(DOMClassName);
+    chosen.DOM.className = defaultClassName + " chosen " + chosen.className;
+  }
+  return chooseViewChoice;
+}
+
+var getDOM = getDOM();
+var getPosts = getPosts();
+var chooseViewChoice = chooseViewChoice();
 
 function IndexCtrl($scope, $http) {
     getDOM("latestPost").style.display = "block";
     getDOM("NGVIEW").style.display = "none";
+    chooseViewChoice("showLatestLog");
 }
 
 function allDailyLogsCtrl ($scope, $http){
     getDOM("latestPost").style.display = "none";
     getDOM("NGVIEW").style.display = "block";
     getPosts("all-dailylogs",$scope, $http);
+    chooseViewChoice("showAllLogs");
 }
 
 function logsFromThePastCtrl ($scope, $http){
     getDOM("latestPost").style.display = "none";
     getDOM("NGVIEW").style.display = "block";
     getPosts("logs-from-the-past",$scope, $http);
+    chooseViewChoice("showLogsBefore");
 }
 
 
