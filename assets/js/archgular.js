@@ -9,7 +9,11 @@ var getDOM = function(DOMClassName){
 }
 var getPosts = function(jsonName,$scope,$http){
     $http.get('api/'+jsonName+'.json').success(function(data) {
+      console.log(data.posts);
         $scope.posts = data.posts;
+        $scope.logNumber = function(a){ return (a%3)+2 };
+    }).error(function(data, status, headers, config) {
+      console.log("err",status);
     });
 }
 
@@ -32,7 +36,7 @@ function logsFromThePastCtrl ($scope, $http){
 }
 
 
-var hl = angular.module('homeLog',['ngRoute']);
+var hl = angular.module('homeLog',['ngRoute','ngSanitize']);
 hl.config(['$routeProvider', '$locationProvider', function($routeProvider,$locationProvider) {
     $routeProvider.
       when('/latestLog', {

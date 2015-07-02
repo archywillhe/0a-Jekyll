@@ -14,6 +14,7 @@ footBlock: |
     <script type="text/javascript" src="/assets/js/aboutBtn.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-route.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular-sanitize.min.js"></script>
       <script type="text/javascript" src="/assets/js/archgular.js"></script>
 
 ---
@@ -45,6 +46,7 @@ footBlock: |
 </div>
 </div>
 </div>
+<div class="notHomePage">
 <div class="latestPost">
   {% assign posts_groups = site.posts | group_by:"postType" %}
   {% for posts_group in posts_groups %}
@@ -52,7 +54,7 @@ footBlock: |
   {% assign posts = posts_group.items %}
   {% assign includeFullLog = 1 %}
   {% for page in posts limit: 1 %}
-  <div class="log2 notHomePage">
+  <div class="log2">
   {% include log.html %}
   </div>
   {% endfor %}
@@ -61,6 +63,7 @@ footBlock: |
 </div>
 <div class="NGVIEW">
 <div ng-view></div>
+</div>
 </div>
 </div>
 </div>
