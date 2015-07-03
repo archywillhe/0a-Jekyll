@@ -904,6 +904,17 @@ footer {
 
 }
 
+.theHomePage{
+  .subtitleBottom{
+    position: static;
+    line-height: 70px;
+    p{
+      line-height: 24px;
+    }
+    margin-bottom: 45px;
+  }
+}
+
 $ab: (#727272,#434343,#111);
 $a: (#6f6f6f,#434343,#000);
 $bg: (#f4f4f4, #ededed, #e5e5e5);
