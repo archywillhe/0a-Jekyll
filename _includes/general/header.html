@@ -8,7 +8,7 @@
           <img src="/assets/img/arrow.png">
         </div>
         <div class="current_region inline hideInMobile">
-          <a href={% if page.subspace == "Days<br>of Yore" %} /0.0ar.ch/ {%else%}{% unless page.postType == "dailylog" or page.permalink == "/dailylogs/"  %}"/"{% else %}"/dailylogs/"{% endunless %}{% endif %}><span>{{page.subspace}}</span></a>
+          <a href= "{% if page.subspacePath %} {{page.subspacePath}} {%else%} {% endif %}"><span>{{page.subspace}}</span></a>
 
         </div>
         {% endif %}

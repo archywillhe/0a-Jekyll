@@ -833,6 +833,11 @@ footer {
   .displayChoiceWrapper{
     height: 200px;
   }
+  @media (max-width: 991px) {
+    .displayChoiceWrapper{
+      height: 150px;
+    }
+  }
   .displayChoice{
     /*overwrite */
     top:0 !important;
@@ -865,6 +870,23 @@ footer {
         img{
           margin-top:-30px
         }
+    }
+    @media (max-width: 767px){
+        .showLatestLog{
+        img{
+          margin-top:-4px
+        }
+    }
+    .showAllLogs{
+        img{
+          margin-top:-62px
+        }
+    }
+    .showLogsBefore{
+        img{
+          margin-top:-150px
+        }
+    }
     }
     .chosen .displayChoiceInner{
       color:#52FFBF

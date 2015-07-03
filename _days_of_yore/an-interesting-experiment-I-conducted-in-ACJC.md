@@ -10,6 +10,7 @@ img: "/assets/past/images/02.jpg"
 subspace: "Days<br>of Yore"
 extraClasses: ["yore"]
 subtitle: "He's not aware that it was an experiment."
+subspacePath: "/0.0ar.ch/"
 ---
 
 I took my SAT2 maths and physics tests a couple of days ago, after just 4 days of preparation. I didn't really plan to maximize the chance of myself getting prefect scores as I believe overdoing revision is a horrendous waste of time, especially when <a href="http://0.0ar.ch/article/i-have-to-be-more-productive">there are many more important things</a> I have to work on, and they are a lot more interesting than just repeatedly stimulating the retrieval process of different sets of already-encoded data to enhance the performance of their corresponding search algorithms in my brain. And I can't predict the future, and therefore I can't say for sure that I will get 800 for both subjects. But it is highly unlikely that I won't do well. The pre-university syllabi of mathematics and physics are rather elementary. (Topology is not even in the A-level H3 maths syllabus. And SAT maths L2 doesn't even have calculus.)

@@ -4,32 +4,30 @@ function getDOM(){
   var DOMs = {};
   var events = {
     latestPost: function(){
-      getDOM("NGVIEW").style.minHeight = getDOM("latestPost").offsetHeight + "px"
+      getDOM("NGVIEW").style.minHeight = window.innerHeight + "px"
     }
   };
   var getDOM = function(DOMClassName){
-      if(!DOMs.hasOwnProperty(DOMClassName)){
-          DOMs[DOMClassName] = document.getElementsByClassName(DOMClassName)[0];
-          if(events.hasOwnProperty(DOMClassName)){
-            //call events
-            events[DOMClassName]();
-          }
+  if(!DOMs.hasOwnProperty(DOMClassName)){
+      DOMs[DOMClassName] = document.getElementsByClassName(DOMClassName)[0];
+      if(events.hasOwnProperty(DOMClassName)){
+        //call events
+        events[DOMClassName]();
       }
-      return DOMs[DOMClassName];
+  }
+  return DOMs[DOMClassName];
   }
   return getDOM;
 }
 
 function getPosts(){
-  var logNumbers = [2,3,2,1];
-  var getPosts = function(jsonName,$scope,$http){
-      $http.get('api/'+jsonName+'.json').success(function(data) {
-        //console.log(data.posts);
-          $scope.posts = data.posts;
-          $scope.logNumber = function(a){ return logNumbers[a%4] };
-      }).error(function(data, status, headers, config) {
-        console.log("err",status);
-      });
+  var getPosts = function(jsonName,$scope,$http,callback){
+    $http.get('api/'+jsonName+'.json').success(function(data) {
+      $scope.posts = data.posts;
+      callback();
+    }).error(function(data, status, headers, config) {
+      console.log("err",status);
+    });
   }
   return getPosts;
 }
@@ -56,27 +54,55 @@ function chooseViewChoice(){
 var getDOM = getDOM();
 var getPosts = getPosts();
 var chooseViewChoice = chooseViewChoice();
+var globalScope;
+
+function MainCtrl($scope){
+  globalScope = $scope;
+  //default text
+  globalScope.showingTitle = "Daily Logs of Arch's: Lastest Log";
+}
 
 function IndexCtrl($scope, $http) {
-    getDOM("latestPost").style.display = "block";
-    getDOM("NGVIEW").style.display = "none";
-    chooseViewChoice("showLatestLog");
+  globalScope.showingTitle = "Daily Logs of Arch's: Lastest Log";
+  getDOM("latestPost").style.display = "block";
+  getDOM("NGVIEW").style.display = "none";
+  chooseViewChoice("showLatestLog");
 }
 
 function allDailyLogsCtrl ($scope, $http){
-    getDOM("latestPost").style.display = "none";
-    getDOM("NGVIEW").style.display = "block";
-    getPosts("all-dailylogs",$scope, $http);
-    chooseViewChoice("showAllLogs");
+  globalScope.showingTitle = "Daily Logs of Arch's: All Logs";
+  getDOM("latestPost").style.display = "none";
+  getDOM("NGVIEW").style.display = "block";
+  chooseViewChoice("showAllLogs");
+
+  var logNumbers = [2,3,2,1];
+  getPosts("all-dailylogs",$scope, $http,function(){
+    $scope.logNumber = function(a){ 
+      return logNumbers[a%4] 
+    };
+  });
 }
 
 function logsFromThePastCtrl ($scope, $http){
-    getDOM("latestPost").style.display = "none";
-    getDOM("NGVIEW").style.display = "block";
-    getPosts("logs-from-the-past",$scope, $http);
-    chooseViewChoice("showLogsBefore");
-}
+  globalScope.showingTitle = "Arch's Logs From the Past";
+  getDOM("latestPost").style.display = "none";
+  getDOM("NGVIEW").style.display = "block";
+  chooseViewChoice("showLogsBefore");
 
+  var postsCol = [[],[],[]];
+  getPosts("logs-from-the-past",$scope, $http,function(){
+    var index = 0;
+    $scope.posts.forEach(function(a){
+      postsCol[index].push(a);
+      index++; if(index>2) index = 0;
+    });
+    $scope.postsCol = postsCol;
+  });
+  $scope.wideScreen = function(){
+    return (window.innerWidth > 767)
+  }
+
+}
 
 var hl = angular.module('homeLog',['ngRoute','ngSanitize']);
 hl.config(['$routeProvider', '$locationProvider', function($routeProvider,$locationProvider) {

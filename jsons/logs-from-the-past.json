@@ -12,7 +12,7 @@ permalink: /api/logs-from-the-past.json
             "title": {{post.title | jsonify}},
             "img": {% if post.coverImg == 0 %} {{post.img | jsonify}} {% else %}{{post.coverImg | prepend: site.imageurl | jsonify}} {% endif %},
             "day":  {{ post.date | date: "%d" | jsonify}},
-            "monthyear":  {{ post.date | date: "%b %Y" | jsonify}},
+            "monthYear":  {{ post.date | date: "%b %Y" | jsonify}},
             "date":  {{ post.date | date: "%b %-d, %Y" | jsonify}},
             "url": {{ post.url | jsonify }}
         }{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}{% endfor %}

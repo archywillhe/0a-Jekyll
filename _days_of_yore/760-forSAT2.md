@@ -9,6 +9,7 @@ coverImg: 0
 img: "/assets/past/images/05.jpg"
 subspace: "Days<br>of Yore"
 extraClasses: ["yore"]
+subspacePath: "/0.0ar.ch/"
 ---
 
 I will be lying if I say that I was not enraptured upon discovering I scored 760 in both the physics and math level 2 SAT Subject Tests after just 4 days of revision. But I was ravished not because of the high scores. Had I slept the night before, I would have been less careless during the tests and gotten my perfect scores. Back then I was still having the <a href="http://en.wikipedia.org/wiki/Circadian_rhythm">circadian rhythm</a> of a white collar in England - a state of disorder I gently settled into after leaving school - in spite of being in the GMT+8 time zone. I went to bed extremely early that day at 2am but, being accustomed to entering <a href="http://en.wikipedia.org/wiki/Non-rapid_eye_movement_sleep">NREM stage 1</a> at 8am, I could not put myself to slumber. I was ravished because what I had done exemplified that interest is the most efficient thing that drives a person to excel - the master key to unlock the door to a revolutionized education system - and I can now write an article about it.

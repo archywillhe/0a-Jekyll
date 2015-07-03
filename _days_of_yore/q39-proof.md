@@ -9,6 +9,7 @@ coverImg: 0
 img: "/assets/past/images/04.jpg"
 subspace: "Days<br>of Yore"
 extraClasses: ["yore"]
+subspacePath: "/0.0ar.ch/"
 footBlock: | 
       <link href='/assets/past/jqmath-0.4.0.css' rel='stylesheet' type='text/css'>
 ---

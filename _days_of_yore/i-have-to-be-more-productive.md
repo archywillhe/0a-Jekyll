@@ -9,6 +9,7 @@ coverImg: 0
 img: "/assets/past/images/01.jpg"
 subspace: "Days<br>of Yore"
 extraClasses: ["yore"]
+subspacePath: "/0.0ar.ch/"
 ---
 
 There was a fluctuation in the number of platelets in my blood a couple of weeks ago. It was due to the dengue virus <a href="http://english.stackexchange.com/q/140399/38108">who</a> infected my stromal cells and impaired my bone marrow. The fluctuation ended by going straight to 298 x 10&sup3; per mm&sup3;, which is a good indication that I don't have AIDS or the virus is simply staying dormant as my immune system has once again won the war. (Good one, <a href="http://en.wikipedia.org/wiki/CD4">CD4</a> in my <a href="http://en.wikipedia.org/wiki/T_helper_cell">T helper cells</a>!) And now I've earned myself a lifelong immunity to one of the five serotypes of dengue virus. <a href="http://en.wikipedia.org/wiki/Dengue_virus">Four more to go</a>. But thanks to it I've had to postpone my SATs that were supposed to take place when I was having my dengue fever. And it was really a shame that I spent 1 week lying on the bed, doing basically nothing, and, after recovery, another 3.5 weeks pondering the meaning of life while living my life the way a normal teenager would, probably due to the fact that I've secretly promised myself a vacation after I have recovered. 
