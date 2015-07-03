@@ -2,7 +2,7 @@
 {% assign displayExtract = 0 %}
 {% endif %}
 <div class="archypost  {% if page.font %} {{page.font}} {% else %} lato {%endif%}" itemprop="datePublished">
-<div class="archycontent">{% if displayExtract == 1 %}{{page.extract | markdownify}} {% else %} <div class="articleBody" itemprop="articleBody">{{page.content | markdownify}}</div> {% endif %}</div>
+<div class="archycontent">{% if displayExtract == 1 %}{{page.extract | markdownify}} {% else %} <div class="articleBody" itemprop="articleBody">{% if isHomePage %} {{page.content | markdownify }} {% else %} {{content}} {% endif %}</div> {% endif %}</div>
 {% if displayExtract == 1%}
 {% unless page.noreadmore == 1%}
 <div class="readmore"> <a href="{{page.url}}">Read more</a></div>
