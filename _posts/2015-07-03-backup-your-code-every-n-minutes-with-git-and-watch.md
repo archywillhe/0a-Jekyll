@@ -62,7 +62,7 @@ extract: |
 
     It is a nightmare. (Imagine happily committing your code only to learn all that you've written & tested no longer exist in the current dimensions in space-time.)
 
-    I still don't have a clue what's causing this bug. But it has happened quite a few times and I have had my losses. Until I figure out what's causing the strange phenomenon and get it fixed, I need to start taking precaution. 
+    I still don't have a clue what is the cause. But it has happened quite a few times and I have had my losses. Until I figure out what's causing the strange phenomenon and get it fixed, I need to start taking precaution. 
 
     Here is a simple system that uses [`watch`](http://linux.die.net/man/1/watch) with the help of `git` to make backup of every single file in a directory every 90 seconds:
 
@@ -175,7 +175,8 @@ or do it in [a GUI Client](https://mac.github.com/). (They would show up in the 
 
 <p class="text-center"><img src="/assets/img/timeMachine.jpg" alt="such time much machine"></p>
 
-The more you code the bigger the backup directory would get (as long as you remember to `watch -n 90 'bash script.sh'` everytime before you start coding). If at some point in time you want to clean everything up, simply remove everything (including the `.git`) and `git init` again.
+The backup directory is going to take more and more disk space as time passes (as long as you remember to `watch -n 90 'bash script.sh'` before you start to code each time). When you want to clean everything up, simply remove everything (including the `.git` folder) and do a `git init` again.
+
 {% highlight bash %}
 cd /Users/a/_/timeMachine   #replace it with your backup repo
 rm -rf *        #this can be deadly if used unwisely

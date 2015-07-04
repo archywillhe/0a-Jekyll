@@ -10,7 +10,7 @@
 <div class="archysub">{{subtitle}}</div>
 {% endunless %}
 <h1><span>
-{% if displayExtract %}
+{% if displayExtract or isHomePage == 1 %}
 <a class="linkToLog" href="{{page.url}}" itemprop="name">
 {% endif %}
 {{ page.title }}
@@ -39,6 +39,8 @@
 <a href="{{twitter}}"  onclick="window.open('{{twitter}}', 'newwindow', 'width=400, height=350'); return false;"><i class="fa fa-twitter fa-lg smaller"></i></a>
 </span></p>
 </div>
+{% if page.postType == "dailylog" %}
 {% include logBody.html %}
+{% endif %}
 </div>
 </div>
