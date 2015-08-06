@@ -2,14 +2,16 @@
 layout: lists
 font: garamond
 metaDescription: |
-    0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a; Hi, Arch Wilhes here. I explain things. 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a;
+    Arch Wilhes here. 0a 0a 0a; 0a 0a - 0a 0a 0a; 0a 0a - 0a -- 0a 0a - 0a 0a 0a 0a; 0a 0a - 0a 0a 0a - 0a 0a 0a 0a 0a 0a - 0a 0a; /0a-0--00-0a-00a-0aaa-0aa-00a-0a/; /?/;
+# Drop me an email if you solve this:) I've got some cool prizes for the first 6 people who solve it.
+# The current number of people who has solved it: 0 
 postType:
   -
     name: "article"
     title: "The '0a Explains' Series"
   -
-    name: "interesting"
-    title: "Intersting people or things I came across (in my ephemeral existence)"
+    name : "minute"
+    title: "The 'A in x Minutes' Series"
 footBlock: |
     <script type="text/javascript" src="/assets/js/aboutBtn.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
@@ -33,10 +35,10 @@ extraClasses: ["theHomePage"]
         <img src="{% cycle "/assets/img/franklin-s-footpath-1972.jpg", "/assets/img/dutch_landscape.jpg","/assets/img/still-life-with-grape-juice-and-sandwiches-xenia-1994.jpg" %}">
           <div class="vcenter displayChoice">
             <div class="vcenter displayChoiceInner">
-              <span class="big  {% cycle "", "", "twoline" %}">
-                  {% cycle "Latest Log", "All Daily Logs", "Logs before<br>" %}
+              <span class="big  {% cycle "", "twoline", "twoline" %}">
+                  {% cycle "Latest Log", "Logs after<br>", "Logs before<br>" %}
               </span>
-              {% cycle "", "", "The Game That Matters" %}
+              {% cycle "", "The Game That Matters", "The Game That Matters" %}
             </div>
           </div>
         </a>
@@ -57,6 +59,9 @@ extraClasses: ["theHomePage"]
   {% for page in posts limit: 1 %}
   <div class="log2">
   {% assign isHomePage = 1 %}
+  {% if page.maths == 1 %}
+  {%include mathsRendering.html %}
+  {% endif %}
   {% include log.html %}
   </div>
   {% endfor %}
@@ -69,3 +74,19 @@ extraClasses: ["theHomePage"]
 </div>
 </div>
 </div>
+
+{% assign words = site.word_of_the_day %}
+{% for word in words limit: 1 %}
+<div class="top_right_absolute">
+<div>Word of The Day</div>
+<div class="wordWordWord"><a target="_blank" href="{{word.link}}">{{word.word}}</a></div>
+</div>
+{% endfor %}
+
+{% assign articles = site.article_of_the_week %}
+{% for article in articles limit: 1 %}
+<div class="top_right_absolute2">
+<div>Article of The Week</div>
+<div class="wordWordWord"><a target="_blank" href="{{article.link}}">{{article.title}}</a></div>
+</div>
+{% endfor %}

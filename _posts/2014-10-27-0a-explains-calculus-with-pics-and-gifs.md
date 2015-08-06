@@ -2,7 +2,7 @@
 layout: article
 postType: article
 title: "0a explains: Calculus (with pics and gifs)"
-permalink: calculus
+permalink: calculus-explained
 metaTitle:
 metaDescription: |
     Calculus explained with images and animations. For anyone who is new to limit, differentiation and integration. 

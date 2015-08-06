@@ -1,9 +1,18 @@
 <head>
+  {% capture site_title %}{% if page.metaTitle %}{{ page.metaTitle }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}{% endcapture %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.metaTitle %}{{ page.metaTitle }}{% else %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endif %}</title>
+  <title>{{site_title}}</title>
+  <meta property="og:url"                content="{{page.url | prepend: site.url}}" />
+  {% if page.isHomePage != 1 %}
+  <meta property="og:type"               content="article" />
+  {% endif %}
+  <meta property="og:title"              content="{{site_title}}" />
+  <meta property="og:description"        content="{{ page.metaDescription | strip_newlines}}" />
+  <meta property="og:image"              content="{{page.coverImg | prepend: site.imageurl | prepends: site.url}}" />
+  <meta name="keywords" content="0a, Arch Wilhes, explains">
   <meta name="description" content="{{ page.metaDescription | strip_newlines}}">
   {% if page.font %}
   {% case page.font %}

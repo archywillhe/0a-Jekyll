@@ -1,14 +1,17 @@
 ---
-layout: dailylog
-postType: dailylog
+layout: minute
+postType: minute
 title: "Jekyll in 3 minutes - a quick tour for those who plan to make a customized Github Page"
 permalink: Jekyll-in-3min-for-your-GitHub-page
 metaTitle:
 metaDescription: |
     This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll.
 updateAt:
+coverImg: "capri-battery.jpg"
+subtitleBottom: |
+    Artwork is <a href="http://www.wikiart.org/en/joseph-beuys/capri-battery-1985-1">Capri Battery</a> by <a href="https://en.wikipedia.org/wiki/Joseph_Beuys">Joseph Beuys</a>, 1985.
 extract: |
-    ###1st minute: General Overview (267 words)
+    ###1st minute: General Overview <small class="wordCount">267&nbsp;words</small>
 
     [Jekyll](https://github.com/Jekyll/Jekyll) is a tool to build static website that exists as merely a directory of files. That said, you can only use it to create websites that don’t have run-time logic in the backend. (such as [a simple content-based website or a blog](http://0a.io/)) In other words, it is a web-pages generator.
 
@@ -22,7 +25,7 @@ extract: |
 
     <p class="text-center"> ● ● ● </p>
 
-    ###2nd minute: What you need to know when working with Jekyll (314 words)
+    ###2nd minute: What you need to know when working with Jekyll <small class="wordCount">314&nbsp;words</small>
 
     Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https://cucumber.io)). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
 ---
@@ -30,7 +33,7 @@ extract: |
 <div class="row d_shortcuts">This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll. To learn more about Jekyll, check the <a href="http://jekyllrb.com/docs/home/">doc</a> & <a href="https://github.com/jekyll/jekyll">source</a> out.</div>
 
 
-###1st minute: General Overview (267 words)
+###1st minute: General Overview <small class="wordCount">267&nbsp;words</small>
 
 [Jekyll](https://github.com/Jekyll/Jekyll) is a tool to build static website that exists as merely a directory of files. That said, you can only use it to create websites that don’t have run-time logic in the backend. (such as [a simple content-based website or a blog](http://0a.io/)) In other words, it is a web-pages generator.
 
@@ -44,11 +47,9 @@ To sum up, GitHub Pages&trade; does not execute server-side code. It helps you g
 
 <p class="text-center"> ● ● ● </p>
 
-###2nd minute: What you need to know when working with Jekyll (314 words)
+###2nd minute: What you need to know when working with Jekyll <small class="wordCount">314&nbsp;words</small>
 
-Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https://cucumber.io)). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.
-
-Jekyll puts all the pieces (of html, [md](http://daringfireball.net/projects/markdown/), [textile](http://en.wikipedia.org/wiki/Textile_(markup_language))) you give it together, and that's all. The way Jekyll works relies mainly on [Liquid (a templating language)](http://Liquidmarkup.org) and [YAML Front Matter Block, or <i>Front Matter</i>](http://Jekyllrb.com/docs/frontmatter/) for short. 
+Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https://cucumber.io)). Since all it does is generate static website, there is no [Rails](http://rubyonrails.org) in it.Jekyll puts all the pieces (of html, [md](http://daringfireball.net/projects/markdown/), [textile](http://en.wikipedia.org/wiki/Textile_(markup_language))) you give it together, and that's all. The way Jekyll works relies mainly on [Liquid (a templating language)](http://Liquidmarkup.org) and [YAML Front Matter Block, or <i>Front Matter</i>](http://Jekyllrb.com/docs/frontmatter/) for short. 
 
 <i>Front Matter</i> is the starting session of each file where you put down meta-information in [YAML format](http://yaml.org).  
 
@@ -112,7 +113,7 @@ Lastly, I would like to introduce 2 very special types of files: [*Post* file](h
 
 <p class="text-center"> ● ● ● </p>
 
-###3rd minute: on the Liquid templating language (336 words)
+###3rd minute: on the Liquid templating language <small class="wordCount">336&nbsp;words</small>
 
 Liquid is a Templating languages [ written in Ruby](https://github.com/Shopify/Liquid) and can be [easily extended by exporting methods from your modules to the list of "filters"](https://github.com/Shopify/Liquid/wiki/Liquid-for-Programmers). If you would like to stick to the Jekyll that is supported by GitHub Pages&trade;, you can't extend Liquid ([or Jekyll](http://jekyllrb.com/docs/plugins/)) by yourself . That is to say, there would be some limitation on the Liquid that you are working with, data-manipulation-wise. This is why if the website you want to build consists of a lot of data-manipulating, you are advices to use frameworks like [Angular](https://angularjs.org) to have a better architecture (e.g. [MVC](http://stackoverflow.com/tags/model-view-controller/info)) and it would make your life easier too.
 
@@ -178,7 +179,7 @@ Aside from the default [Liquid Filters](https://github.com/Shopify/Liquid/wiki/L
 
 <p class="text-center"> ● ● ● </p>
 
-###End Note (298 words)
+###End Note <small class="wordCount">500-600&nbsp;words</small>
 
 Hope it didn't take you longer than 3 minutes to read through this article! If you still have a bit more time to spare, here are a few tips you may find useful:
 
@@ -235,7 +236,19 @@ Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to 
 </p>
 </li>
 <li>
-<p><small>This is added on 19th June</small> If you are working with custom url for Collection files, remember to always end the permalink with `/` (e.g. `myCat/` instead of `myCat`) [or the file would be served raw](https://github.com/jekyll/jekyll/issues/3800).
+<p><small>This is added on 19th June</small> If you are working with custom url for Collection files, remember to always end the permalink with <code>/</code> (e.g. <code>myCat/</code> instead of <code>myCat</code>) <a href="https://github.com/jekyll/jekyll/issues/3800">or the file would be served raw</a>.
+</p>
+</li>
+<li>
+<p><small>This is added on 7th July</small> When working with angular in your Jekyll site, remember that liquid and Angular both uses the <code>{% raw %}{{}}{% endraw %}</code> syntax for templating and any <code>{% raw %}{{}}{% endraw %}</code> in your .html will be evaluated before it is servered. So you'd need to do it like this
+{% highlight Django %}
+<div>
+{% raw %}{% raw %}
+{{ angular.stuff }}
+{% endraw %}{{ "{%" }} endraw %}
+</div>
+{% endhighlight %}
+in order for <code>{% raw %}{{}}{% endraw %}</code> to show up when the broswer downloads the html. Also, consider using <code>ng-bind</code> instead of <code>{% raw %}{{}}{% endraw %}</code>. <a href="https://docs.angularjs.org/api/ng/directive/ngBind">It's a lot neater this way.</a> (If necessary, <code>ng-bind-html</code>).
 </p>
 </li>
 <li>
@@ -247,3 +260,5 @@ Having a <a href="https://github.com/ruby/rake)">Rake</a> file is a good way to 
 > If you are interested in server architecture, you can learn about the new infrastructure used by GitHub Pages&trade; in production (since Jan 2015) [here](http://githubengineering.com/rearchitecting-github-pages/).
 >
 >Despite advocating for Jekyll 3.0 & Angular, I built this site of mine using Jekyll 2.4, without any JS framework or heavy library (jQuery is used only by 2 articles because they rely on a small jQuery widget I wrote some time ago). I just want to keep things lightweight & simple (although I do have some really messy code in my templating files as a consequence of a pointless challenge I gave myself to hack around under the limitation imposed by the GitHub Pages&trade; Jekyll). So I'm considering using Angular.
+>
+> Update (early July): a part of the [home page](http://0a.io/) now uses angular.

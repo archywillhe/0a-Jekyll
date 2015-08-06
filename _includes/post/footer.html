@@ -1,0 +1,16 @@
+<div class="articleFooter">
+<div class="kudobox">
+<div class="kudos" data-url="{{page.url | prepend: site.identity}}"></div>
+</div>
+<div class="showDisqus">
+<a>Show Comments</a>
+</div>
+{% if page.hnlink %}
+<div class="discussion">
+View discussions on <a href="{{page.hnlink}}">Hacker News</a> & <a href="{{page.reddit}}">Reddit</a>.
+</div>
+{% endif %}
+</div>
+<div id="disqus_thread">
+    
+</div>

@@ -12,8 +12,10 @@
                                         TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
                                         messageStyle: "none"
                 });
-     if($(window).width()>920){
-    MathJax.Hub.Queue(window.chapterMenu);
+    if($(window).width()>920){
+    MathJax.Hub.Queue(function(){
+        window.chapterMenu();
+    });
     }else{
     MathJax.Hub.Queue(function(){
        $(".loading_maths").fadeOut(300);

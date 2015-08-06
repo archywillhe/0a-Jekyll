@@ -19,4 +19,8 @@ collections:
   days_of_yore:
     output: true
     permalink: /article/:path/
+  word_of_the_day:
+    output: false
+  article_of_the_week:
+    output: false
 encoding: utf-8

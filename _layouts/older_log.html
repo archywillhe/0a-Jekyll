@@ -1,29 +1,6 @@
 ---
 layout: default
 subspace: "Logs From<br>the Past"
-subspacePath: "logs-from-the-past/"
+subspacePath: "/logs-from-the-past/"
 ---
-<article itemscope itemtype="http://schema.org/Article">
-{%include post/title.html %}
-<div class="container">
-<div class="archypost wordsToRead {% if page.font %} {{page.font}} {% else %} lato {%endif%}">
-<div class="archycoverpic showInMobile">
-        <img src="{% if page.coverImg == 0 %} {{page.img}} {%else%} {{page.coverImg | prepend: site.imageurl }} {% endif %}" alt="">
-      </div>
-<div class="archycontent articleBody" itemprop="articleBody">{{content}}</div>
-<div class="kudobox">
-<div class="kudos" data-url="{{page.url | prepend: site.identity}}"></div>
-</div>
-</div>
-</div>
-{%include post/subtitleBottom.html %}
-</article>
-<script src="/assets/js/kudosplease.js">
-</script>
-<script src="/assets/js/article.js">
-</script>
-{% if page.js%}
-{% for js in page.js %}
-<link rel="stylesheet" href="/assets/js/{{ js }}">
-{% endfor %}
-{% endif %}
+{% include article.html%}

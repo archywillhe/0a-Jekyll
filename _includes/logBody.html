@@ -1,7 +1,7 @@
 {% if includeFullLog == 1 %}
 {% assign displayExtract = 0 %}
 {% endif %}
-<div class="archypost  {% if page.font %} {{page.font}} {% else %} lato {%endif%}" itemprop="datePublished">
+<div class="archypost  {% if page.font %} {{page.font}} {% else %} lato {%endif%}">
 <div class="archycontent">{% if displayExtract == 1 %}{{page.extract | markdownify}} {% else %} <div class="articleBody" itemprop="articleBody">{% if isHomePage %} {{page.content | markdownify }} {% else %} {{content}} {% endif %}</div> {% endif %}</div>
 {% if displayExtract == 1%}
 {% unless page.noreadmore == 1%}
@@ -10,9 +10,7 @@
 <br>
 {% endunless %}
 {% else %}
-<div class="kudobox">
-<div class="kudos" data-url="{{page.url | prepend: site.identity}}"></div>
-</div>
+{% include post/footer.html %}
 {% endif %}
 </div>
 <script src="/assets/js/kudosplease.js">

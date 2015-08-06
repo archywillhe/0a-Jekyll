@@ -1,0 +1,23 @@
+<article itemscope itemtype="http://schema.org/Article">
+{%include post/title.html %}
+<div class="container" id="articleContainer">
+<div class="archypost wordsToRead {% if page.font %} {{page.font}} {% else %} lato {%endif%}">
+<div class="archycoverpic showInMobile">
+        <img src="{% if page.coverImg == 0 %} {{page.img}} {%else%} {{page.coverImg | prepend: site.imageurl }} {% endif %}" alt="">
+      </div>
+<div class="archycontent articleBody" itemprop="articleBody">{{content}}</div>
+{%include post/footer.html %}
+</div>
+</div>
+{%include post/subtitleBottom.html %}
+</article>
+<script src="/assets/js/kudosplease.js">
+</script>
+<script src="/assets/js/article.js">
+</script>
+{% if page.js%}
+{% for js in page.js %}
+<script src="/assets/js/{{ js }}">
+</script>
+{% endfor %}
+{% endif %}

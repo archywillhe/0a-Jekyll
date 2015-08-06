@@ -59,18 +59,18 @@ var globalScope;
 function MainCtrl($scope){
   globalScope = $scope;
   //default text
-  globalScope.showingTitle = "Daily Logs of Arch's: Lastest Log";
+  globalScope.showingTitle = "Logs of Arch's: Lastest Log";
 }
 
 function IndexCtrl($scope, $http) {
-  globalScope.showingTitle = "Daily Logs of Arch's: Lastest Log";
+  globalScope.showingTitle = "Logs of Arch's: Lastest Log";
   getDOM("latestPost").style.display = "block";
   getDOM("NGVIEW").style.display = "none";
   chooseViewChoice("showLatestLog");
 }
 
 function allDailyLogsCtrl ($scope, $http){
-  globalScope.showingTitle = "Daily Logs of Arch's: All Logs";
+  globalScope.showingTitle = "Logs of Arch's: Logs after The Game That Matters";
   getDOM("latestPost").style.display = "none";
   getDOM("NGVIEW").style.display = "block";
   chooseViewChoice("showAllLogs");

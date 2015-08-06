@@ -371,8 +371,7 @@ We can't just "squeeze" $$U$$ into $$A$$ before $$U$$ is defined. So $$A$$ can't
 
 <p class="text-center"> ● ● ● </p>
 
-	
-><p class="text-center"><b>Author's Note</b></p>
+><p class="text-center _index"><b>Author's Note</b></p>
 >
 > This marks the end of our journey into the world of axiomatic systems on set theory (which are often referred to as "axiomatic set theories", since each of them builds up a slightly different theory of set).
 >
@@ -614,7 +613,7 @@ Infinite sets with a bigger cardinal number than $$\mathbb{N}$$ are "uncountable
 > 
 > In this sense, $$A$$ is "uncountable". There exists no bijective function from $$\mathbb{N}$$ to $$A$$.
 
-<h3 class="_index">On power sets</h3>
+<h3 class="_index" id="power_sets">On power sets</h3>
 A power set of a set is the set of all its subsets. (Denote with $$\mathcal{P}(X)$$)
 
 $$A = \{a,b,c\} \\ \mathcal{P}(A) = \{a,b,c,\{a,b\},\{b,c\},\{a,c\},\{a,b,c\}\} $$

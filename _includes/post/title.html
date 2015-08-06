@@ -11,7 +11,7 @@
 {% endunless %}
 <h1><span>
 {% if displayExtract or isHomePage == 1 %}
-<a class="linkToLog" href="{{page.url}}" itemprop="name">
+<a target="_self" class="linkToLog" href="{{page.url}}" itemprop="name">
 {% endif %}
 {{ page.title }}
 {% if displayExtract %}

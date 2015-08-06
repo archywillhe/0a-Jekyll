@@ -23,4 +23,4 @@ permalink: /api/all-dailylogs.json
         }{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}{% endfor %}
 ] }
 {% endcapture %}
-{{json }}
+{{json}}
