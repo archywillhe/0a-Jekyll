@@ -14,6 +14,7 @@ code: 1
 script: []
 coverImg: "img2.jpg"
 subtitle:
+reddit: https://www.reddit.com/r/javascript/comments/2i3zj4/javascript_closure_and_design_patterns_for_those/
 subtitleBottom: "Painting is Church Street El by <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Charles_Sheeler\">Charles Sheeler</a>, 1920."
 footBlock: |
 ---

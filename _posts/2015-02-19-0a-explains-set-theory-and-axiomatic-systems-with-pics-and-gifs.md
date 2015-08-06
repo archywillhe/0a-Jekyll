@@ -15,6 +15,8 @@ published: 1
 extraClasses: ["border-lined"]
 maths: 1
 code: 1
+hnlink: https://news.ycombinator.com/item?id=9074412
+reddit: https://www.reddit.com/r/math/comments/2wfom3/set_theory_and_axiomatic_systems_explained_with/
 coverImg: "the-bride-after-duchamp-1934.jpg"
 subtitle: "dedicated to the curious minds"
 subtitleBottom: |

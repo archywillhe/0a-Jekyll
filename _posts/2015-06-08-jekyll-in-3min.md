@@ -8,6 +8,7 @@ metaDescription: |
     This post aims to provide a quick sum-up for anyone who is unfamiliar with Jekyll.
 updateAt:
 coverImg: "capri-battery.jpg"
+reddit: https://www.reddit.com/r/Jekyll/comments/394u0r/jekyll_in_3_minutes_a_quick_tour_for_those_who/
 subtitleBottom: |
     Artwork is <a href="http://www.wikiart.org/en/joseph-beuys/capri-battery-1985-1">Capri Battery</a> by <a href="https://en.wikipedia.org/wiki/Joseph_Beuys">Joseph Beuys</a>, 1985.
 extract: |
