@@ -54,7 +54,7 @@ script: |
 Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</small>
 
 <div id="introduction">
-<h3 id="small0th-minutesmall-introduction-small-classwordcount386nbspwordssmall"><small>0th minute</small>: Introduction <small class="wordCount">386&nbsp;words</small></h3>
+<h3 id="small0th-minutesmall-introduction-small-classwordcount386nbspwordssmall"><small>0th minute</small>: Introduction <small class="wordCount">382&nbsp;words</small></h3>
 
 <p>In CS, when we talk about a <strong>problem</strong>, we are referring to a set of questions, where each question is an instance of the problem. “Is 7 a prime number?” and “Is 2513414231 a prime number?” are both instances of a problem that can be expressed as: “Is n a prime number?”</p>
 
@@ -200,7 +200,7 @@ It is, however, unsatisfible if we define $\mathbb{Z}$, the set of integers, to 
 
 <p class="text-center"> ● ● ● </p>
 
-###Extra <small class="wordCount">(skip this if you want) 206&nbsp;words</small>
+###Extra <small class="wordCount">(skip this if you want) 213&nbsp;words</small>
 
 When a satisfiable statement always yields `True` no matter what the value the variables take (every set of true-false assignments to the variables is a solution), we call it a **tautology**. Here is one:
 
@@ -231,7 +231,7 @@ From the 2nd minute on we'd be
 
 2. using **S<small>AT</small>** as the abbreviation for the Boolean Satisfiability Problem
 
-###<small>2nd minute:</small> Classfying S<small>AT</small> <small class="wordCount">356&nbsp;words</small>
+###<small>2nd minute:</small> Classfying S<small>AT</small> <small class="wordCount">354&nbsp;words</small>
 
 We can classify instances of S<small>AT</small> based on what form the formulas are in. 
 
@@ -309,7 +309,7 @@ This pretty much sums up generally how instances of S<small>AT</small> are class
 Perhaps you've also heard of problems with names like [MAXS<small>AT</small>](https://en.wikipedia.org/wiki/MAX-3SAT) and [#S<small>AT</small>](https://en.wikipedia.org/wiki/Sharp-SAT). Instances of these problems are not really instances of S<small>AT</small>; it'd be more accurate to say that they are variations of S<small>AT</small>. MAXS<small>AT</small> is the problem of finding a boolean assigmenet satisfying most clauses in a CNF formula, and #S<small>AT</small> is the problem of counting the number of satisfying assignments.
 
 
-###<small>3rd minute :</small> S<small>AT</small> Solvers - General Overview <small class="wordCount">359&nbsp;words</small>
+###<small>3rd minute :</small> S<small>AT</small> Solvers - General Overview <small class="wordCount">337&nbsp;words</small>
 
 There are many known algorithms capable of solving some (but not all) instances of S<small>AT</small> pretty efficiently. We often refer to them as <b>S<small>AT</small> solvers</b>. In general they can be classified into **complete** or **incomplete**. 
 
@@ -330,7 +330,7 @@ Many modern S<small>AT</small> solvers are based on the original **DPLL** algori
 
 2. No matter what boolean values a set of variables are assigned to, it would break the overall satisfiability, and hence the formula is unsatisfiable.
 
-###<small>4th and 5th minutes :</small> S<small>AT</small> Solvers - DPLL and More <small class="wordCount">449&nbsp;words</small>
+###<small>4th and 5th minutes :</small> S<small>AT</small> Solvers - DPLL and More <small class="wordCount">613&nbsp;words</small>
 
 You may have already imagined, DPLL is basically a [depth-first search](https://www.youtube.com/watch?v=bkROCj-BTWE), and that means at its heart it uses **backtracking**, a brute-force-like technique that, rather than checking every single possible solution one by one (which is what's known as brute-force), it checks possible solutions by compositing part by part in a combinatorial fashion [e.g. building a solution variable by variable as described above], discarding sets of solutions that are deemed invalid by parts. 
 
