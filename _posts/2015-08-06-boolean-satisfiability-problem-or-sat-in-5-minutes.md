@@ -12,6 +12,8 @@ readingTime:
 published: 1
 subtitle:
 subtitleBottom:
+reddit: https://www.reddit.com/r/computerscience/comments/3fzy8b/boolean_satisfiability_problem_sat_in_5_mins_or/
+hnlink: https://news.ycombinator.com/item?id=10016019
 maths: 1
 coverImg: "untitled-1962.jpg"
 subtitleBottom: |
