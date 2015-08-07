@@ -146,6 +146,10 @@ overflow-x: scroll; overflow-y: visible;
   }
 }
 
+.display-none{
+  display: none !important
+}
+
 p img{
   max-width: 100%;
 }
