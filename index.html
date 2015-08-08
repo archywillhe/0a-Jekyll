@@ -75,7 +75,7 @@ extraClasses: ["theHomePage"]
 </div>
 </div>
 
-{% assign words = site.word_of_the_day %}
+{% assign words = site.word_of_the_day | sort: 'data' | reverse %}
 {% for word in words limit: 1 %}
 <div class="top_right_absolute">
 <div>Word of The Day</div>
@@ -83,7 +83,7 @@ extraClasses: ["theHomePage"]
 </div>
 {% endfor %}
 
-{% assign articles = site.article_of_the_week %}
+{% assign articles = site.article_of_the_week | sort: 'data' | reverse %}
 {% for article in articles limit: 1 %}
 <div class="top_right_absolute2">
 <div>Article of The Week</div>
