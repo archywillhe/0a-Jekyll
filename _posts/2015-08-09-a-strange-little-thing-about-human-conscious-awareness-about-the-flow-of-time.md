@@ -4,7 +4,7 @@ postType: dailylog
 font: 
 extraClasses: 
 postType: dailylog
-title: "a strange little thing about the human conscious awareness about the flow of time"
+title: "A strange little thing about the human conscious awareness about the flow of time"
 metaTitle:
 metaDescription: 
 publishedOn: 
