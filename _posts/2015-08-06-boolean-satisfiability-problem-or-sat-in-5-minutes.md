@@ -3,8 +3,8 @@ layout: minute
 postType: minute
 font: 
 moreExtraClasses: ["border-lined"]
-title: "Boolean Satisfiability Problem [S<small>AT</small>] in 5 mins* (or&nbsp;more)"
-metaTitle: "Boolean Satisfiability Problem [SAT] in 5 mins (or more)"
+title: "Boolean Satisfiability Problem [S<small>AT</small>] and S<small>AT</small> solvers in 5 mins* (or&nbsp;more)"
+metaTitle: "The Boolean Satisfiability Problem [SAT] and SAT solvers in 5 mins (or more)"
 metaDescription: 
 publishedOn: 
 updateAt: 
@@ -60,22 +60,22 @@ Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</sm
 
 <p>In CS, when we talk about a <strong>problem</strong>, we are referring to a set of questions, where each question is an instance of the problem. “Is 7 a prime number?” and “Is 2513414231 a prime number?” are both instances of a problem that can be expressed as: “Is n a prime number?”</p>
 
-<p>Problems can be classifed based on the time or space complexity of the algorithms used to compute an answer for every instance of the problem. Among the most easy-to-understand <strong>NP-complete</strong> problems is the <strong>Boolean Satisfiability Problem</strong> (aka S<small>ATISFIABILITY</small>, or S<small>AT</small>). </p>
+<p>Problems can be classified based on the time or space complexity of the algorithms used to compute an answer for every instance of the problem. Among the most easy-to-understand <strong>NP-complete</strong> problems is the <strong>Boolean Satisfiability Problem</strong> (aka S<small>ATISFIABILITY</small>, or S<small>AT</small>). </p>
 
 <p>The <strong>Boolean Satisfiability Problem</strong> is also the first problem proven<sup>{2}</sup> to be NP-complete. A problem is <b>NP-complete</b> if it belongs to the set (or <a href="https://en.wikipedia.org/wiki/Class_(set_theory)">“class”</a> if you prefer) of the hardest problems in <strong>NP</strong> - hardest in the sense that every problem ever exists in NP can be <a href="https://en.wikipedia.org/wiki/Polynomial-time_reduction">reduced</a> to them. (Thus being able to solve a NP-complete problem is equivalent to being able to solve every problem in NP). </p>
 
 <p class="text-center"><img style="max-width:400px" src="/assets/img/SAT.jpg"></p>
 
 <blockquote>
-  <p><strong>NP</strong> is the set of decision problems for which there exists a non-determinstic Turing machine that would output a value 1, or 0, after at most O(n<sup>k</sup>) steps where k is some constant and n is the complexity of the input. We often refer to such number of stepes (or running time) as polynmial, hence Non-determinstic Polynomial time, or NP. </p>
+  <p><strong>NP</strong> is the set of decision problems for which there exists a non-deterministic Turing machine that would output a value 1, or 0, after at most O(n<sup>k</sup>) steps where k is some constant and n is the complexity of the input. We often refer to such number of stepes (or running time) as polynomial, hence Non-deterministic Polynomial time, or NP. </p>
 
-  <p>A Turing machine is basically a mathematical object that formalizes that idea of algorithm (<a href="http://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf">in Turing model’s of computation</a>). A non-determinstic Turing machine (NDTM) is, in simple words, a theoretical Turing machine that can, in a sense, engage in all possible computations while taking the same time/step as a determinstic Turing machine. (<a href="http://www.encyclopediaofmath.org/index.php/Probabilistic_Turing_machine">Note: nondeterminstic doesn’t mean probabilistic.</a>) <b>One way I like to think about a non-determinstic Turing machine is that it can only exist in a universe where time is a 2 dimensional plane.</b> A determinstic Turing machine (DTM) on the other hand computes in one-dimension time (and is defined in terms of a <strong>transition function</strong>, unlike NDTM which relies on a <strong>transition relation</strong>).</p>
+  <p>A Turing machine is basically a mathematical object that formalizes that idea of algorithm (<a href="http://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf">in Turing model’s of computation</a>). A non-deterministic Turing machine (NDTM) is, in simple words, a theoretical Turing machine that can, in a sense, engage in all possible computations while taking the same time/step as a deterministic Turing machine. (<a href="http://www.encyclopediaofmath.org/index.php/Probabilistic_Turing_machine">Note: nondeterministic doesn’t mean probabilistic.</a>) <b>One way I like to think about a non-deterministic Turing machine is that it can only exist in a universe where time is a 2 dimensional plane.</b> A deterministic Turing machine (DTM) on the other hand computes in one-dimension time (and is defined in terms of a <strong>transition function</strong>, unlike NDTM which relies on a <strong>transition relation</strong>).</p>
 
-  <p>Besides the Boolean Satisfiability Problem, the prime factroization problem, “Given $X$ and $N$, where $1&lt; X &lt; N$, is there a $d$ where $X &lt; d &lt; N$ and $d$ a prime factor of $N$?”, is also a problem in <strong>NP</strong>.</p>
+  <p>Besides the Boolean Satisfiability Problem, the prime factorization problem, “Given $X$ and $N$, where $1&lt; X &lt; N$, is there a $d$ where $X &lt; d &lt; N$ and $d$ a prime factor of $N$?”, is also a problem in <strong>NP</strong>.</p>
 
-  <p>Decision problems<sup>{1}</sup> are problems concerning only with the “trueness” of some statement. That is to say that algorithms for solving decision problems would output either <code>True</code> or <code>False</code> (often in binary value). The problem above is a decision problem, and so is the problem “Is X a prime number?”</p>
+  <p>Decision problems<sup>{1}</sup> are problems concerning only with the "trueness" of some statement. That is to say that algorithms for solving decision problems would output either <code>True</code> or <code>False</code> (often in binary value). The problem above is a decision problem, and so is the problem “Is X a prime number?”</p>
 
-  <p>I would be diving deeper into computational complexity in an upcoming article. If you are interested in theroical CS, I recommend you checking these out:</p>
+  <p>I would be diving deeper into computational complexity in an upcoming article. If you are interested in theoretical CS, I recommend you checking these out:</p>
 
   <ol>
     <li>
@@ -96,11 +96,11 @@ Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</sm
   </ol>
 </blockquote>
 
-<p>You can just think of <b>NP</b> as the set of problems whose solution can be <b>verifed</b> by an efficient algorithm. And that is different from <b>P</b>, the set of problems whose solution can be <b>found</b> by an efficient algorithm. We can easily prove that each problem in P is also in NP, but we are not sure whether it is true that each problem in NP is too in P. </p>
+<p>You can just think of <b>NP</b> as the set of problems whose solution can be <b>verified</b> by an efficient algorithm. And that is different from <b>P</b>, the set of problems whose solution can be <b>found</b> by an efficient algorithm. We can easily prove that each problem in P is also in NP, but we are not sure whether it is true that each problem in NP is too in P. </p>
 
 <script type="math/tex; mode=display"> (P \subseteq NP) \text{ Duh! }  \\ (NP \subseteq P) \text{ ???? }</script>
 
-<p>Take the prime factroization problem for example. At the moment the most efficient algorithm <a href="http://www.math.vt.edu/people/brown/doc/briggs_gnfs_thesis.pdf">(for integers larger than 100 digits)</a> we can implement into pre-existing computers<sup>{3}</sup> has a sub-exponential running time. But we can’t say for certainty that the it is not in P. Many brave men and women have tried but failed to come up with a polynomial time algorithm for every instance of the problem. It may simply be the case that we, members of the Human species, are not intelligent enough to design such algorithm. (Or it may be that $NP \not= P$ and the prime factroization problem is simply not in P, in which case we have yet to prove it.)</p>
+<p>Take the prime factorization problem for example. At the moment the most efficient algorithm <a href="http://www.math.vt.edu/people/brown/doc/briggs_gnfs_thesis.pdf">(for integers larger than 100 digits)</a> we can implement into pre-existing computers<sup>{3}</sup> has a sub-exponential running time. But we can’t say for certainty that the it is not in P. Many brave men and women have tried but failed to come up with a polynomial time algorithm for every instance of the problem. It may simply be the case that we, members of the Human species, are not intelligent enough to design such algorithm. (Or it may be that $NP \not= P$ and the prime factorization problem is simply not in P, in which case we have yet to prove it.)</p>
 
 <p class="text-center"><img style="max-width:400px" src="/assets/img/human_and_chimp.jpg"></p>
 
@@ -111,20 +111,20 @@ Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</sm
 
   <script type="math/tex; mode=display"> x \in L \Leftrightarrow TM(x) = 1</script>
 
-  <p>So, by the formal defintion, <strong>the set of prime number is a decision problem</strong>.</p>
+  <p>So, by the formal definition, <strong>the set of prime number is a decision problem</strong>.</p>
 
   <p>Here $L$ is often referred to as <a href="https://en.wikipedia.org/wiki/Formal_language">a language over $\Sigma$</a>.</p>
 
   <p><sup>{2}</sup>: First proven by Cook in his 1971 paper, <a href="https://www.cs.toronto.edu/~sacook/homepage/1971.pdf"><em>The complexity of theorem-proving procedure</em></a>. It was later known as the <a href="https://en.wikipedia.org/wiki/Cook%E2%80%93Levin_theorem">Cook–Levin theorem</a>.</p>
 
-  <p><sup>{3}</sup>: By “pre-existing computers” I mean classical ones that don’t rely on quantum mechanics (for computation). The most efficient factorization algorithm we know of in the 21st century is the one described in <a href="http://arxiv.org/pdf/quant-ph/9508027v2.pdf">Shor’s 1995 paper</a>, a super-polynomial time algorithm that makes use of <a href="https://en.wikipedia.org/wiki/Quantum_Fourier_transform">quantum fourier transform</a>. The sad (or <a href="https://edwardsnowden.com/2014/01/04/penetrating-hard-targets-and-owning-the-net/">good</a>) news is that there yet exists a quantum computer powerful enough to have <a href="https://en.wikipedia.org/wiki/RSA_problem">any practical uses of the algorithm</a>.</p>
+  <p><sup>{3}</sup>: By “pre-existing computerese I mean classical ones that don’t rely on quantum mechanics (for computation). The most efficient factorization algorithm we know of in the 21st century is the one described in <a href="http://arxiv.org/pdf/quant-ph/9508027v2.pdf">Shor’s 1995 paper</a>, a super-polynomial time algorithm that makes use of <a href="https://en.wikipedia.org/wiki/Quantum_Fourier_transform">quantum Fourier transform</a>. The sad (or <a href="https://edwardsnowden.com/2014/01/04/penetrating-hard-targets-and-owning-the-net/">good</a>) news is that there yet exists a quantum computer powerful enough to have <a href="https://en.wikipedia.org/wiki/RSA_problem">any practical uses of the algorithm</a>.</p>
 
 </blockquote>
 </div>
 
 ###<small>1st minute</small>: What is the Boolean Satisfiability Problem? <small class="wordCount">334&nbsp;words</small>
 
-The **Boolean Satisfiability Problem** (or S<small>AT</small>) is the problem of determining if a proposition statement<sup>*</sup> is **satisfiabile**. A propositional statement is satisfiabile when it is possible to assign some true-false values for the variables in the statement such that the statement yields `True`. Othewise the statement is unsatisfiabile.
+The **Boolean Satisfiability Problem** (or S<small>AT</small>) is the problem of determining if a proposition statement<sup>*</sup> is **satisfiable**. A propositional statement is satisfiable when it is possible to assign some true-false values for the variables in the statement such that the statement yields `True`. Otherwise the statement is unsatisfiable.
 
 A propositional statement is simply a string made up of variables, brackets and these 3 symbols:
 
@@ -155,13 +155,13 @@ Meanwhile, the answer to the question
 
 $$\text{Is } a \land \neg a \land b \land c \land d \text{ satisfiable?}$$
 
-is no, it is unsatisfiable. That is because there is no value we can assign to $a$ such that $a \land \neg a$ would yeild `True`, and therefore it is impossible for the entire statement to yeild `True`.
+is no, it is unsatisfiable. That is because there is no value we can assign to $a$ such that $a \land \neg a$ would yield `True`, and therefore it is impossible for the entire statement to yield `True`.
 
 ><sup>*</sup>: More technically, it is known as a "formula" or "wff" ("well-formed formula"). "Well-formed" in the sense that it is syntactically correct such that it can be interpreted in our context. "Formula" in the sense that it is something formed by putting symbols together. 
 >
 > $$ wff \subset statement $$
 >
->"$\land\land\land A \land \lor B B B$" for example is a statment but not a formula since it is not well-formed.
+>"$\land\land\land A \land \lor B B B$" for example is a statement but not a formula since it is not well-formed.
 >
 >p.s. In order to know how the symbol works here we rely on its association with the meaning of some lexical item in English, like the word "not" in the case of $\neg$, and our intuitive understanding of how "not" functions. We need to keep in mind that the symbols by themselves have no absolute meaning: some are even interpreted differently in different systems of logic ([classical logic](http://ncatlab.org/nlab/show/classical+logic) vs [intuitionistic logic](http://ncatlab.org/nlab/show/intuitionistic+logic) for example). But that is outside of the scope of this article, and so for the moment let's just take it as that these symbols indeed mean what the words mean.
 >
@@ -170,13 +170,13 @@ is no, it is unsatisfiable. That is because there is no value we can assign to $
 > <div class="row d_shortcuts text-center"> $\Rightarrow$ with the meaning <i>imply (if .. then ..) </i>. [$\Leftarrow$ for different direction]<br> $ False \Rightarrow True = True $<sup>{4}</sup><br>
 $\Leftrightarrow$ with the meaning <i>if and only if (two-way implication)</i>.<br>$ False \Leftrightarrow True = False $ </div>
 >
-> They are ommited because statements that use these symbols can be rewritten using the basic Boolean operations: $\lor$, $\land$, and $\neg$.
+> They are omitted because statements that use these symbols can be rewritten using the basic Boolean operations: $\lor$, $\land$, and $\neg$.
 >
 > $$ a \Rightarrow b \text{ can be rewritten as } \neg a \lor b  \\ \text{without changing its satisfiability}$$
 >
 > Since our main concern is satisfiability here, we'd like to be minimalist, and exclude symbols from our alphabet that are not necessary.
 >
->p.s. In model theory, we can view the assignement of booleans values to the variables in a statement as **an interpretation** of the statement, and we write
+>p.s. In model theory, we can view the assignment of booleans values to the variables in a statement as **an interpretation** of the statement, and we write
 >
 >$$I \models F$$
 >
@@ -190,15 +190,15 @@ S<small>AT</small> is a member of problems known as the **Constraint Satisfactio
 
 1. the values a variable can be assigned to (often referred to as *domain*)  
 
-2. the constraints on what makes a satisfiabile statement 
+2. the constraints on what makes a satisfiable statement 
 
-Another member of CSPs is the <a href="http://www.eecs.berkeley.edu/~sseshia/pubdir/SMT-BookChapter.pdf">**Satisfiability Modulo Theories Problem (or SMT)**</a>, where, instead of proposition statements (like what we are dealing with in S<small>AT</small>), it is the problem of determining the satisfiability of first-order logic statements, and whehther a first-order logic statement is satisfiable depends on the theory of our choice. 
+Another member of CSPs is the <a href="http://www.eecs.berkeley.edu/~sseshia/pubdir/SMT-BookChapter.pdf">**Satisfiability Modulo Theories Problem (or SMT)**</a>, where, instead of proposition statements (like what we are dealing with in S<small>AT</small>), it is the problem of determining the satisfiability of first-order logic statements, and whether a first-order logic statement is satisfiable depends on the theory of our choice. 
 
-Let's say the theory of our choice is linear arithmetic, we would say that the statement below is satisfible if variables can take in any value in $\mathbb{R}$, the set of real numbers.
+Let's say the theory of our choice is linear arithmetic, we would say that the statement below is satisfiable if variables can take in any value in $\mathbb{R}$, the set of real numbers.
 
 $$2a + 4b = 7$$
 
-It is, however, unsatisfible if we define $\mathbb{Z}$, the set of integers, to be the domain instead.
+It is, however, unsatisfiable if we define $\mathbb{Z}$, the set of integers, to be the domain instead.
 
 <p class="text-center"> ● ● ● </p>
 
@@ -214,11 +214,11 @@ Since a tautology always yields `True`, negating a tautology would give us a sta
 
 On the other hand, the Boolean Unsatisfiability Problem is in what's known as <b>co-NP</b>, and so is the problem of determining if a statement is a tautology.
 
-**co-NP** can be thought of as the set of problems whose non-solution can be verifed efficiently. At the moment "NP = co-NP?" remains an open question.
+**co-NP** can be thought of as the set of problems whose non-solution can be verified efficiently. At the moment "NP = co-NP?" remains an open question.
 
->Formally, a co-NP problem is a language<sup>*</sup> over some alphabet Σ, for which there exists Non-Deterministic Turing Machine that would output 0 in polynomial time, after taking in any string from the langauge as input.
+>Formally, a co-NP problem is a language<sup>*</sup> over some alphabet Σ, for which there exists Non-Deterministic Turing Machine that would output 0 in polynomial time, after taking in any string from the language as input.
 >
->Note that that is different from a defintion of a NP problem, a language<sup>*</sup> for which there exists exists Non-Deterministic Turing Machine that would output 1 in polynomial time, after taking in any string from the langauge as input.
+>Note that that is different from a definition of a NP problem, a language<sup>*</sup> for which there exists exists Non-Deterministic Turing Machine that would output 1 in polynomial time, after taking in any string from the language as input.
 >
 > \* : If you are confused by the usage of the word "language", read {1} (in the *block of Grey Text*) in 0th minute: Introduction. 
 > 
@@ -233,7 +233,7 @@ From the 2nd minute on we'd be
 
 2. using **S<small>AT</small>** as the abbreviation for the Boolean Satisfiability Problem
 
-###<small>2nd minute:</small> Classfying S<small>AT</small> <small class="wordCount">354&nbsp;words</small>
+###<small>2nd minute:</small> Classifying S<small>AT</small> <small class="wordCount">354&nbsp;words</small>
 
 We can classify instances of S<small>AT</small> based on what form the formulas are in. 
 
@@ -308,16 +308,16 @@ Not only is Horn-S<small>AT</small> in P (just like 2S<small>AT</small>), it is 
 
 This pretty much sums up generally how instances of S<small>AT</small> are classified. If you are interested in classifying S<small>AT</small> in a more 'hard core' manner (viewing S<small>AT</small> itself as a classification problem), [check out this 2008 paper by David Devlin and Barry O’Sullivan](http://www.cs.ucc.ie/~osullb/pubs/classification.pdf).
 
-Perhaps you've also heard of problems with names like [MAXS<small>AT</small>](https://en.wikipedia.org/wiki/MAX-3SAT) and [#S<small>AT</small>](https://en.wikipedia.org/wiki/Sharp-SAT). Instances of these problems are not really instances of S<small>AT</small>; it'd be more accurate to say that they are variations of S<small>AT</small>. MAXS<small>AT</small> is the problem of finding a boolean assigmenet satisfying most clauses in a CNF formula, and #S<small>AT</small> is the problem of counting the number of satisfying assignments.
+Perhaps you've also heard of problems with names like [MAXS<small>AT</small>](https://en.wikipedia.org/wiki/MAX-3SAT) and [#S<small>AT</small>](https://en.wikipedia.org/wiki/Sharp-SAT). Instances of these problems are not really instances of S<small>AT</small>; it'd be more accurate to say that they are variations of S<small>AT</small>. MAXS<small>AT</small> is the problem of finding a boolean assignment satisfying most clauses in a CNF formula, and #S<small>AT</small> is the problem of counting the number of satisfying assignments.
 
 
 ###<small>3rd minute :</small> S<small>AT</small> Solvers - General Overview <small class="wordCount">337&nbsp;words</small>
 
 There are many known algorithms capable of solving some (but not all) instances of S<small>AT</small> pretty efficiently. We often refer to them as <b>S<small>AT</small> solvers</b>. In general they can be classified into **complete** or **incomplete**. 
 
-Complete S<small>AT</small> solvers would always return either `satisfiable` or `unsatisfiable`. Incomplete S<small>AT</small> solvers, on the other hand, are less reliable - they may be unable to prove unsatisfiablity (when it's impossible for the formula to yield `True`), or unable to find a solution when the formula is satisfiable - but perhaps a lot more useful in scenarios when the instances of S<small>AT</small> cannot be solved by complete algorithms in reasonable time.
+Complete S<small>AT</small> solvers would always return either `satisfiable` or `unsatisfiable`. Incomplete S<small>AT</small> solvers, on the other hand, are less reliable - they may be unable to prove unsatisfiability (when it's impossible for the formula to yield `True`), or unable to find a solution when the formula is satisfiable - but perhaps a lot more useful in scenarios when the instances of S<small>AT</small> cannot be solved by complete algorithms in reasonable time.
 
->To make thing simpler S<small>AT</small> solvers normally take in formulas in CNF form encodded in [DIMACS](http://www.satcompetition.org/2009/format-benchmarks2009.html) format as inputs. Suppose we have a formula that isn't in CNF form, we would first [convert it into CNF form](http://math.stackexchange.com/q/214338/65082) (there are polynomial algorithms to achieve that) before inputting it into a S<small>AT</small> solver.
+>To make thing simpler S<small>AT</small> solvers normally take in formulas in CNF form encoded in [DIMACS](http://www.satcompetition.org/2009/format-benchmarks2009.html) format as inputs. Suppose we have a formula that isn't in CNF form, we would first [convert it into CNF form](http://math.stackexchange.com/q/214338/65082) (there are polynomial algorithms to achieve that) before inputting it into a S<small>AT</small> solver.
 
 
 To compare the performance between different S<small>AT</small> solvers, we give them a large set of formulas and see how well each performs (e.g. by the total time taken, or number of formulas solved in n-minutes, or using [a methodology called *careful ranking*](http://link.springer.com/chapter/10.1007%2F978-3-642-21581-0_25#page-1)). The set of formulas is often referred to as a benchmark instance. A solver previously lost to another solver may do better if different type of benchmark instances are used. 
@@ -358,7 +358,7 @@ You may have already imagined, DPLL is basically a [depth-first search](https://
 >
 > once we exceed the limit we abandon the last number just like before (and hence *backtracking*)... Keep doing so until we have
 >
->1. either tried every sensible cominbation (sum < 14000), but there is no prime 
+>1. either tried every sensible combination (sum < 14000), but there is no prime 
 >
 >2. or we arrive at a solution, a set of numbers that meets our criteria.
 >
@@ -369,15 +369,15 @@ The other 2 techniques classical DPLL uses are
 
 1. **pure literal elimination**: The idea is simple. If a literal appears only as positive or negative (but not both, and hence we call it **pure**) in the formula,  
     
-    1. we assign a value to the literal for it to yeild `True`.
+    1. we assign a value to the literal for it to yield `True`.
     
     2. and delete all the clauses which contain it in the formula. 
 
-    >This is because since it is pure, we can just make it yeild `True` and it won't have any other consequence to the overall satisfiable. 
+    >This is because since it is pure, we can just make it yield `True` and it won't have any other consequence to the overall satisfiable. 
     >
     >    $$ (a \lor b \lor \neg c) \land (a \lor \neg b) \land ( b \lor \neg c) $$
     >
-    >    In the formula above, $a$ and $c$ are both pure, so we can give $a = True$ and $c = False$, and delete all the clauses that contain them. After that we'd end up with no clauses. And that means the formula is satisfible with
+    >    In the formula above, $a$ and $c$ are both pure, so we can give $a = True$ and $c = False$, and delete all the clauses that contain them. After that we'd end up with no clauses. And that means the formula is satisfiable with
     >   
     >    <div class="row d_shortcuts">
     >    $a$: True<br>
@@ -386,11 +386,11 @@ The other 2 techniques classical DPLL uses are
     >    </div>
     >
 
-2. **unit propagation**: It is obvious that for clauses made up of 1 literal, that 1 literal has to evalute `True` for the formula to yeild `True`. Therefore 
+2. **unit propagation**: It is obvious that for clauses made up of 1 literal, that 1 literal has to evaluate `True` for the formula to yield `True`. Therefore 
 
     1. we assign a value for the literal to yield `True` 
 
-    2. delete clauses that contains the literal, and instances of it in oppoiste polarity (the opposite of positive is negative, vice versa). 
+    2. delete clauses that contains the literal, and instances of it in opposite polarity (the opposite of positive is negative, vice versa). 
 
     > Take this CNF for example:
     >
@@ -404,7 +404,7 @@ The other 2 techniques classical DPLL uses are
     >    
     >$$ c $$
     >
-    >And here we have it, the original formula is satisfible with
+    >And here we have it, the original formula is satisfiable with
     >
     >    <div class="row d_shortcuts">
     >    $a$: True<br>
@@ -417,7 +417,7 @@ The other 2 techniques classical DPLL uses are
     >
     > When we end up in a situation where there is an **empty clause** (a clause with 0 literals), it indicates that there is a set of variables no matter what value we assign them, we can't satisfy the formula. And thus it is unsatisfiable. 
     >
-    >Here is an example where after one round of unit propagation, we'd have an empty clause, indicaiting that no matter what values we assign $a$ and $b$, it won't satisfy the formula.
+    >Here is an example where after one round of unit propagation, we'd have an empty clause, indicating that no matter what values we assign $a$ and $b$, it won't satisfy the formula.
     >
     >    $$ a \land b \land (\neg b \lor \neg a) \land (c \lor b \lor d) \land (d \lor a) $$
 
@@ -464,7 +464,7 @@ dpll (vss@(x:vs),cnf) as
         where enterDecisionLevelWAL theVariable = do_up_and_ple (vs, (cnf `assignTrueFor` theVariable)) (exvWithValue theVariable:as)
 dpll ([],_) as = (SAT,as)
 
--- do_up_and_ple: do unit propagation && pure literal elmination
+-- do_up_and_ple: do unit propagation && pure literal elimination
 do_up_and_ple :: ([Variable], [Clause]) -> [VariableAssignement] ->(Satisfiability,[VariableAssignement])
 do_up_and_ple (vs,cnf) as = dpll (vs',cnf') as'
     where 
@@ -475,7 +475,7 @@ do_up_and_ple (vs,cnf) as = dpll (vs',cnf') as'
             | x == previous = x
             | otherwise = up_and_ple x
 
--- pure literal elmination
+-- pure literal elimination
 ple ((vs,cnf),as)
     | length pls == 0 = ((vs,cnf),as)
     | otherwise = up ((vs',cnf'),as')
@@ -511,7 +511,7 @@ To run it, simply invoke `dpllStart` with a parameter in the form `([Int], [[Int
 
 $$ (a \lor b) \land (a \lor c ) \land (c \lor -d) \\ \text{would be ([1,2,3],[[1,2],[1,3],[3,-4]])}$$
 
-and it would return either `UNSAT` with an empty list or `SAT` with a list of boolean assignements. 
+and it would return either `UNSAT` with an empty list or `SAT` with a list of boolean assignments. 
 
 >
 >I've integrated a parser for parsing CNF formula in [DIMACS format](http://www.satcompetition.org/2009/format-benchmarks2009.html) into the implementation above. 
@@ -588,7 +588,7 @@ Other ways of improving performance of DPLL-based algorithms include
 
     >Backtracking like the one in classical DPLL is called chronological backtracking. Chronological in the sense that we we simply go back to the previous decision level. In heuristic backtracking, we go back to a decision level (or backtrack point) based on a **heuristic function**. The principal behind it is that we should learn from conflicts and avoid making the mistake of trying out all different variables assignments down a decision level only to find out that all the assignment at that decision level would only lead to unsatisfiability. That is to say that we would rely on the heuristic to help us in figuring out if the boolean assignment at some previous decision level may be a bad pick, and that we should backtrack all the way up.
 
-4. implementing some *restart* policies, which force the solver to backtrack to decision level 0 (or some other level) when some conidtion is met. This is to prevent the solver from getting "stuck" at some part of the [search space](http://wiki.lesswrong.com/wiki/Search_space) for a long time. To learn more about it, check out [The Effect of Restarts on the Efficiency of Clause Learning](http://users.cecs.anu.edu.au/~jinbo/07-ijcai-restarts.pdf) and [Dynamic Restart Policies](ftp://ftp.research.microsoft.com/pub/ejh/drestart.pdf). 
+4. implementing some *restart* policies, which force the solver to backtrack to decision level 0 (or some other level) when some condition is met. This is to prevent the solver from getting "stuck" at some part of the [search space](http://wiki.lesswrong.com/wiki/Search_space) for a long time. To learn more about it, check out [The Effect of Restarts on the Efficiency of Clause Learning](http://users.cecs.anu.edu.au/~jinbo/07-ijcai-restarts.pdf) and [Dynamic Restart Policies](ftp://ftp.research.microsoft.com/pub/ejh/drestart.pdf). 
 
 
 and many and many more.  
