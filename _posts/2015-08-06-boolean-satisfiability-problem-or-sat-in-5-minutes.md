@@ -3,7 +3,7 @@ layout: minute
 postType: minute
 font: 
 moreExtraClasses: ["border-lined"]
-title: "Boolean Satisfiability Problem [S<small>AT</small>] and S<small>AT</small> solvers in 5 mins* (or&nbsp;more)"
+title: "The Boolean Satisfiability Problem [S<small>AT</small>] and S<small>AT</small> solvers in 5 mins* (or&nbsp;more)"
 metaTitle: "The Boolean Satisfiability Problem [SAT] and SAT solvers in 5 mins (or more)"
 metaDescription: 
 publishedOn: 

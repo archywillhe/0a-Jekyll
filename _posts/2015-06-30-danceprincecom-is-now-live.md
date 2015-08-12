@@ -16,12 +16,12 @@ coverImg:
 subtitle:
 subtitleBottom:
 extract: |
-    About two years ago I promised a friend that I would *handcraft* a WordPress theme for him as a birthday present. And by that I meant building everything from the ground up - from designing the GUI to implementing the back-end - and [relying on libraries & frameworks as little as possible](http://0a.io/the-framework-library-phobia/). Theroically there is nothing wrong with such a beautiful plan that demonstrates the princple of [self-reliance](http://www.emersoncentral.com/selfreliance.htm) and opens up one's mind to learn that practically that was the dumbest thing to do. Espeically true for someone who often overestimates what she or he is capable of.
+    About two years ago I promised a friend that I would *handcraft* a WordPress theme for him as a birthday present. And by that I meant building everything from the ground up - from designing the GUI to implementing the back-end - and [relying on libraries & frameworks as little as possible](http://0a.io/the-framework-library-phobia/). Theoretically there is nothing wrong with such a beautiful plan that demonstrates the principle of [self-reliance](http://www.emersoncentral.com/selfreliance.htm) and opens up one's mind to learn that practically that was the dumbest thing to do. Especially true for someone who often overestimates what she or he is capable of.
 
     Eventually I did not feel like working on this project anymore and had it shelved. However, the promise remained a kind of parasite that lived in my mind and grew over time, as I became more conscious about its existence.
 ---
 
-About two years ago I promised a friend that I would *handcraft* a WordPress theme for him as a birthday present. And by that I meant building everything from the ground up - from designing the GUI to implementing the back-end - and [relying on libraries & frameworks as little as possible](http://0a.io/the-framework-library-phobia/). Theroically there is nothing wrong with such a beautiful plan that demonstrates the princple of [self-reliance](http://www.emersoncentral.com/selfreliance.htm) and opens up one's mind to learn that practically that was the dumbest thing to do. Espeically true for someone who often overestimates what she or he is capable of.
+About two years ago I promised a friend that I would *handcraft* a WordPress theme for him as a birthday present. And by that I meant building everything from the ground up - from designing the GUI to implementing the back-end - and [relying on libraries & frameworks as little as possible](http://0a.io/the-framework-library-phobia/). Theoretically there is nothing wrong with such a beautiful plan that demonstrates the principle of [self-reliance](http://www.emersoncentral.com/selfreliance.htm) and opens up one's mind to learn that practically that was the dumbest thing to do. Especially true for someone who often overestimates what she or he is capable of.
 
 Eventually I did not feel like working on this project anymore and had it shelved. However, the promise remained a kind of parasite that lived in my mind and grew over time, as I became more conscious about its existence.
 
@@ -33,7 +33,7 @@ Back when I was working on [The HacKIDemia Event Site](https://github.com/0a-/ha
 <img src="https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/32/322/322742/dicot-magazine-wordpress-theme-2_1-o.png?1422369547">
 </p>
 
-Sadly I don't have a use case for it. I wanted to give it to the friend I made the promise with, but as a designer and a developer, that just doesn't feel right. So I decided to use it to boostrap the old project of mine and see if I can have something for my friend's birthday this year.
+Sadly I don't have a use case for it. I wanted to give it to the friend I made the promise with, but as a designer and a developer, that just doesn't feel right. So I decided to use it to bootstrap the old project of mine and see if I can have something for my friend's birthday this year.
 
 Yesterday was the day, and I barely made it. 
 

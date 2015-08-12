@@ -14,7 +14,7 @@ coverImg:
 subtitle:
 subtitleBottom:
 extract: |
-    ... and this looks like a great environment to code in (I enabled [vintage mode](http://www.sublimetext.com/docs/2/vintage.html) too so there are vim magic in it ;3 ) until I learnt that sometimes the text editor would revert some file back to its state x hours ago with no reason at all. 
+    ... and this looked like a great environment to code in (I enabled [vintage mode](http://www.sublimetext.com/docs/2/vintage.html) too so there are vim magic in it ;3 ) until I learnt that sometimes the text editor would revert some file back to its state x hours ago with no reason at all. 
 
     It is a nightmare. (Imagine happily committing your code only to learn all that you've written & tested no longer exist in the current dimensions in space-time.)
 
@@ -70,7 +70,7 @@ I just reinstalled my OS X recently, which not only enabled me to re-experience 
 
 <p class="text-center"><img src="/assets/img/sublime.png" alt="oh"></p>
 
-This looks like a great environment to code in (I enabled [vintage mode](http://www.sublimetext.com/docs/2/vintage.html) too so there are vim magic in it ;3 ) until I learnt that sometimes the text editor would revert some file back to its state x hours ago with no reason at all. 
+This looked like a great environment to code in (I enabled [vintage mode](http://www.sublimetext.com/docs/2/vintage.html) too so there are vim magic in it ;3 ) until I learnt that sometimes the text editor would revert some file back to its state x hours ago with no reason at all. 
 
 It is a nightmare. (Imagine happily committing your code only to learn all that you've written & tested no longer exist in the current dimensions in space-time.)
 
