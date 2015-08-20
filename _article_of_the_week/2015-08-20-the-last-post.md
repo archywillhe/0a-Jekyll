@@ -1,5 +1,5 @@
 ---
-title: "The Last Post"
+title: "Why You’re Biased About Being Biased"
 year: 2011
-link: http://www.penmachine.com/2011/05/the-last-post
+link: http://nautil.us/blog/why-youre-biased-about-being-biased
 ---
