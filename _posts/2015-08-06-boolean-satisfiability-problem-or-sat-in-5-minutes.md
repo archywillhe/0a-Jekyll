@@ -543,12 +543,11 @@ function dpll(formula){
 function doUPandPLE(f){
     //LiteralElmination & UnitPropagation would remove elements in f.variables
     //as they make changes to the formula
-    f.repeatedlyDo("PureLiteralElmination");
-    f.repeatedlyDo("UnitPropagation");
-    while(f.ifDoPureLiteralElminationCanMakeChanges()){
-        f.repeatedlyDo("PureLiteralElmination");
-        f.repeatedlyDo("UnitPropagation");
-    }
+    do{ 
+      f.repeatedlyDo("PureLiteralElmination");
+      f.repeatedlyDo("UnitPropagation");
+    }while(f.ifDoPureLiteralElminationCanMakeChanges());
+    
     return dpll(f);
 }
 {% endhighlight %}
