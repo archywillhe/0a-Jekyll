@@ -43,12 +43,14 @@ According to the definitions of union and intersection between multisets:
 
 $$m_{A \cup B}(x) = max( m_A(x), m_B(x)) \\ m_{A \cap B}(x) = max( m_A(x), m_B(x))$$
 
+> m_V(x) denotes the number of element $x$ in $V$.
+
 we can further rewrite the formula as 
 
-$$max( m_A(x), m_B(x)) + min( m_A(x), m_B(x)) = m_A(x) + m_B(x)$$
+$$\forall x \in X \text{ where } X \text{ is the set of distinct elements in } A \text{ and } B \\ max( m_A(x), m_B(x)) + min( m_A(x), m_B(x)) = m_A(x) + m_B(x) \\$$
 
 and that is equivalent as stating
 
-$$max(a,b) + min(a,b) = a + b$$
+$$\forall a,b \in \mathbb{N} \quad max(a,b) + min(a,b) = a + b$$
 
 which is trivially true.
