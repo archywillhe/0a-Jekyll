@@ -2,7 +2,6 @@
 layout: dailylog
 postType: dailylog
 font: 
-extraClasses: 
 postType: dailylog
 title: "a simple proof for a basic operational equivalence regarding multisets"
 metaTitle:
@@ -16,10 +15,10 @@ subtitle:
 subtitleBottom:
 maths: 1
 extract: |
-    Among my favorite Youtube channels is [that of Prof N J Wildberger](https://www.youtube.com/user/njwildberger/), on which he uploads explanatory videos on different topics in mathematics (along with lectures he gave in UNSW). The [latest video is on multisets](https://youtu.be/alMiaIbxNV4), and it happens to be related to what I am currently working with. So I figured I would take a bit time to compose a short proof for the interesting equivalence he pointed out at the 11th minute mark of the video.
+    Among my favorite Youtube channels is [that of Prof N J Wildberger](https://www.youtube.com/user/njwildberger/), on which he uploads explanatory videos on different topics in mathematics (along with lectures he gave in UNSW). The [latest video is on multisets](https://youtu.be/alMiaIbxNV4), and it happens to be related to what I am currently working with. So I figured I would compose a short proof for the interesting equivalence he pointed out at the 11th minute mark.
 ---
 
-Among my favorite Youtube channels is [that of Prof N J Wildberger](https://www.youtube.com/user/njwildberger/), on which he uploads explanatory videos on different topics in mathematics (along with lectures he gave in UNSW). The [latest video is on multisets](https://youtu.be/alMiaIbxNV4), and it happens to be related to what I am currently working with. So I figured I would take a bit time to compose a short proof for the interesting equivalence he pointed out at the 11th minute mark of the video:
+Among my favorite Youtube channels is [that of Prof N J Wildberger](https://www.youtube.com/user/njwildberger/), on which he uploads explanatory videos on different topics in mathematics (along with lectures he gave in UNSW). The [latest video is on multisets](https://youtu.be/alMiaIbxNV4), and it happens to be related to what I am currently working with. So I figured I would compose a short proof for the interesting equivalence he pointed out at the 11th minute mark.
 
 ### Theorem: 
 
@@ -41,9 +40,7 @@ $$n_i + p_i = v_i \quad \forall i \in I, \text{ where } \\ \bigcup_{i \in I} a_i
 
 According to the definitions of union and intersection between multisets:
 
-$$m_{A \cup B}(x) = max( m_A(x), m_B(x)) \\ m_{A \cap B}(x) = max( m_A(x), m_B(x))$$
-
-> m_V(x) denotes the number of element $x$ in $V$.
+$$m_{A \cup B}(x) = max( m_A(x), m_B(x)) \\ m_{A \cap B}(x) = max( m_A(x), m_B(x)) \\ \text{where }m_V(x) \text{ denotes the number of element }x \text{ in } V$$
 
 we can further rewrite the formula as 
 
@@ -51,6 +48,6 @@ $$\forall x \in X \text{ where } X \text{ is the set of distinct elements in } A
 
 and that is equivalent as stating
 
-$$\forall a,b \in \mathbb{N} \quad max(a,b) + min(a,b) = a + b$$
+$$ max(a,b) + min(a,b) = a + b \quad \forall a,b \in \mathbb{N}$$
 
 which is trivially true.
