@@ -25,7 +25,7 @@ layout: raw
 </span></p>
 </div>
 <div class="archypost">
-<div class="archycontent" ng-bind-html="post.extract">
+<div class="archycontent" ng-bind-html="post.extract | to_trust">
 
 </div>
 <div ng-if="post.readmore" class="readmore"> <a href="{% raw %}{{post.url}}{% endraw %}" target="_self" >Read more</a></div>

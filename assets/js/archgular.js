@@ -104,7 +104,11 @@ function logsFromThePastCtrl ($scope, $http){
 
 }
 
-var hl = angular.module('homeLog',['ngRoute','ngSanitize']);
+var hl = angular.module('homeLog',['ngRoute','ngSanitize']).filter('to_trust', ['$sce', function($sce){
+        return function(text) {
+            return $sce.trustAsHtml(text);
+        };
+    }]);
 hl.config(['$routeProvider', '$locationProvider', function($routeProvider,$locationProvider) {
     $routeProvider.
       when('/latestLog', {
