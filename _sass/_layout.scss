@@ -8,6 +8,7 @@ body{
   background-color:#fff;
   font-size: 16px;
   line-height: 1.42857143;
+  position: static !important;
 }
 .whitebg{
   background-color: #fff
@@ -1027,7 +1028,7 @@ blockquote{
     display: none;
   }
 }
-.dailylog{
-  left: -10px;
-    position: relative;
-}
+// .dailylog{
+//   left: -10px;
+//     position: relative;
+// }
