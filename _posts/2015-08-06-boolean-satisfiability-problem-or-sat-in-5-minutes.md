@@ -165,7 +165,7 @@ is no, it is unsatisfiable. That is because there is no value we can assign to $
 >
 >p.s. In order to know how the symbol works here we rely on its association with the meaning of some lexical item in English, like the word "not" in the case of $\neg$, and our intuitive understanding of how "not" functions. We need to keep in mind that the symbols by themselves have no absolute meaning: some are even interpreted differently in different systems of logic ([classical logic](http://ncatlab.org/nlab/show/classical+logic) vs [intuitionistic logic](http://ncatlab.org/nlab/show/intuitionistic+logic) for example). But that is outside of the scope of this article, and so for the moment let's just take it as that these symbols indeed mean what the words mean.
 >
->p.s. Often in prepositional logic, you would encounter these symbols as well:
+>p.s. Often in proposition logic, you would encounter these symbols as well:
 >
 > <div class="row d_shortcuts text-center"> $\Rightarrow$ with the meaning <i>imply (if .. then ..) </i>. [$\Leftarrow$ for different direction]<br> $ False \Rightarrow True = True $<sup>{4}</sup><br>
 $\Leftrightarrow$ with the meaning <i>if and only if (two-way implication)</i>.<br>$ False \Leftrightarrow True = False $ </div>
