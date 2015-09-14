@@ -140,8 +140,6 @@ font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 .prettyprint {
   display: block;
   background-color: #333;
-  padding: 20px 10px !important;
-  margin: 0 !important;
   /* Specify class=linenums on a pre to get line numbering */
 }
 .prettyprint p {

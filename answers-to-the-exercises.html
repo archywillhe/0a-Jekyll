@@ -1,0 +1,110 @@
+---
+layout: default
+headBlock: |
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css' rel='stylesheet' type='text/css'>
+     <link href="/desert_scheme_ported_from_vim.css" rel='stylesheet' type='text/css'>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/vendor/bootstrap.min.css" rel='stylesheet' type='text/css'>
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.min.css" rel='stylesheet' type='text/css'>
+     <style>
+     .container{
+        font-family: Lato,Helvetica,Arial,sans-serif
+     }
+     .archyhead_wrap {
+        padding-top: 100px !important;
+        padding-bottom: 90px !important;
+    }
+     /* some modification */
+     .pun, .opn, .clo{
+        color: #f39c12 !important
+     }
+     pre .pln, code .pln {
+        color: #95a5a6 !important;
+     }
+     pre{
+        min-height: 300px;
+        width: 100% !important;
+        padding: 20px !important;
+        margin-top: 30px !important;
+    }
+     .foot{
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+     }
+     footer a {
+        font-weight: normal;
+     }
+     </style>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/lang-lisp.min.js"></script>
+---
+<div class="archywrap">
+<div class="container">
+<div class="row" style="margin-top:50px">
+<div class="col-xs-10">
+<input id="key" type="text" value="" placeholder="Decryption Key" class="form-control">
+</div>
+<div class="col-xs-2">
+<a id="decrypt" class="btn btn-block btn-lg btn-primary">Decrypt</a>
+</div>
+</div>
+<pre id="code" class="prettyprint lang-scm">
+
+</pre>
+</div>
+</div>
+<script>
+var JsonFormatter = {
+        stringify: function (cipherParams) {
+            // create json object with ciphertext
+            var jsonObj = {
+                ct: cipherParams.ciphertext.toString(CryptoJS.enc.Base64)
+            };
+
+            // optionally add iv and salt
+            if (cipherParams.iv) {
+                jsonObj.iv = cipherParams.iv.toString();
+            }
+            if (cipherParams.salt) {
+                jsonObj.s = cipherParams.salt.toString();
+            }
+
+            // stringify json object
+            return JSON.stringify(jsonObj);
+        },
+
+        parse: function (jsonStr) {
+            // parse json string
+            var jsonObj = JSON.parse(jsonStr);
+
+            // extract ciphertext from json object, and create cipher params object
+            var cipherParams = CryptoJS.lib.CipherParams.create({
+                ciphertext: CryptoJS.enc.Base64.parse(jsonObj.ct)
+            });
+
+            // optionally extract iv and salt
+            if (jsonObj.iv) {
+                cipherParams.iv = CryptoJS.enc.Hex.parse(jsonObj.iv)
+            }
+            if (jsonObj.s) {
+                cipherParams.salt = CryptoJS.enc.Hex.parse(jsonObj.s)
+            }
+
+            return cipherParams;
+        }
+    };
+$("#decrypt").click(function(){
+        $.ajax({
+            'url': "/secrets/CS6202-week5",
+            'dataType': "text",
+            'success': function (string) {
+                var key = $("#key").val();
+                //var a = CryptoJS.AES.encrypt(string, key, { format: JsonFormatter });
+                var a = CryptoJS.AES.decrypt(string, key, { format: JsonFormatter }).toString(CryptoJS.enc.Utf8);
+                console.log(a.toString());
+                $("#code").html(a);
+                window.prettyPrint();
+            }
+        });
+});
+</script>
