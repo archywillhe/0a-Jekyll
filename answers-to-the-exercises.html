@@ -95,7 +95,7 @@ var JsonFormatter = {
     };
 $("#decrypt").click(function(){
         $.ajax({
-            'url': "/secrets/CS6202-week5",
+            'url': "/encrypted/CS6202-week5",
             'dataType': "text",
             'success': function (string) {
                 var key = $("#key").val();
