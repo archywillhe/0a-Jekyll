@@ -29,6 +29,9 @@ headBlock: |
      footer a {
         font-weight: normal;
      }
+     .error{
+      color:#e74c3c;
+     }
      </style>
     <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
@@ -38,16 +41,29 @@ headBlock: |
 <div class="archywrap">
 <div class="container">
 <div class="row" style="margin-top:50px">
-<div class="col-xs-10">
-<input id="key" type="text" value="" placeholder="Decryption Key" class="form-control">
+<div id="keyField" class="col-xs-10">
+<input id="key" type="text" value="" placeholder="FileName-DecryptionKey" class="form-control">
 </div>
 <div class="col-xs-2">
 <a id="decrypt" class="btn btn-block btn-lg btn-primary">Decrypt</a>
 </div>
+<div id="copy" class="col-xs-2" style="display:none">
+<a class="btn btn-block btn-lg btn-warning">Copy</a>
+</div>
 </div>
 <pre id="code" class="prettyprint lang-scm">
-
+<div class="decrypted" style="display:none"></div>
+<div class="error">
+<span class="errorMessage">//Enter string to continue...</span><br><br>
+_______              .__        
+\   _  \ _____       |__| ____  
+/  /_\  \\__  \      |  |/  _ \ 
+\  \_/   \/ __ \_    |  (  <_> )
+ \_____  (____  / /\ |__|\____/ 
+       \/     \/  \/            
+</div>
 </pre>
+
 </div>
 </div>
 <script>
@@ -90,18 +106,54 @@ var JsonFormatter = {
             return cipherParams;
         }
     };
+var showError = function(errorMessage){
+  $(".error").css("display","block");
+  $("#copy").css("display","none");
+  $("#keyField").addClass("col-xs-10").removeClass("col-xs-8");
+  $(".decrypted").css("display","none");
+  $(".errorMessage").html(errorMessage);
+}
+
+$("#copy").click(function(){
+    window.prompt("Copy to clipboard: Ctrl+C, Enter", $(".decrypted").text());
+})
 $("#decrypt").click(function(){
-        $.ajax({
-            'url': "/encrypted/CS6202-week5",
-            'dataType': "text",
-            'success': function (string) {
-                var key = $("#key").val();
-                //var a = CryptoJS.AES.encrypt(string, key, { format: JsonFormatter });
-                var a = CryptoJS.AES.decrypt(string, key, { format: JsonFormatter }).toString(CryptoJS.enc.Utf8);
-                console.log(a.toString());
-                $("#code").html(a);
-                window.prettyPrint();
+  window.prettyPrint(); //print print print!!! SUCH PRETTY
+  var key = $("#key").val().split("-");
+  if(key.length!==2){
+    showError("//Ouch! Input string is not in the correct format. Unable to proceed further :'(");
+  }else{
+    $.ajax({
+        url: "encrypted/"+key[0],
+        dataType: "text",
+        success: function (string) {
+            //var a = CryptoJS.AES.encrypt(string, key[1], { format: JsonFormatter });
+            var a = CryptoJS.AES.decrypt(string, key[1], { format: JsonFormatter });
+            try{
+              a = a.toString(CryptoJS.enc.Utf8)
             }
-        });
+            catch(err){
+              showError("//Hehehe.. File couldn't be decrypted :P");
+            }
+            if(a){
+              console.log(a.toString());
+              $("#copy").css("display","block");
+              $("#keyField").addClass("col-xs-8").removeClass("col-xs-10");
+              $(".error").css("display","none");
+              $(".decrypted").css("display","block");
+              $(".decrypted").html(a);
+              window.prettyPrint();
+            }
+        },
+        error: function(request, status, error){
+          if(request.status===404){
+            showError("//404 file not found :O");
+          }else{
+            showError("//Hmmmm.. something went wrong and you need to figure it out yourself :D");
+          }
+        }
+    });
+  }
 });
+window.prettyPrint(); //print print print!!! SUCH PRETTY
 </script>
