@@ -51,9 +51,10 @@ headBlock: |
 <a class="btn btn-block btn-lg btn-warning">Copy</a>
 </div>
 </div>
-<pre id="code" class="prettyprint lang-scm">
-<div class="decrypted" style="display:none"></div>
-<div class="error">
+
+<pre id="code" class="decrypted prettyprint lang-scm" style="display:none"></pre>
+
+<pre class="error prettyprint lang-scm">
 <span class="errorMessage">//Enter string to continue...</span><br><br>
 _______              .__        
 \   _  \ _____       |__| ____  
@@ -61,10 +62,8 @@ _______              .__
 \  \_/   \/ __ \_    |  (  <_> )
  \_____  (____  / /\ |__|\____/ 
        \/     \/  \/            
-</div>
 </pre>
 
-</div>
 </div>
 <script>
 var JsonFormatter = {
@@ -118,7 +117,6 @@ $("#copy").click(function(){
     window.prompt("Copy to clipboard: Ctrl+C, Enter", $(".decrypted").text());
 })
 $("#decrypt").click(function(){
-  window.prettyPrint(); //print print print!!! SUCH PRETTY
   var key = $("#key").val().split("-");
   if(key.length!==2){
     showError("//Ouch! Input string is not in the correct format. Unable to proceed further :'(");
@@ -155,5 +153,4 @@ $("#decrypt").click(function(){
     });
   }
 });
-window.prettyPrint(); //print print print!!! SUCH PRETTY
 </script>
