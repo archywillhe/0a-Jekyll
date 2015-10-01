@@ -14,7 +14,7 @@
 <a target="_self" class="linkToLog" href="{{page.url}}" itemprop="name">
 {% endif %}
 {{ page.title }}
-{% if displayExtract %}
+{% if displayExtract or isHomePage == 1 %}
 </a>
 {% endif %}
 </span></h1>
