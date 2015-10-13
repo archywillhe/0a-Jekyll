@@ -12,8 +12,6 @@ readingTime:
 published: 1
 subtitle:
 subtitleBottom:
-reddit: https://www.reddit.com/r/computerscience/comments/3fzy8b/boolean_satisfiability_problem_sat_in_5_mins_or/
-hnlink: https://news.ycombinator.com/item?id=10016019
 maths: 1
 coverImg: "untitled-1962.jpg"
 subtitleBottom: |
@@ -67,7 +65,7 @@ Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</sm
 <p class="text-center"><img style="max-width:400px" src="/assets/img/SAT.jpg"></p>
 
 <blockquote>
-  <p><strong>NP</strong> is the set of decision problems for which there exists a non-deterministic Turing machine that would output a value 1, or 0, after at most O(n<sup>k</sup>) steps where k is some constant and n is the complexity of the input. We often refer to such number of stepes (or running time) as polynomial, hence Non-deterministic Polynomial time, or NP. </p>
+  <p><strong>NP</strong> is the set of decision problems for which there exists a non-deterministic Turing machine that would output a value 1, or 0, after at most O(n<sup>k</sup>) steps where k is some constant and n is the complexity of the input. We often refer to such number of steps (or running time) as polynomial, hence Non-deterministic Polynomial time, or NP. </p>
 
   <p>A Turing machine is basically a mathematical object that formalizes that idea of algorithm (<a href="http://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf">in Turing model’s of computation</a>). A non-deterministic Turing machine (NDTM) is, in simple words, a theoretical Turing machine that can, in a sense, engage in all possible computations while taking the same time/step as a deterministic Turing machine. (<a href="http://www.encyclopediaofmath.org/index.php/Probabilistic_Turing_machine">Note: nondeterministic doesn’t mean probabilistic.</a>) <b>One way I like to think about a non-deterministic Turing machine is that it can only exist in a universe where time is a 2 dimensional plane.</b> A deterministic Turing machine (DTM) on the other hand computes in one-dimension time (and is defined in terms of a <strong>transition function</strong>, unlike NDTM which relies on a <strong>transition relation</strong>).</p>
 
