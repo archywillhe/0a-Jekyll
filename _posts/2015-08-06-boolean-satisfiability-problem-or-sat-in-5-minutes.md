@@ -109,7 +109,7 @@ Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</sm
 
   <script type="math/tex; mode=display"> x \in L \Leftrightarrow TM(x) = 1</script>
 
-  <p>So, by the formal definition, <strong>the set of prime number is a decision problem</strong>.</p>
+  <p>So, by the formal definition, <strong>the set of prime numbers is a decision problem</strong>. And this decision problem is known as PRIMES. In 2002, it was [proven that PRIMES is in P](https://www.cs.auckland.ac.nz/~msta039/primality_v6.pdf).</p>
 
   <p>Here $L$ is often referred to as <a href="https://en.wikipedia.org/wiki/Formal_language">a language over $\Sigma$</a>.</p>
 
