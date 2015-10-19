@@ -48,7 +48,7 @@ headBlock: |
 <a id="decrypt" class="btn btn-block btn-lg btn-primary">Decrypt</a>
 </div>
 <div id="copy" class="col-xs-2" style="display:none">
-<a class="btn btn-block btn-lg btn-warning">Copy</a>
+<button id="copy-button" class="btn btn-block btn-lg btn-warning">Copy</button>
 </div>
 </div>
 
@@ -113,9 +113,6 @@ var showError = function(errorMessage){
   $(".errorMessage").html(errorMessage);
 }
 
-$("#copy").click(function(){
-    window.prompt("Copy to clipboard: Ctrl+C, Enter", $(".decrypted").text());
-})
 $("#decrypt").click(function(){
   var key = $("#key").val().split("-");
   if(key.length!==2){
@@ -153,4 +150,17 @@ $("#decrypt").click(function(){
     });
   }
 });
+</script>
+<script src="/zeroclipboard/ZeroClipboard.min.js"></script>
+<script type="text/javascript">
+  var client = new ZeroClipboard( document.getElementById("copy-button") );
+
+client.on( "ready", function( readyEvent ) {
+
+  client.on( "copy", function( event ) {
+    $("#copy-button").text("Done!");
+      var clipboard = event.clipboardData;
+      clipboard.setData( "text/plain", $(".decrypted").text());
+  } );
+} );
 </script>
