@@ -15,7 +15,7 @@ coverImg:
 subtitle:
 subtitleBottom:
 extract: |
-    At a young age I thought that solving algebraic equations on paper was lame. I much prefer working things out mentally and simply put down the value for x in the second step. It is elegant and it made a socially awkward kid feel competent. So I gradually developed the inclination to do everything in my mind. There is something magical about the moment when you arrive at the final answer, the moment when you can let your mind be free as you no longer bear the responsibility to cache the data in your random-access memory. But we are [humans after all](https://www.youtube.com/watch?v=JIOCc0tfoqA) so we don't really have RAM and when things get really complicated, we would have to resort to writing the working down. For example, there is no way I can solve the equation below without pen and paper.
+    At a young age I thought that solving algebraic equations on paper was lame. I much prefer working things out mentally and simply put down the value for x in the second step. It is elegant and it made a socially awkward kid feel competent. So I gradually developed the inclination to do everything in my mind. There is something magical about the moment when you arrive at the final answer, the moment when you can let your mind be free as you no longer bear the responsibility to cache the data in your random-access memory. But we are [humans after all](https://www.youtube.com/watch?v=JIOCc0tfoqA) so we don't really have RAM and when things get really complicated, we would have to resort to writing the working down.
 maths: 1
 ---
 
