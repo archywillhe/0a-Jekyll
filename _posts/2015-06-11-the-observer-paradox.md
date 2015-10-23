@@ -23,7 +23,7 @@ extract: |
 
     But what are actually "you"? How should "you" be defined?
 
-    To people around you, you are a concept they conceived in their mind based on their interaction with the being labeled "you", and the information they have about this being. To them, you are a construct of their own ideology. This version of you sometimes reflects the rose colored lenses through which they perceive the world, a lot more than how it would reflect anything about the being labeled "you".
+    To people around you, you are a concept they conceived in their mind based on their interaction with the being labeled "you", and the information they have about this being. To them, you are a construct of their own ideology. This version of you sometimes reflects the rose colored lenses through which they perceive the world a lot more than how it would reflect anything about the being labeled "you".
 
     To you, you are what that constitutes the idea of self. Apparently you possess a body, but the body is not what you identity you with when you think about you. You may incline to think that you are what that controls the body, makes decision, etc, that is, the mind. But let's for a moment remember that the brain is responsible for the construction of thoughts and it governs how the mind processes, similar to [a Turing machine governing how the computation is performed, defined in the transition function in relation to the states and alphabet](http://www.cs.umd.edu/~jkatz/complexity/f11/all.pdf). So a question arises:
 
@@ -42,7 +42,7 @@ Imagine you are dead, in which case the biological machinery that you once relie
 
 But what are actually "you"? How should "you" be defined?
 
-To people around you, you are a concept they conceived in their mind based on their interaction with the being labeled "you", and the information they have about this being. To them, you are a construct of their own ideology. This version of you sometimes reflects the rose colored lenses through which they perceive the world, a lot more than how it would reflect anything about the being labeled "you".
+To people around you, you are a concept they conceived in their mind based on their interaction with the being labeled "you", and the information they have about this being. To them, you are a construct of their own ideology. This version of you sometimes reflects the rose colored lenses through which they perceive the world a lot more than how it would reflect anything about the being labeled "you".
 
 To you, you are what that constitutes the idea of self. Apparently you possess a body, but the body is not what you identity you with when you think about you. You may incline to think that you are what that controls the body, makes decision, etc, that is, the mind. But let's for a moment remember that the brain is responsible for the construction of thoughts and it governs how the mind processes, similar to [a Turing machine governing how the computation is performed, defined in the transition function in relation to the states and alphabet](http://www.cs.umd.edu/~jkatz/complexity/f11/all.pdf). So a question arises:
 
