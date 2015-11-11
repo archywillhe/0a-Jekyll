@@ -58,7 +58,7 @@ Jekyll is made in [Ruby](https://www.ruby-lang.org/en/) (with [Cucumber](https:/
 {% raw %}
 ---
 layout: default
-title: "0a: About Arch Wilhes"
+title: "0a: About "
 permalink: /about/
 extraClasses: ['aboutPage']
 ---
