@@ -6,10 +6,10 @@ title: "0a explains: Set Theory and Axiomatic Systems (with pics and gifs)"
 permalink: set-theory-and-axiomatic-systems
 metaTitle:
 metaDescription: |
-    Set Theory and Axiomatic Systems explained. For anyone who is new to axiomatic set theory. 
-category: 
+    Set Theory and Axiomatic Systems explained. For anyone who is new to axiomatic set theory.
+category:
 publishedOn:
-updateAt: 
+updateAt:
 readingTime:
 published: 1
 extraClasses: ["border-lined"]
@@ -21,7 +21,7 @@ coverImg: "the-bride-after-duchamp-1934.jpg"
 subtitle: "dedicated to the curious minds"
 subtitleBottom: |
     The painting is <a href=\"http://www.moma.org/collection//browse_results.php?criteria=O%3AAD%3AE%3A6165&page_number=56&template_id=1&sort_order=1\"><i>The Bride, After Duchamp</i></a> by <a href=\"http://en.wikipedia.org/wiki/Jacques_Villon\">Jacques Villon</a>, 1934.
-footBlock: | 
+footBlock: |
     <div class="loading_maths">
     You may experience lag <br>while maths is being rendered (LaTeX).
     </div>
@@ -79,22 +79,22 @@ We do that too in mathematics. An axiomatic system is made up of a collection of
 >
 >$$ A \Rightarrow \neg \neg A $$
 >
->This is an axiom in <a target="_blank" href ="http://en.wikipedia.org/wiki/Frege's_propositional_calculus">Frege's axiomatic system on propositional calculus</a>. 
+>This is an axiom in <a target="_blank" href ="http://en.wikipedia.org/wiki/Frege's_propositional_calculus">Frege's axiomatic system on propositional calculus</a>.
 >
 ><div class="row d_shortcuts">"$\Rightarrow$" means <i><a target="_blank" href ="http://en.wikipedia.org/wiki/Material_conditional">imply</a></i>.
 "$\neg$" means <i><a target="_blank" href ="http://en.wikipedia.org/wiki/Negation">not</a></i>.</div>
 >
->We can read it as: 
+>We can read it as:
 >
->$$ A \text{ implies not not } A$$ 
->$$\text{or}$$ 
->$$\text{If }A \text{ is true, the negation of the negation of }A \text{ (double negation) is true.} $$ 
+>$$ A \text{ implies not not } A$$
+>$$\text{or}$$
+>$$\text{If }A \text{ is true, the negation of the negation of }A \text{ (double negation) is true.} $$
 >
 >When I said that "$$\Rightarrow$$" means <i>imply</i>, it is more of a suggestion on how we should interpret it. After all, "$$\Rightarrow$$" is nothing more than a symbol for a mathematical concept that exists in a rather abstract way. It doesn't really have a "meaning" per se.
 >
->But since we are humans, it is often useful to "impose" meanings upon mathematical concepts (e.g. "+" means addition). Just bear in mind that when we want to closely examine these concepts, we should take a step back and forget what we know, and perceive them in terms of axioms. 
+>But since we are humans, it is often useful to "impose" meanings upon mathematical concepts (e.g. "+" means addition). Just bear in mind that when we want to closely examine these concepts, we should take a step back and forget what we know, and perceive them in terms of axioms.
 >
->The axiom above is defining a fundamental property about the mathematical concept associated with the symbol "$$\Rightarrow$$". 
+>The axiom above is defining a fundamental property about the mathematical concept associated with the symbol "$$\Rightarrow$$".
 
 <h3>So what exactly is an axiomatic system?</h3>
 An axiomatic system is a list of undefined terms (each to represent some mathematical object) with a list of axioms that express relations between these terms.
@@ -132,38 +132,38 @@ To understand the symbolism, just keep in mind that
 
 <div class="row d_shortcuts">
 "$\in$" means <a target="_blank" href ="https://proofwiki.org/wiki/Definition:Element"><i>is an element of</i> (or <i>in</i>)</a>.
-"$\forall$" means <a target="_blank" href ="http://en.wikipedia.org/wiki/Universal_quantification"><i>for any</i> (or <i>for all</i>, or <i>for every</i>, etc)</a>. 
-"$\Leftrightarrow$" is the "two-ways imply", it means <a target="_blank" href ="http://mathworld.wolfram.com/Iff.html"><i>if and only if</i></a>. 
+"$\forall$" means <a target="_blank" href ="http://en.wikipedia.org/wiki/Universal_quantification"><i>for any</i> (or <i>for all</i>, or <i>for every</i>, etc)</a>.
+"$\Leftrightarrow$" is the "two-ways imply", it means <a target="_blank" href ="http://mathworld.wolfram.com/Iff.html"><i>if and only if</i></a>.
 </div>
 
 Thus the axiom can be read as:
 
-$$\text{for any } A \text{ and } B \\ \text{ if it is true for every } x \text{ that } x \text{ is in } A \text{ if and only if } x \text{ is also in } B \\ \text{then it would imply that } A = B \text{.}$$ 
+$$\text{for any } A \text{ and } B \\ \text{ if it is true for every } x \text{ that } x \text{ is in } A \text{ if and only if } x \text{ is also in } B \\ \text{then it would imply that } A = B \text{.}$$
 
 Basically what it's saying is that two sets ($$A$$ and $$B$$) are equivalent as long as every element in $$A$$ is in $$B$$, and every element in $$B$$ is also in $$A$$. This appears to be a rather obvious thing to say. But it is necessary to have an axiom like this serving as a foundation for the mathematical idea of set.
 
-> With this axiom, we can prove that $$\{a,b,c\} = \{b,c,a\}$$ by stating that each element in $$\{a,b,c\}$$ is also in $$\{b,c,a\}$$, and vice versa: so by the axiom, the ordering of elements does nothing to how we perceive a set. 
-> 
-> The same goes to the quantity: 
-> 
+> With this axiom, we can prove that $$\{a,b,c\} = \{b,c,a\}$$ by stating that each element in $$\{a,b,c\}$$ is also in $$\{b,c,a\}$$, and vice versa: so by the axiom, the ordering of elements does nothing to how we perceive a set.
+>
+> The same goes to the quantity:
+>
 > $$\forall x (x \in \{a,a\} \Leftrightarrow x \in \{a\}), \text{therefore } \{a,a\} = \{a\}$$
-> 
+>
 > Note: $$x$$ in the above statement works as a variable, in this case it is representing <i>any element of a certain set</i>. Since for any element in $$\{a,a\}$$, it is also in $$\{a\}$$, and vice  versa, so $$\{a,a\}$$ is equivalent to $$\{a\}$$.
 
 <h3 class="_index">More on <i>the axiom of extensionality</i></h3>
-An interesting consequence of <i>the axiom of extensionality</i> is that it implies a universe where everything is built up with sets. A universe where the notion of <b>urelements</b> no longer makes sense. 
+An interesting consequence of <i>the axiom of extensionality</i> is that it implies a universe where everything is built up with sets. A universe where the notion of <b>urelements</b> no longer makes sense.
 
 ><h4>What is a urelement?</h4>
 > A <b>urelements</b> (also called "atom") is a mathematical objects that is an element of some set, but is not a set itself.
-> 
+>
 ><p class="text-center"><img src="/assets/img/urelements.png"></p>
-> 
+>
 > For example, natural numbers are often considered to be urelements. (Provided that you don't define natural numbers to be sets of certain structure.) Since urelements are not sets, they contain no elements. But they can still be different from one another by their properties:
 >
 >$$1 \not= 2$$
 
 
-<i>The axiom of extensionality</i> expresses that the statement 
+<i>The axiom of extensionality</i> expresses that the statement
 
 $$\forall x \, (x \in A \Leftrightarrow x \in B) \, \Rightarrow A = B$$
 
@@ -173,7 +173,7 @@ $$\text{If  }\forall x \, (x \in 1 \Leftrightarrow x \in 2) \text{ is true, then
 
 Simply put it, this axiom implies that every mathematical object in the universe is distinguished only by their elements. So you can't have mathematical objects that contain no element but are different. This is what I mean by the notion of urelements no longer makes sense, and this is where things get really interesting.
 
-In such universe, empty set is the building block of everything. Let's say we have a set $$A=\{a,b\}$$. Here is an example of what $$a$$ and $$b$$ can be: 
+In such universe, empty set is the building block of everything. Let's say we have a set $$A=\{a,b\}$$. Here is an example of what $$a$$ and $$b$$ can be:
 
 $$\begin{align} a &= \{\} =\varnothing \\ b &= \{\{\}\} =\{\varnothing\} \end{align}$$
 
@@ -188,7 +188,7 @@ $$\begin{align} W &= \{a,b,c,d\} \\ ( a=\{b,\{c\}\} ) \Rightarrow W&=\{\{b,\{c\}
 
 In this universe, natural numbers would have to be built up with empty set too. This is Zermelo's construction/definition of natural numbers:
 
-$$\begin{align}0 &:= \{\} = \varnothing \\ 1 &:= \{0\} = \{\{\}\} = \{\varnothing\} \\ 2 &:= \{1\} = \{\{0\}\} = \{\{\{\}\}\} = \{\{\varnothing\}\}  \end{align} \\ $$ 
+$$\begin{align}0 &:= \{\} = \varnothing \\ 1 &:= \{0\} = \{\{\}\} = \{\varnothing\} \\ 2 &:= \{1\} = \{\{0\}\} = \{\{\{\}\}\} = \{\{\varnothing\}\}  \end{align} \\ $$
 
 $$...$$
 
@@ -196,9 +196,9 @@ We can say that this is the universe <i> the axiom of extensionality </i> has be
 
 
 > "It is said that the world is empty, the world is empty, lord. In what respect is it said that the world is empty?" The Buddha replied, "Insofar as it is empty of a self or of anything pertaining to a self: <a target="_blank" href ="http://en.wikipedia.org/wiki/%C5%9A%C5%ABnyat%C4%81">Thus it is said, Ānanda, that the world is empty</a>."
-> 
+>
 ><p class="text-center"><img src="/assets/img/mindexplosion.gif"></p>
-> 
+>
 ><i>I was exposed to ideas in Buddhism when I was young. Just pointing out an interesting resemblance here.</i>
 
 
@@ -209,11 +209,11 @@ Rather than explicitly writing down its elements like this: $$A=\{a,b\}$$, a set
 
 $$Y=\{x \in \mathbb{R}    x \not\in \mathbb{Q}\}$$
 
-The statement above can be read as: 
+The statement above can be read as:
 
 $$Y \text{ is a set made up of each element, } x \text{, in } \mathbb{R} \text{ that is not in } \mathbb{Q} \text{.}$$
 
-> Since <a target="_blank" href ="http://en.wikipedia.org/wiki/Real_numbers">$$\mathbb{R}$$ is the set of all real numbers</a>, and <a target="_blank" href ="http://en.wikipedia.org/wiki/Rational_number">$$\mathbb{Q}$$ is the set of all rational numbers</a>, $$Y$$ here is the set of all irrational numbers. 
+> Since <a target="_blank" href ="http://en.wikipedia.org/wiki/Real_numbers">$$\mathbb{R}$$ is the set of all real numbers</a>, and <a target="_blank" href ="http://en.wikipedia.org/wiki/Rational_number">$$\mathbb{Q}$$ is the set of all rational numbers</a>, $$Y$$ here is the set of all irrational numbers.
 
 <h3 class="_index">On set operators</h3>
 Besides the $$\in$$ set operator, which is the primary operator in set theory, there are other set operators too. And they can all be defined in terms of $$\in$$.
@@ -248,14 +248,14 @@ A set is a subset of another set when all its elements are in the other set ( De
 $$A \subseteq B \Leftrightarrow \forall x ( x \in A \Rightarrow x \in B)$$
 
 > In the example above, $$Y$$ is a subset of $$\mathbb{R}$$. We often use "$$\subset$$" to denote this relationship:
-> 
+>
 > $$ \{x \in \mathbb{R}    x \not\in \mathbb{Q}\} \subset \mathbb{R} \\ Y \subset \mathbb{R} $$
-> 
+>
 ><p class="text-center"><img src="/assets/img/set2.png"></p>
 
 A subset of a set can be viewed as a set we obtain from selecting elements from another set satisfying some statement.
 
-<p class="text-center"><img src="/assets/img/subset.gif"></p> 
+<p class="text-center"><img src="/assets/img/subset.gif"></p>
 
 <p class="_index">In ZF, <i>the axiom of specification</i> states that a set of such selection alway exists.</p>
 
@@ -271,15 +271,15 @@ $$\text{for any set } A \text{ , there exists a set } B \\ \text{ that are made 
 
 <div class="row d_shortcuts">
 $\exists$ means <a target="_blank" href ="http://en.wikipedia.org/wiki/Existential_quantification"><i>there exists</i></a>.
-$\land$ means <i>and</i>. 
+$\land$ means <i>and</i>.
 $\phi(x)$ here is known as a <a target="_blank" href ="http://en.wikipedia.org/wiki/Metavariable">meta-variable</a> to indicate some statement about $x$.
 </div>
 <br>
 
 > We often refer to an axiom with meta-variable as an <b>axiom schema</b>. Axiom schema can generate an infinite number of axioms because we can make an axiom out of it by putting any statement into the variable.
-> 
+>
 > In programming, you can visualize an axiom schema as a simply function that returns an axiom:
-> 
+>
 > {% highlight JavaScript %}
 function make_an_axiom(phi){
      return "Forall A, there exists B such that for all x, if x is in B, then x is in A and " + phi;
@@ -293,14 +293,14 @@ function make_an_axiom(phi){
 >
 > In the previous example, $$\phi(x)$$ is the statement $$x \not\in \mathbb{Q} $$. So elements satisfying this statement, namely the irrational numbers, would be selected.
 >
-><p class="text-center"><img src="/assets/img/specification.gif"></p> 
+><p class="text-center"><img src="/assets/img/specification.gif"></p>
 
 A set is always a subset of itself. Selecting all elements from a set gives us back the original set.
 
 $$\forall A (A \subseteq A)$$
 
 > $$\subseteq$$ is the general notation for subset. It can be used for all subsets, while $$\subset$$ can only be used when the subset is not the set itself.
-> 
+>
 ><p class="text-center"><img src="/assets/img/ss_vs_properss.png"></p>
 
 Empty set is the subset of all sets. Selecting no elements from a set and we would get an empty set.
@@ -309,10 +309,10 @@ $$\forall A ( \varnothing \subseteq A )$$
 
 
 <h3 class="_index"><i>Axiom of specification</i> in Cantor's Paradise</h3>
-<a target="_blank" href ="http://en.wikipedia.org/wiki/Georg_Cantor">Cantor</a> is consideredly the founder of modern set theory, due to <a target="_blank" href ="http://math.byu.edu/~grant/courses/cantor1874.pdf">his 1874's paper</a> which illustrated a fundamental concept about infinite sets. Cantor's Paradise is the name for the set theory came up by Cantor in the era before there were any axiomatic systems on set theory. 
+<a target="_blank" href ="http://en.wikipedia.org/wiki/Georg_Cantor">Cantor</a> is consideredly the founder of modern set theory, due to <a target="_blank" href ="http://math.byu.edu/~grant/courses/cantor1874.pdf">his 1874's paper</a> which illustrated a fundamental concept about infinite sets. Cantor's Paradise is the name for the set theory came up by Cantor in the era before there were any axiomatic systems on set theory.
 
 
-> Cantor developed his theory of set in what we called an <a target="_blank" href ="http://en.wikipedia.org/wiki/Intuitionism">"intuitive"</a> approach: he did not formalize the mathematical concepts with formal system such as <a target="_blank" href ="http://en.wikipedia.org/wiki/First-order_logic">first-order logic</a> (which is what's used in ZF and many other axiomatic systems). His set theory is in a sense a paradise due to its simplicity and straightforwardness. A paradise where, back in the early 20th century, many people had comfortably settled in with no plan to leave, even though at that time it was becoming clearer and clearer that such approach to developing a theory of set would result in paradoxes. 
+> Cantor developed his theory of set in what we called an <a target="_blank" href ="http://en.wikipedia.org/wiki/Intuitionism">"intuitive"</a> approach: he did not formalize the mathematical concepts with formal system such as <a target="_blank" href ="http://en.wikipedia.org/wiki/First-order_logic">first-order logic</a> (which is what's used in ZF and many other axiomatic systems). His set theory is in a sense a paradise due to its simplicity and straightforwardness. A paradise where, back in the early 20th century, many people had comfortably settled in with no plan to leave, even though at that time it was becoming clearer and clearer that such approach to developing a theory of set would result in paradoxes.
 
 
 Here is the concept of "specification" in Cantor's paradise formalized into an axiom for comparison with the <i>axiom of specification</i> in ZF.
@@ -331,7 +331,7 @@ Apparently, Cantor's version allows a set to be constructed by all elements in t
 
 Let's say we call all sets that don't contain themselves normal set, and define a set $$V$$, that contains all normal sets. We would realize that if $$V$$ is itself a normal set, $$V$$ must contain itself. But that would make $$V$$ no longer a normal set (since a normal set does not contain itself).
 
-$$A \not\in A \Rightarrow A \text{ is a normal set} \\ V = \{x    x \text{ is a normal set} \}$$ 
+$$A \not\in A \Rightarrow A \text{ is a normal set} \\ V = \{x    x \text{ is a normal set} \}$$
 
 $$V \text{ is a normal set} \Rightarrow V \in V \\ V \in V \Rightarrow V \text{ is not a normal set}$$
 
@@ -353,7 +353,7 @@ $$\exists B \, \forall x \, (x\in B \Leftrightarrow \phi(x)) \Rightarrow \exists
 
 In ZF, its <i>axiom of specification</i> avoided this paradox by restricting the selection process from all elements in the universe to only elements in a certain set.
 
-$$\exists A \exists B \, \forall x \, (x\in B \Leftrightarrow ( x \in A \land \phi(x))) \not\Rightarrow  \exists V (V = \{x    x \text{ is a normal set} \} )$$ 
+$$\exists A \exists B \, \forall x \, (x\in B \Leftrightarrow ( x \in A \land \phi(x))) \not\Rightarrow  \exists V (V = \{x    x \text{ is a normal set} \} )$$
 
 So this <i>axiom of specification</i> only guarantees the existence of a set made up of elements from a set that's already defined.
 
@@ -361,9 +361,9 @@ $$\exists U (U = \{x \in A    x \text{ is a normal set}\}) \\ \text{ here A is s
 
 We can't just "squeeze" $$U$$ into $$A$$ before $$U$$ is defined. So $$A$$ can't contain $$U$$. The paradox can't occur.
 
-> On the other hand, to avoid this paradox, Russell invented a theory of "type" (and included it in <a target="_blank" href ="http://www.amazon.com/gp/product/1603864377/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603864377&linkCode=as2&tag=0aarhe-20&linkId=ROHQ2FJTIJ7KKDBG">Principia Mathematica</a>, a book he co-wrote with Whitehead). It basically states that every set has a "type number" based on what it contains. 
+> On the other hand, to avoid this paradox, Russell invented a theory of "type" (and included it in <a target="_blank" href ="http://www.amazon.com/gp/product/1603864377/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1603864377&linkCode=as2&tag=0aarhe-20&linkId=ROHQ2FJTIJ7KKDBG">Principia Mathematica</a>, a book he co-wrote with Whitehead). It basically states that every set has a "type number" based on what it contains.
 >
-> In this universe, urelements exist. And they exist with type number 0. Sets containing urelements are type 1 objects. Sets containing type 1 objects are type 2 objects. And so on. We can only define a set by first having objects of lower types. This hierarchy of types prevent a set from containing itself because self-referencing is not possible in a system like this. 
+> In this universe, urelements exist. And they exist with type number 0. Sets containing urelements are type 1 objects. Sets containing type 1 objects are type 2 objects. And so on. We can only define a set by first having objects of lower types. This hierarchy of types prevent a set from containing itself because self-referencing is not possible in a system like this.
 
 
 
@@ -397,7 +397,7 @@ Formally, an ordered pair is defined to be a set of this structure:
 
 $$(a,b) = \{\{a\},\{a,b\}\}$$
 
-As you can see, $$(a,b) = (b,a)$$ only when $$\{\{a\},\{a,b\}\} =\{\{b\},\{b,a\}\}$$, which means $$a = b$$. 
+As you can see, $$(a,b) = (b,a)$$ only when $$\{\{a\},\{a,b\}\} =\{\{b\},\{b,a\}\}$$, which means $$a = b$$.
 
 
 
@@ -424,19 +424,19 @@ $$(a_1,a_2...a_n) = \{\{x\},\{x,a_n\}\} \text{ where }x=(a_1,a_2...a_{n-1})$$
 when we have one element, for simplicity, we would define it as $$(a) = a$$.
 
 > As we can see, the definition of 2-tuple (an ordered pair) above can be derived from the recursive definition.
-> 
+>
 > $$\begin{align} (a_1,a_2) &= \{\{x\},\{x,a_2\}\} \text{ where } x=(a_1)=a_1 \\ (a_1,a_2)&=\{\{a_1\},\{a_1,a_2\}\} \end{align}$$
-> 
-> This is actually known as <i>Kuratowski definition</i> of ordered pair. (The recursive defintion of $$n$$-tuple is a generalization of it.) 
-> 
+>
+> This is actually known as <i>Kuratowski definition</i> of ordered pair. (The recursive defintion of $$n$$-tuple is a generalization of it.)
+>
 > There're other ways of defining an ordered pair too. Here is <i>Hausdorff's definition</i> that uses natural number:
-> 
+>
 > $$(a_1,a_2) = \{\{a_1,1\},\{a_2,2\}\}$$
-> 
+>
 > We can once again generalize it for the definition of $$n$$-tuple:
-> 
+>
 > $$(a_1,a_2...a_n) = \{\{a_1,1\},\{a_2,2\} ... \{a_n,n\}\}$$
-> 
+>
 > One with a curious mind may ask, which of these definitions should be used? And my answer to her or him is: it's all up to you. It really doesn't matter which one you pick. You can just come up with your own definition if you like. What's important is to have mathematical objects that are distinguishable not only by the elements in them, but also the order the elements are in.
 
 
@@ -451,8 +451,8 @@ $$R_{AB}= \{(1,a),(2,c)\} \\[10px] \begin{align} A&=\{1,2,3,4\} \\ B&=\{a,b,c\} 
 <p class="text-center"><img src="/assets/img/relation.gif"></p>
 
 > A Cartesian Product, for example, is also a binary relation. Actually, any binary relation between 2 sets is a subset of their Cartesian Product. $$R_{AB}$$ above is a subset of the Cartesian Product of $$A$$ and $$B$$.
-> 
-> $$A \times B = \{(1,a),(1,b),(1,c),(2,a),(2,b),(2,c),(3,a),(3,b),(3,c),(4,a),(4,b),(4,c)\}$$ 
+>
+> $$A \times B = \{(1,a),(1,b),(1,c),(2,a),(2,b),(2,c),(3,a),(3,b),(3,c),(4,a),(4,b),(4,c)\}$$
 >
 > $$\begin{align} R_{AB} &= \{(1,a),(2,c)\} \\ R_{AB} &\subset (A \times B) \end{align}$$
 
@@ -463,17 +463,16 @@ $$R_{ABC}= \{(1,a,-1),(2,c,-4)\} \\[10px] \begin{align} A&=\{1,2,3,4\} \\ B&=\{a
 <p class="text-center"><img src="/assets/img/relation3.png"></p>
 
 <h3 class="_index">What is a function?</h3>
-A function is a relation in which the first $$m$$ element(s) in each tuple are unique.
+A function is a relation in which no two $$m$$-tuples have their first $$m-1$$ element(s) the same.
 
-$$\begin{align} R_1&= \{(1,a),(2,c)\} \text{, } R_1 \\ R_2&= \{(1,a),(1,c)\} \text{, } R_2 \text{ is not a function} \end{align}$$
+$$\begin{align} R_1&= \{(1,a),(2,c)\} \text{, } R_1 \text{ is a function}  \\ R_2&= \{(1,a),(1,c)\} \text{, } R_2 \text{ is not a function} \end{align}$$
 
-$$R_1$$ above is also known as a single-input function.
 
-<p class="text-center"><img src="/assets/img/function.gif"></p> 
+<p class="text-center"><img src="/assets/img/function.gif"></p>
 
-For a single-input function, the first element (which plays the role of "input") has to be unique.
+$$R_1$$ above is a 1-ary (or single-input) function. For any 1-ary function, the first element (which plays the role of "input") has to be unique.
 
-> If we are to have a 2-inputs function, our first 2 elements in each tuple must then be unique.
+> If we are to have a 2-ary function, our first 2 elements in each tuple must then be unique.
 
 Often, we would write:
 
@@ -491,7 +490,15 @@ $$R:A\mapsto B$$
 
 Here $$A$$ (whose elements play the role of "input") is called the domain, while $$B$$ is called the codomain.
 
-> For more-than-one-input function, the domain would be a Cartesian product of two or more sets:
+>It is always true that for every element in the domain, there exists a tuple whose first element is that element. But it is not necessary the case that for every element in the co-domain there exists a tuple whose second element is that element. Take any $$:A\mapsto B$$ for example.
+>
+>$$\forall a \in A \; \exists b \in B \; \exists t \in f, t(a) = b \; \; \text { is true}$$
+>
+>$$\forall a \in A \; \forall b \in B \; \exists t \in f, t(a) = b \; \; \text { may not be true}$$
+
+
+> For function with more than 1 input, the domain would be expressed as a Cartesian product of two or more sets:
+>
 > $$R:A_1 \times A_2 ... \times A_n \mapsto B$$
 
 Normally, we would define a function with a statement.
@@ -502,19 +509,23 @@ This can be translated into
 
 $$f=\{(x_1,x_1+1),(x_2,x_2+1)...\} \\ \text{where } x_n \text{ is an element in the domain} \\ \text{and } x_n+1 \text{ is an element in the codomain}$$
 
-> So to be more specific, we can state that $$f$$ maps from the set of real numbers to itself:
+> So to be more specific, we can state that $$f$$ above maps from the set of real numbers to itself:
+>
 > $$f: \mathbb{R} \mapsto \mathbb{R}$$
+>
 > Or the set of integers to itself:
+>
 > $$f: \mathbb{Z} \mapsto \mathbb{Z}$$
+>
 > In the $$f: \mathbb{Z} \mapsto \mathbb{Z}$$ case, we would get
 > $$f(1.618) = undefined$$
 > because $$1.618$$ is not an integer, it is not in the domain.
 
-Functions can be classified into 4 types: 
+Functions can be classified into 4 types:
 
 <ol>
-<li>not injective & not surjective</li> 
-<li>injective & not surjective</li> 
+<li>not injective & not surjective</li>
+<li>injective & not surjective</li>
 <li>surjective & not injective</li>
 <li>injective & surjective</li>
 </ol>
@@ -546,12 +557,12 @@ If a function is both subjective and injective, we call it <b>bijective</b>. In 
 <h3 class="_index">What is a cardinal number?</h3>
 A cardinal number of a set can be viewed as the number of elements in the set. (denoted with $$  \:\:  $$)
 
-$$X =\{4,5,1,2\} \\   X   = 4$$ 
+$$X =\{4,5,1,2\} \\   X   = 4$$
 
 > The idea of "number" gets really fussy when we have sets that contain infinitely many elements. So formally, we say that two sets have the same cardinal number (or the same <b>cardinality</b>) only when there is a bijective function between them.
-> 
+>
 > $$\exists f (f:A \mapsto B \text{ is bijective}) \Leftrightarrow   A   =   B  $$
-> 
+>
 > That's to say, when $$  A   =   B  $$,  we can construct a set of ordered pairs, each made up of a unique element from $$A$$ and $$B$$ individually, for all elements in $$A$$ and $$B$$.
 
 <h3 class="_index">On the idea of countable, infinite sets and their cardinal numbers</h3>
@@ -565,54 +576,54 @@ Or, to put it another way, a set is countable when there is an injective functio
 
 It's pretty obvious that all finite sets (sets with finite number of elements) are countable.
 
-Other than $$\mathbb{N}$$, there're sets containing infinitely many elements (often referred to as <b>infinite sets</b>) that are countable too. The set of all integers, $$\mathbb{Z}$$, for example, is countable. And interestingly, the two sets have the same cardinality. 
+Other than $$\mathbb{N}$$, there're sets containing infinitely many elements (often referred to as <b>infinite sets</b>) that are countable too. The set of all integers, $$\mathbb{Z}$$, for example, is countable. And interestingly, the two sets have the same cardinality.
 
 $$  \mathbb{Z}  =  \mathbb{N}  =\aleph_0$$
 
 $$\aleph_0$$ is the symbol used to represent this cardinal number. (As we can see, the cardinal number of infinite sets can no longer to represent by a natural number.)
 
 > To prove that $$ \mathbb{N}  = \mathbb{Z} $$, we only need to show that there's a bijective function from $$  \mathbb{N}  $$ to $$  \mathbb{Z}  $$. And this is the bijective function:
-> 
+>
 > $$f(x)= \left\{ \begin{array}{ll} x-\frac{x+1}{2} \text{ if x is odd } \\ x - \frac{x \times 3}{2} \text{ if x is even}\end{array} \right.$$
-> 
+>
 > This is bijective because we can just keep feeding in natural number to this function for it to output every integer:
-> 
+>
 > $$\begin{align} f(1)&=0 \\ f(2)&=-1 \\ f(3)&=1 \\ f(4)&=-2 \\ f(5)&=2 \end{align} \\... $$
-> 
+>
 > Every natural number is mapped to precisely one integer. All integers are mapped as there're infinitely many natural numbers.
 >
 > Actually, all infinite subsets of $$\mathbb{N}$$ has $$\aleph_0$$ as the cardinal number.
-> 
+>
 > $$X \text{ is an infinite set and } X \subseteq \mathbb{N} \Leftrightarrow \exists f (f:\mathbb{N}\mapsto X \text{ is bijective })$$
 
-But for any two infinite sets, do they always have the same cardinal number? Interestingly, the answer is no. In this sense, there are some infinities that are bigger than other infinities. 
+But for any two infinite sets, do they always have the same cardinal number? Interestingly, the answer is no. In this sense, there are some infinities that are bigger than other infinities.
 
 Infinite sets with a bigger cardinal number than $$\mathbb{N}$$ are "uncountable" or not "countable" (by definition).
 
 <p class="_index"></p>
 
 > The idea of "uncountable" can be demonstrated in what's known as <b><i>Cantor's diagonal argument</i></b>.
-> 
+>
 > Let's say we have an infinite set $$A$$ which contains all the different binary (every digit is either 0 or 1) strings of infinite length.
-> 
+>
 ><p class="text-center"><img src="/assets/img/infinite_strings.png"></p>
-> 
+>
 > Now let's say we have another set, $$B$$, that contains all binary strings of infinite length enumerated by a function like this:
-> 
+>
 > $$f(n) = \left\{ \begin{array}{ll} \text { a string that repeats base-2 version of } (n - 1) \text{ with a 0 behind if n is odd } \\ \text{ a string that's bitwise NOT of } f(n-1) \text{ if n is even} \end{array} \right. \\ B = \{x    x = f(a), a \in \mathbb{N}\}$$
-> 
+>
 ><p class="text-center"><img src="/assets/img/infinite_strings_b.png"></p>
-> 
+>
 > Apparently, this is a bijective function from $$\mathbb{N}$$ to $$B$$. $$B$$ has the cardinal number $$\aleph_0$$.
-> 
+>
 > Now we can take the 1st digit of the 1st element, $$f(1)$$, flip it to a different value (0 to 1 or 1 to 0), take the 2nd digit of the 2nd element, $$f(2)$$, does the same thing to it ... and get the $$n$$-th digit from every element to construct a binary string. We would end up with an infinitely long binary string that is different from every infinitely long string in $$B$$.
-> 
+>
 ><p class="text-center"><img src="/assets/img/cantor-diagonal-argument.gif"></p>
 > .
-> And the same thing can be done to every set whose element is enumerated by $$\mathbb{N}$$. So we conclude that no matter how these binary strings are listed (using a bijective function with domain $$\mathbb{N}$$), we would always be able to construct a new permutation that's not in the list. In other words, enumeration (using $$\mathbb{N}$$) cannot capture every permutation of infinitely long strings. We can't list down every element in $$A$$, the set of all possible binary strings of infinite length. 
-> 
-> $$\forall B, \forall f ( f: \mathbb{N} \mapsto B \text{ is bijective} \Rightarrow (B\not=A) )$$ 
-> 
+> And the same thing can be done to every set whose element is enumerated by $$\mathbb{N}$$. So we conclude that no matter how these binary strings are listed (using a bijective function with domain $$\mathbb{N}$$), we would always be able to construct a new permutation that's not in the list. In other words, enumeration (using $$\mathbb{N}$$) cannot capture every permutation of infinitely long strings. We can't list down every element in $$A$$, the set of all possible binary strings of infinite length.
+>
+> $$\forall B, \forall f ( f: \mathbb{N} \mapsto B \text{ is bijective} \Rightarrow (B\not=A) )$$
+>
 > In this sense, $$A$$ is "uncountable". There exists no bijective function from $$\mathbb{N}$$ to $$A$$.
 
 <h3 class="_index" id="power_sets">On power sets</h3>
@@ -627,9 +638,9 @@ $$  \mathcal{P}(A)  =2^{  A  }$$
 >For this reason, sometimes, a power set of set X is denoted as $$2^X$$.
 >
 > Cantor's theorem states that a power set of a set always has a bigger cardinal number than the set.
-> 
+>
 > $$\forall A(   \mathcal{P}(A)  >  A  )$$
-> 
+>
 > This is true for infinite sets too. So there are infinitely many different-sizes infinite sets.
 >
 ><small>The chapter below has been edited on 19th Feb, 4:08 pm EST time. Great thanks to <a href="http://www.reddit.com/r/math/comments/2wfom3/set_theory_and_axiomatic_systems_explained_with/">some useful comments on Reddit</a>. </small>
@@ -651,15 +662,15 @@ Meanwhile, the smallest Beth number is $$\beth_0$$, and by definition it is equi
 
 $$\beth_0 < \beth_1 < \beth_2 < \beth_3...$$
 
-$$\aleph_0 = \beth_0$$ 
+$$\aleph_0 = \beth_0$$
 
 Here is the recursive definitions for Beth numbers with bigger ordinals (bigger subscript $$n$$),
 
-$$\beth_{a+1} =  \mathcal{P}({\beth_a})  = 2^{\beth_a}$$ 
+$$\beth_{a+1} =  \mathcal{P}({\beth_a})  = 2^{\beth_a}$$
 
 >$$\mathbb{R}$$ has $$\beth_1$$ as the cardinality since <a target ="_blank" href="http://math.stackexchange.com/a/118659/65082">there is a bijective function between $$\mathbb{R}$$ and $$\mathbb{P}(\mathbb{N})$$</a>.
 
-The <a target="_blank" href ="http://logic.harvard.edu/EFI_CH.pdf">continuum hypothesis (CH)</a> states that 
+The <a target="_blank" href ="http://logic.harvard.edu/EFI_CH.pdf">continuum hypothesis (CH)</a> states that
 
 $$\beth_1 = \aleph_1$$
 
@@ -670,14 +681,14 @@ $$\text{There is no infinity between } \aleph_0 \text{ and } 2^{\aleph_0}$$
 $$2^{\aleph_0} = \aleph_1$$
 
 ><small>this was added in on 20th Feb</small>
-> Just roughly 70 years ago, <a target="_blank" href="http://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Gödel</a> showed that <a target="_blank" href="http://press.princeton.edu/titles/1034.html">CH cannot be disproved</a> in ZF & ZFC (ZF with <a href="http://www.amazon.com/gp/product/0486466248/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0486466248&linkCode=as2&tag=0aarhe-20&linkId=U3BBFLSJIBOP2R36">the axiom of choice</a>). 
-> 
-> Two decades later, <a target="_blank" href="http://en.wikipedia.org/wiki/Paul_Cohen_(mathematician)">Cohen</a> showed that <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300611/">no contradiction would arise if CH is defined to be false</a> in ZF & ZFC. 
-> 
+> Just roughly 70 years ago, <a target="_blank" href="http://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Gödel</a> showed that <a target="_blank" href="http://press.princeton.edu/titles/1034.html">CH cannot be disproved</a> in ZF & ZFC (ZF with <a href="http://www.amazon.com/gp/product/0486466248/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0486466248&linkCode=as2&tag=0aarhe-20&linkId=U3BBFLSJIBOP2R36">the axiom of choice</a>).
+>
+> Two decades later, <a target="_blank" href="http://en.wikipedia.org/wiki/Paul_Cohen_(mathematician)">Cohen</a> showed that <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300611/">no contradiction would arise if CH is defined to be false</a> in ZF & ZFC.
+>
 > CH is therefore considered to be <a target="_blank" href="http://en.wikipedia.org/wiki/Independence_%28mathematical_logic%29">independent</a> of ZF and ZFC.
 
 <p class="text-center"> - The End - </p>
 
 ><small>many typos & careless mistakes were corrected and the last chapter was updated again on 20th Feb, EST 5:15 am. Huge thanks to f_of_g from Reddit for <a href="http://www.reddit.com/r/math/comments/2wfom3/set_theory_and_axiomatic_systems_explained_with/cor75oy">thoroughly pointing them out</a>. Truly appreciate that.</small>
-> 
+>
 > The last chapter was later on edited again on 24th Feb, EST time 4:25pm
