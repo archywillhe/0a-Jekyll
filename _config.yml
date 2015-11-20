@@ -1,7 +1,6 @@
 # Site settings
-title: "0a: Archy Wilhes at your service."
-email: "a@0a.io"
-description: "Reality is a simulation, and the past does not exist. My name is . I write."
+title: "0a: a thunk, a propositional variable"
+description: "May the *force* be with you. Let us embrace nullarity."
 baseurl: "" # the subpath of your site, e.g. /blog/
 imageurl: "/assets/img/"
 fromThePast: "/assets/past/"
