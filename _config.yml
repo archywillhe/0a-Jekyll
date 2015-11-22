@@ -1,6 +1,6 @@
 # Site settings
-title: "0a: a thunk, a propositional variable"
-description: "May the *force* be with you. Let us embrace nullarity."
+title: "0a: a thunk, a propositional variable, a \\n"
+description: "May the *force* be with you. Let us embrace null-arity. There exists a more straightforward interpretation as well. "
 baseurl: "" # the subpath of your site, e.g. /blog/
 imageurl: "/assets/img/"
 fromThePast: "/assets/past/"
