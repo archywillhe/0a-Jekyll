@@ -1,18 +1,18 @@
 ---
 layout: dailylog
 postType: dailylog
-font: 
-extraClasses: 
+font:
+extraClasses:
 postType: dailylog
 title: "Fear and Loathing for libraries and frameworks"
 metaTitle:
 permalink: the-framework-library-phobia
-metaDescription: 
-publishedOn: 
-updateAt: 
-readingTime: 
+metaDescription:
+publishedOn:
+updateAt:
+readingTime:
 published: 1
-coverImg: 
+coverImg:
 subtitle:
 subtitleBottom:
 extract: |
@@ -27,9 +27,9 @@ I started off learning programming by doing web development, or basically just a
 
 I have always been an idealist. The more I understand how things work, the more I am convinced that I am capable of duplicating them, and getting my own version of things work. Why use libraries or frameworks when you can just hardcode everything, if you are given an infinite amount of time? There is this sense of unease whenever I code in an environment with a lot of unnecessary functions and classes (or [prototypes](http://en.wikipedia.org/wiki/Prototype-based_programming) in the case of JS). So when possible, I would avoid using any libraries and frameworks that I consider "heavy". (Or it'd be the avoidance of [packages](https://atmospherejs.com) in the case that [I fell in love with a framework](https://www.meteor.com)).
 
-I just want to write my own code and be minimalistic. 
+I just want to write my own code and be minimalistic.
 
-It turns out this is a very naive way of thinking. It is highly impractical. I'm not going to get anywhere with such ideology, if I'm concerned with getting things done. As [Eric S. Raymond](http://en.wikipedia.org/wiki/Eric_S._Raymond) put it in [*The Cathedral and the Bazaar (1999)*](http://www.amazon.com/gp/product/0596001088/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596001088&linkCode=as2&tag=0aarhe-20&linkId=DEAUNS2X7QMF2LS7): 
+It turns out this is a very naive way of thinking. It is highly impractical. I'm not going to get anywhere with such ideology, if I'm concerned with getting things done. As [Eric S. Raymond](http://en.wikipedia.org/wiki/Eric_S._Raymond) put it in [*The Cathedral and the Bazaar (1999)*](http://www.amazon.com/gp/product/0596001088/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596001088&linkCode=as2&tag=0aarhe-20&linkId=DEAUNS2X7QMF2LS7):
 
 <div class="rows d_shortcuts">
 Good programmers know what to write. Great ones know what to rewrite (and reuse) ... An important trait of the great ones is constructive laziness. They know that you get an A not for effort but for results, and that it's almost always easier to start from a good partial solution than from nothing at all.
@@ -39,6 +39,8 @@ Don't reinvent the wheel. Being minimalistic is good. But to be real minimalisti
 
 There would be slight complication when it comes to framework though. (Here I'm using the [IoC](http://en.wikipedia.org/wiki/Inversion_of_control) definition of framework, in which case framework defines the skeleton of the application.) But the idea is similar: framework can make your life easier but you'd need to choose the right one for the project. And sometimes it may be better that you build your own, or that [you don't need one at all](http://tomasp.net/blog/2015/library-frameworks/).
 
-Nonetheless, if you are a beginner in programming, I believe you should try to develop the library/framework phobia - you won't be productive but you would learn a lot from writing your own code - and then realize that writing every line by yourself is not going to be practical, and then overcome this fear and learn the art of rewriting and reusing, which involves exploring more libraries & frameworks, making notes about them, keeping things organize so you know what is appropriate to be used for certain situation (making amendment if possible) and not inventing wheels needlessly. And that is what I'm going to start doing from now on. 
+Nonetheless, if you are beginning to learn app/web development, I believe you should try to develop the library/framework phobia - you won't be productive but you would learn a lot from writing your own code - and then realize that writing every line by yourself is not going to be practical, and then overcome this fear and learn the art of rewriting and reusing, which involves exploring more libraries & frameworks, making notes about them, keeping things organize so you know what is appropriate to be used for certain situation (making amendment if possible) and not inventing wheels needlessly. And that is what I'm going to start doing from now on.
 
-I need to be a better programmer.
+I need to be a better developer.
+
+End Note (added on 29th Nov 2015): except that few months later I decided not to do that and focused more on mathematics and CS instead.
