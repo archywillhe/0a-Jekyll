@@ -2,7 +2,7 @@
 font: garamond
 layout: article
 title: "The key here is not hard work, but interest"
-date: 2012-01-14
+date: 2014-01-14
 num: 1
 published: 1
 coverImg: 0
@@ -16,7 +16,7 @@ I will be lying if I say that I was not enraptured upon discovering I scored 760
 
 Assuming that hard work was the main reason why I did well in the tests is quite a superficial way of looking at it. And it is rather incorrect. Things that appear to be hard work, if done on account of interest, should not be considered hard work for <a href="http://www.oxforddictionaries.com/definition/english/hard">the adjective <i>hard</i> is defined as "requiring a great deal of endurance or effort"</a>. In the past couple of months, rather than doing anything that required a great deal of endurance or effort, I had been engaging in activities that I enjoyed: reading books and articles about things that piqued my interests, watching videos on <a href="http://www.youtube.com/user/Vsauce">Youtube</a> and <a href="https://www.coursera.org/user/i/24ad8a3d1fabbb2e293c9f5203f9dd2f">Coursera</a>, programming, building websites and applications, doing graphical designing and occasionally playing a game of DotA.
 <br><br>
-The key here is not hard work, but interest. 
+The key here is not hard work, but interest.
 <br><br>
 When a person is interested in something, take <a href="http://en.wikipedia.org/wiki/B-boying">breakdancing</a> for example, and likes to participate in certain activities, such as practicing <a href="http://youtu.be/iHQ5p37dLYo">munchmill</a> (an element in breakdance), she/he does it ungrudgingly and enjoys it, and therefore would have a higher tendency to stay focus throughout the entire process. This helps in both the accumulation of information and the development of cognitive and psychomotor skills. And during the process, the person would experience an increase in the level of <a href="en.wikipedia.org/wiki/Dopamine">dopamine</a> in her/his brain and, as a result, would be positively <a href="http://en.wikipedia.org/wiki/Reinforcement">reinforced</a> without requiring any actual <a href="http://en.wikipedia.org/wiki/Motivation#Intrinsic_and_extrinsic_motivation">extrinsic motivation</a>, for instance the reward one receives upon coming up first in a dance competition. In another words, she/he would be motivated intrinsically. People who are motivated intrinsically would more likely to carry on with the activity even when it consists of difficult tasks. This is particularly true for the process of knowledge acquisition, which is why rather than being an orthodox student and studying hard, I learn what I like enthusiastically because I find them interesting. And I was given the opportunity to do so after leaving school.
 
