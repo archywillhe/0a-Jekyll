@@ -23,6 +23,6 @@ The mental constructs in my consciousness are as vivid as usual - I am fully awa
 Have I always been like this?
 
 <p class="text-center"> ● ● ● </p>
-Have <i>you</i> always been like this? If true, then this probably has to do with one very fundamental aspect of you that governs your behaviors. To bring yourself to do something that's always in your mind but you have great difficulty actually engaging in doing, you have to understand yourself, form an accurate mental representation of yourself, analyze it and see where this conflict of interest lays. There is always a reason for the existence of such inconsistency in actions and thoughts. Find out what it is, and I believe you will figure out a way to change the situation, my friend.
+Have <i>you</i> always been like this? If true, then this probably has to do with one very fundamental aspect of you that governs your behavior. To bring yourself to do something that's always in your mind but you have great difficulty actually engaging in doing, you have to understand yourself, form an accurate mental representation of yourself, analyze it and see where this conflict of interest lies. There is always a reason for the existence of such inconsistency in actions and thoughts. Find out what it is, and I believe you will figure out a way to change the situation, my friend.
 
 Have faith in yourself.

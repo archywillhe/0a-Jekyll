@@ -1,7 +1,7 @@
 ---
-layout: article
-postType: article
-title: "0a explains: JavaScript closure and design patterns "
+layout: minute
+postType: minute
+title: "JavaScript Closure and Design Patterns in 3 minutes"
 permalink: JavaScript-closure-and-design-patterns
 metaTitle:
 metaDescription: "JavaScript closure and design patterns explained in possibly the most comprehensible way possible."
@@ -18,11 +18,14 @@ reddit: https://www.reddit.com/r/javascript/comments/2i3zj4/javascript_closure_a
 subtitleBottom: "Painting is Church Street El by <a target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Charles_Sheeler\">Charles Sheeler</a>, 1920."
 footBlock: |
 ---
-A <i>JavaScript closure</i> is not really <a target="_blank" class="default_anchor" href="http://0ar.ch/">a</a> thing. It is just a term we use to describe what happens when we have a function that has access to outside variables other functions cannot access.
+
+###1st Minute: What is a closure in Javascript?
+
+A <i>closure</i> is not really <a target="_blank" class="default_anchor" href="http://0ar.ch/">a</a> thing. It is just a term we use to describe what happens when we have a function that has access to outside variables other functions cannot access.
 
 <blockquote>Outside variables are sometimes referred to as <a target="_blank" href="http://en.wikipedia.org/wiki/Non-local_variable">non-local variable.</a></blockquote>
 
-Here is a simple example of JavaScipt closure.
+Here is a simple example of closure in JavaScipt.
 
 {% highlight JavaScript %}
 function cat(){
@@ -187,7 +190,8 @@ Therefore, in terms of performance, <code>===</code> would be slightly faster. T
 
 <p class="text-center"> ● ● ● </p>
 
-(Now back to <a target="_blank" class="default_anchor" href="http://0ar.ch/0a-explains-javascript-closure-and-design-patterns">JavaScript closure</a>)
+<h3>2st Minute: More on Closure in JavaScript</h3>
+
 When you create a closure, instead of returning a function, you can return an object. Here is another example of closure.
 
 {% highlight JavaScript %}
@@ -268,9 +272,7 @@ function hi(){alert(a)}(); //syntax error
 {% endhighlight %}
 
 
-<p class="text-center"> ● ● ● </p>
-
-<h3>Now let's talk about  <a target="_blank" class="default_anchor" href="http://0ar.ch/0a-explains-javascript-closure-and-design-patterns">design patterns in JavaScript</a></h3>
+<h3>3rd Minute: Design patterns in JavaScript</a></h3>
 
 The example above where we create a closure and return an object is an example of a design pattern in JavaScript known as The Module Pattern.
 
