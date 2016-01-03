@@ -1,14 +1,14 @@
 ---
 layout: minute
 postType: minute
-font: 
+font:
 moreExtraClasses: ["border-lined"]
 title: "The Boolean Satisfiability Problem [S<small>AT</small>] and S<small>AT</small> solvers in 5 mins* (or&nbsp;more)"
 metaTitle: "The Boolean Satisfiability Problem [SAT] and SAT solvers in 5 mins (or more)"
-metaDescription: 
-publishedOn: 
-updateAt: 
-readingTime: 
+metaDescription:
+publishedOn:
+updateAt:
+readingTime:
 published: 1
 subtitle:
 subtitleBottom:
@@ -48,7 +48,7 @@ script: |
 
 <div class="row d_shortcuts">This is a quick sum-up on (and a beginner guide to) the Boolean Satisfiability Problem.</div>
 
-<small><sup>*</sup>In 5 minutes if one skips the introduction and the words in <i>the Blocks of Grey Text</i>.<br> 
+<small><sup>*</sup>In 5 minutes if one skips the introduction and the words in <i>the Blocks of Grey Text</i>.<br>
 <a id="blockquoteToggle">Click here to hide the introduction and all <i> Blocks of Grey Text</i>.</a>
 <br>
 Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</small>
@@ -73,7 +73,7 @@ Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</sm
 
   <p>Decision problems<sup>{1}</sup> are problems concerning only with the "trueness" of some statement. That is to say that algorithms for solving decision problems would output either <code>True</code> or <code>False</code> (often in binary value). The problem above is a decision problem, and so is the problem “Is X a prime number?”</p>
 
-  <p>I would be diving deeper into computational complexity in an upcoming article. If you are interested in theoretical CS, I recommend you checking these out:</p>
+  <p>I would be diving deeper into computational complexity in an upcoming essay. If you are interested in theoretical CS, I recommend you checking these out:</p>
 
   <ol>
     <li>
@@ -100,16 +100,14 @@ Word count includes only words <u>not</u> in <i>the Blocks of Grey Text</i>.</sm
 
 <p>Take the prime factorization problem for example. At the moment the most efficient algorithm <a href="http://www.math.vt.edu/people/brown/doc/briggs_gnfs_thesis.pdf">(for integers larger than 100 digits)</a> we can implement into pre-existing computers<sup>{3}</sup> has a sub-exponential running time. But we can’t say for certainty that the it is not in P. Many brave men and women have tried but failed to come up with a polynomial time algorithm for every instance of the problem. It may simply be the case that we, members of the Human species, are not intelligent enough to design such algorithm. (Or it may be that $NP \not= P$ and the prime factorization problem is simply not in P, in which case we have yet to prove it.)</p>
 
-<p class="text-center"><img style="max-width:400px" src="/assets/img/human_and_chimp.jpg"></p>
-
 <p>If we ever come up with an algorithm that can solve all Boolean Satisfiability Problem in polynomial time, it would mean that $P = NP$ since any problem in NP can be reduced into the Boolean Satisfiability Problem. <a href="https://news.ycombinator.com/item?id=2121727">(Here’s a courageous attempt.)</a></p>
 
 <blockquote>
-  <p><sup>{1}</sup>: More formally, a <strong>decision problem</strong> is defined as a set of strings, $L$ composed by an alphabet $\Sigma$, where there exists a Turing Machine TM,</p>
+  <p>statement<sup>{1}</sup>: More formally, a <strong>decision problem</strong> is defined as a set of strings, $L$ composed by an alphabet $\Sigma$, where there exists a Turing Machine TM,</p>
 
   <script type="math/tex; mode=display"> x \in L \Leftrightarrow TM(x) = 1</script>
 
-  <p>So, by the formal definition, <strong>the set of prime numbers is a decision problem</strong>. And this decision problem is known as PRIMES. In 2002, it was [proven that PRIMES is in P](https://www.cs.auckland.ac.nz/~msta039/primality_v6.pdf).</p>
+  <p>So, by the formal definition, <strong>the set of prime numbers is a decision problem</strong>. And this decision problem is known as PRIMES. In 2002, it was <a href="https://www.cs.auckland.ac.nz/~msta039/primality_v6.pdf">proven that PRIMES is in P</a>.</p>
 
   <p>Here $L$ is often referred to as <a href="https://en.wikipedia.org/wiki/Formal_language">a language over $\Sigma$</a>.</p>
 
@@ -136,7 +134,7 @@ These symbols are also known as logical connectives. They're arranged in the ord
 
 $$ d \lor (a \land b \land (c \lor d \land \neg a))$$
 
-And here is an instance of The Boolean Satisfiability Problem: 
+And here is an instance of The Boolean Satisfiability Problem:
 
 $$\text{Is }d \lor (a \land b \land (c \lor d \land \neg a)) \text{ satisfiable?}$$
 
@@ -155,18 +153,18 @@ $$\text{Is } a \land \neg a \land b \land c \land d \text{ satisfiable?}$$
 
 is no, it is unsatisfiable. That is because there is no value we can assign to $a$ such that $a \land \neg a$ would yield `True`, and therefore it is impossible for the entire statement to yield `True`.
 
-><sup>*</sup>: More technically, it is known as a "formula" or "wff" ("well-formed formula"). "Well-formed" in the sense that it is syntactically correct such that it can be interpreted in our context. "Formula" in the sense that it is something formed by putting symbols together. 
+><sup>*</sup>: More technically, it is known as a "formula" or "wff" ("well-formed formula"). "Well-formed" in the sense that it is syntactically correct such that it can be interpreted in our context. "Formula" in the sense that it is something formed by putting symbols together.
 >
 > $$ wff \subset statement $$
 >
 >"$\land\land\land A \land \lor B B B$" for example is a statement but not a formula since it is not well-formed.
 >
->p.s. In order to know how the symbol works here we rely on its association with the meaning of some lexical item in English, like the word "not" in the case of $\neg$, and our intuitive understanding of how "not" functions. We need to keep in mind that the symbols by themselves have no absolute meaning: some are even interpreted differently in different systems of logic ([classical logic](http://ncatlab.org/nlab/show/classical+logic) vs [intuitionistic logic](http://ncatlab.org/nlab/show/intuitionistic+logic) for example). But that is outside of the scope of this article, and so for the moment let's just take it as that these symbols indeed mean what the words mean.
+>p.s. In order to know how the symbol works here we rely on its association with the meaning of some lexical item in English, like the word "not" in the case of $\neg$, and our intuitive understanding of how "not" functions. We need to keep in mind that the symbols by themselves have no absolute meaning: some are even interpreted differently in different systems of logic ([classical logic](http://ncatlab.org/nlab/show/classical+logic) vs [intuitionistic logic](http://ncatlab.org/nlab/show/intuitionistic+logic) for example). But that is outside of the scope of this essay, and so for the moment let's just take it as that these symbols indeed mean what the words mean.
 >
 >p.s. Often in proposition logic, you would encounter these symbols as well:
 >
-> <div class="row d_shortcuts text-center"> $\Rightarrow$ with the meaning <i>imply (if .. then ..) </i>. [$\Leftarrow$ for different direction]<br> $ False \Rightarrow True = True $<sup>{4}</sup><br>
-$\Leftrightarrow$ with the meaning <i>if and only if (two-way implication)</i>.<br>$ False \Leftrightarrow True = False $ </div>
+> <div class="row d_shortcuts text-center"> $\Rightarrow$ with the meaning <i>imply (if .. then ..) </i>. [$\Leftarrow$ for different direction]<br> $ (False \Rightarrow True) = True $<sup>{4}</sup><br>
+$\Leftrightarrow$ with the meaning <i>if and only if (two-way implication)</i>.<br>$ (False \Leftrightarrow True) = False $ </div>
 >
 > They are omitted because statements that use these symbols can be rewritten using the basic Boolean operations: $\lor$, $\land$, and $\neg$.
 >
@@ -188,9 +186,9 @@ S<small>AT</small> is a member of problems known as the **Constraint Satisfactio
 
 1. the values a variable can be assigned to (often referred to as *domain*)  
 
-2. the constraints on what makes a satisfiable statement 
+2. the constraints on what makes a satisfiable statement
 
-Another member of CSPs is the <a href="http://www.eecs.berkeley.edu/~sseshia/pubdir/SMT-BookChapter.pdf">**Satisfiability Modulo Theories Problem (or SMT)**</a>, where, instead of proposition statements (like what we are dealing with in S<small>AT</small>), it is the problem of determining the satisfiability of first-order logic statements, and whether a first-order logic statement is satisfiable depends on the theory of our choice. 
+Another member of CSPs is the <a href="http://www.eecs.berkeley.edu/~sseshia/pubdir/SMT-BookChapter.pdf">**Satisfiability Modulo Theories Problem (or SMT)**</a>, where, instead of proposition statements (like what we are dealing with in S<small>AT</small>), it is the problem of determining the satisfiability of first-order logic statements, and whether a first-order logic statement is satisfiable depends on the theory of our choice.
 
 Let's say the theory of our choice is linear arithmetic, we would say that the statement below is satisfiable if variables can take in any value in $\mathbb{R}$, the set of real numbers.
 
@@ -206,26 +204,26 @@ When a satisfiable statement always yields `True` no matter what the value the v
 
 $$ a \lor \neg a $$
 
-Interestingly, the problem of determining if some statement is not a tautology can be easily reduced into the Boolean Satisfiability Problem. 
+Interestingly, the problem of determining if some statement is not a tautology can be easily reduced into the Boolean Satisfiability Problem.
 
 Since a tautology always yields `True`, negating a tautology would give us a statement that always yields `False`, and that, my friend, is an unsatisfiable statement. The problem of determining if some statement, V, is not a tautology is thus equivalent to the problem of determining if the negation of the statement, V, is satisfiable. And that means the "Not-Tautology problem" is also in NP.
 
 On the other hand, the Boolean Unsatisfiability Problem is in what's known as <b>co-NP</b>, and so is the problem of determining if a statement is a tautology.
 
-**co-NP** can be thought of as the set of problems whose non-solution can be verified efficiently. At the moment "NP = co-NP?" remains an open question.
+**co-NP** can be thought of as the set of problems whose non-solution can be verified efficiently using a Non-Deterministic Turing Machine. At the moment "NP = co-NP?" remains an open question.
 
 >Formally, a co-NP problem is a language<sup>*</sup> over some alphabet Σ, for which there exists Non-Deterministic Turing Machine that would output 0 in polynomial time, after taking in any string from the language as input.
 >
 >Note that that is different from a definition of a NP problem, a language<sup>*</sup> for which there exists exists Non-Deterministic Turing Machine that would output 1 in polynomial time, after taking in any string from the language as input.
 >
-> \* : If you are confused by the usage of the word "language", read {1} (in the *block of Grey Text*) in 0th minute: Introduction. 
-> 
+> \* : If you are confused by the usage of the word "language", read {1} (in the *block of Grey Text*) in 0th minute: Introduction.
+>
 > All problems in P are in (NP $\cap$ co-NP). Among other known problems in (NP $\cap$ co-NP) is the prime factorization problem.
 >
 
 <p class="text-center"> ● ● ● </p>
 
-From the 2nd minute on we'd be 
+From the 2nd minute on we'd be
 
 1. using the word **formula** (instead of "statement") [For the reason, see <sup>{1}</sup> in 1st minute: What is the Boolean Satisfiability Problem? if you haven't]
 
@@ -233,7 +231,7 @@ From the 2nd minute on we'd be
 
 ###<small>2nd minute:</small> Classifying S<small>AT</small> <small class="wordCount">354&nbsp;words</small>
 
-We can classify instances of S<small>AT</small> based on what form the formulas are in. 
+We can classify instances of S<small>AT</small> based on what form the formulas are in.
 
 **3S<small>AT</small>** is the instances of S<small>AT</small> where the formulas are in the form
 
@@ -243,14 +241,14 @@ where $a_j,b_j,c_j$ are called **literals**. A literal is either an atomic formu
 
 $$ ( x \lor \neg y \lor \neg x ) \land ( x \lor \neg x \lor z ) $$
 
->An atomic formula is a formula that has no deeper structure: such as "$a$" in "$a \land b$". 
+>An atomic formula is a formula that has no deeper structure: such as "$a$" in "$a \land b$".
 >
 >$\bigwedge$ works the same as a loop. We can arrive at the formula above by taking $J = \\\{ 1,2 \\\} \text{ and }a_1 = a_2 = x, b_1 = \neg y, b_2 = c_1 = \neg x, c_2 = z $.
 >
 >$$\begin{align} &\bigwedge_{j \in J} ( a_j \lor b_j \lor c_j )  \\ =& ( a_1 \lor b_1 \lor c_1 ) \land ( a_2 \lor b_2 \lor c_2 ) \\ =& ( x \lor \neg y \lor \neg x ) \land ( x \lor \neg x \lor z ) \\ \end{align}$$
 >
 
-This is also known as the <b>Conjunctive<sup>{1}</sup> Normal Form (CNF)</b>. To be more precise, the form above is called <b>3CNF</b> (because it has 3 literals in each clause<sup>{2}</sup>). <b>kCNF</b> is the type of CNF with k number of literals in each clause. 
+This is also known as the <b>Conjunctive<sup>{1}</sup> Normal Form (CNF)</b>. To be more precise, the form above is called <b>3CNF</b> (because it has 3 literals in each clause<sup>{2}</sup>). <b>kCNF</b> is the type of CNF with k number of literals in each clause.
 
 $$\begin{align}  \bigwedge_{j \in J} ( a_j \lor b_j \lor c_j ) &\text{ is 3CNF} \\ \bigwedge_{j \in J} ( a_j \lor b_j) &\text{ is 2CNF}  \end{align}$$
 
@@ -264,7 +262,7 @@ Clauses in a general CNF formula need not contain the same number of literals. E
 $$( a \lor b) \land ( c \lor d ) \land (a \lor c \lor b \lor \neg b) \land (\neg a \lor c \lor d) \\ ( a \lor b ) \land c$$
 
 
-Instances of S<small>AT</small> on statements in ***k*CNF** are called ***k*S<small>AT</small>**, where *k* is a natural number. Great thing about 3S<small>AT</small> is that all instances of S<small>AT</small> are [reducible](http://web.mit.edu/~neboat/www/6.046-fa09/rec8.pdf) into 3S<small>AT</small>. And that means 3S<small>AT</small> is also NP-complete. **2S<small>AT</small>**, on the other hand, is S<small>AT</small> in 2CNF and it is not NP-complete. 
+Instances of S<small>AT</small> on statements in ***k*CNF** are called ***k*S<small>AT</small>**, where *k* is a natural number. Great thing about 3S<small>AT</small> is that all instances of S<small>AT</small> are [reducible](http://web.mit.edu/~neboat/www/6.046-fa09/rec8.pdf) into 3S<small>AT</small>. And that means 3S<small>AT</small> is also NP-complete. **2S<small>AT</small>**, on the other hand, is S<small>AT</small> in 2CNF and it is not NP-complete.
 
 
 2S<small>AT</small> is in P (and [NL-complete](https://en.wikipedia.org/wiki/NL-complete)) and not all instances of S<small>AT</small> can be reduced into 2S<small>AT</small> (or else we can conclude that P = NP).
@@ -284,12 +282,12 @@ Not only is Horn-S<small>AT</small> in P (just like 2S<small>AT</small>), it is 
 >
 > <sup>{1}</sup> Conjunctive since it's formed by $\land$. It yields `False` if one of its clauses yields `False`.
 >
-> <sup>{2}</sup>: Formally a **clause** is defined to be a **disjunction** of literal: 
+> <sup>{2}</sup>: Formally a **clause** is defined to be a **disjunction** of literal:
 >
 > Dejunctive since it's formed by $\lor$. It yields `True` if one of its literals yields `True`.
 >
 > <sup>{3}</sup> Initially in propositional logic, a Horn clause is in the form
-> 
+>
 > $$ (\bigwedge_{a \in A} a) \Rightarrow b $$
 >
 > In S<small>AT</small>, since we don't use the $\Rightarrow$ symbol, the above is re-written as:
@@ -298,11 +296,11 @@ Not only is Horn-S<small>AT</small> in P (just like 2S<small>AT</small>), it is 
 >
 > or in the case that $b$ is an absolute `True`, we have $(\bigwedge_{a \in A} a) \Rightarrow True$, which gives us
 >
-> $$ \bigvee_{a \in A} \neg a$$ 
+> $$ \bigvee_{a \in A} \neg a$$
 >
 > or in the case that $\bigvee_{a \in A}$ is an absolute `True`, we have $True \Rightarrow b$, giving us
 >
-> $$ b $$ 
+> $$ b $$
 
 This pretty much sums up generally how instances of S<small>AT</small> are classified. If you are interested in classifying S<small>AT</small> in a more 'hard core' manner (viewing S<small>AT</small> itself as a classification problem), [check out this 2008 paper by David Devlin and Barry O’Sullivan](http://www.cs.ucc.ie/~osullb/pubs/classification.pdf).
 
@@ -311,16 +309,16 @@ Perhaps you've also heard of problems with names like [MAXS<small>AT</small>](ht
 
 ###<small>3rd minute :</small> S<small>AT</small> Solvers - General Overview <small class="wordCount">337&nbsp;words</small>
 
-There are many known algorithms capable of solving some (but not all) instances of S<small>AT</small> pretty efficiently. We often refer to them as <b>S<small>AT</small> solvers</b>. In general they can be classified into **complete** or **incomplete**. 
+There are many known algorithms capable of solving some (but not all) instances of S<small>AT</small> pretty efficiently. We often refer to them as <b>S<small>AT</small> solvers</b>. In general they can be classified into **complete** or **incomplete**.
 
 Complete S<small>AT</small> solvers would always return either `satisfiable` or `unsatisfiable`. Incomplete S<small>AT</small> solvers, on the other hand, are less reliable - they may be unable to prove unsatisfiability (when it's impossible for the formula to yield `True`), or unable to find a solution when the formula is satisfiable - but perhaps a lot more useful in scenarios when the instances of S<small>AT</small> cannot be solved by complete algorithms in reasonable time.
 
 >To make thing simpler S<small>AT</small> solvers normally take in formulas in CNF form encoded in [DIMACS](http://www.satcompetition.org/2009/format-benchmarks2009.html) format as inputs. Suppose we have a formula that isn't in CNF form, we would first [convert it into CNF form](http://stackoverflow.com/a/11582917/2041954) before inputting it into a S<small>AT</small> solver.
 
 
-To compare the performance between different S<small>AT</small> solvers, we give them a large set of formulas and see how well each performs (e.g. by the total time taken, or number of formulas solved in n-minutes, or using [a methodology called *careful ranking*](http://link.springer.com/chapter/10.1007%2F978-3-642-21581-0_25#page-1)). The set of formulas is often referred to as a benchmark instance. A solver previously lost to another solver may do better if different type of benchmark instances are used. 
+To compare the performance between different S<small>AT</small> solvers, we give them a large set of formulas and see how well each performs (e.g. by the total time taken, or number of formulas solved in n-minutes, or using [a methodology called *careful ranking*](http://link.springer.com/chapter/10.1007%2F978-3-642-21581-0_25#page-1)). The set of formulas is often referred to as a benchmark instance. A solver previously lost to another solver may do better if different type of benchmark instances are used.
 
-In [the S<small>AT</small> 2014 competition](http://satcompetition.org/2014/index.shtml), [Lingeling](http://fmv.jku.at/lingeling/) beat all the other solvers when evaluated using application-type benchmark instances, but lose to [glucose](http://www.labri.fr/perso/lsimon/glucose/) when hard-combinatorial-type are used. 
+In [the S<small>AT</small> 2014 competition](http://satcompetition.org/2014/index.shtml), [Lingeling](http://fmv.jku.at/lingeling/) beat all the other solvers when evaluated using application-type benchmark instances, but lose to [glucose](http://www.labri.fr/perso/lsimon/glucose/) when hard-combinatorial-type are used.
 
 > Due to the NP-complete nature of S<small>AT</small>, we can use S<small>AT</small> solvers to solve real world problems in areas like circuit design (for [Combinational Equivalence Checking](http://www.cise.ufl.edu/~zhuang/doc/TR-05.pdf)), and artificial intelligence  (for [Automated Planning and Scheduling](http://users.ics.aalto.fi/rintanen/jussi/papers/Rintanen11aaai.pdf)). Application-type benchmark instances consist of formulas from real world problems.
 
@@ -332,21 +330,21 @@ Many modern S<small>AT</small> solvers are based on the original **DPLL** algori
 
 ###<small>4th and 5th minutes :</small> S<small>AT</small> Solvers - DPLL and More <small class="wordCount">613&nbsp;words</small>
 
-You may have already imagined, DPLL is basically a [depth-first search](https://www.youtube.com/watch?v=bkROCj-BTWE), and that means at its heart it uses **backtracking**, a brute-force-like technique that, rather than checking every single possible solution one by one (which is what's known as brute-force), it checks possible solutions by compositing part by part in a combinatorial fashion [e.g. building a solution variable by variable as described above], discarding sets of solutions that are deemed invalid by parts. 
+You may have already imagined, DPLL is basically a [depth-first search](https://www.youtube.com/watch?v=bkROCj-BTWE), and that means at its heart it uses **backtracking**, a brute-force-like technique that, rather than checking every single possible solution one by one (which is what's known as brute-force), it checks possible solutions by compositing part by part in a combinatorial fashion [e.g. building a solution variable by variable as described above], discarding sets of solutions that are deemed invalid by parts.
 
 > In short, **a backtracking algorithm is very similar to a classical brute-force algorithm, except that it is slightly smarter and thus more efficient**. Here is an example. Imagine you are given 9 numbers
 >
->$$4015,1635,8744,1236,3241,123,6126,142,13421$$ 
+>$$4015,1635,8744,1236,3241,123,6126,142,13421$$
 >
->and your task is to find if there is a set of $n$ numbers adding up to a prime number $x$ where $n > 3$ and $x < 14000$. One example of an algorithm that uses backtracking would firstly 
+>and your task is to find if there is a set of $n$ numbers adding up to a prime number $x$ where $n > 3$ and $x < 14000$. One example of an algorithm that uses backtracking would firstly
 >
 > 1. form a set of 3 numbers (e.g. first 3 numbers $4015,1635,8744$)
 >
 > 2. get its sum (in this case $4015+1635+8744=14394$ )
 >
-> 3. check if it makes sense to go on adding more numbers into this set of 3 numbers. 
+> 3. check if it makes sense to go on adding more numbers into this set of 3 numbers.
 >
->In our case $14394>14000$, so it makes no sense to go on and we abandon the last number, 8744, in our set, makes a new set of 3 numbers $4015,1635,1236$, and do the same thing to check if it makes sense to go on (in this case $4015+1635+1236=6886$). Since it did not exceed the limit of 14000, we continue to 
+>In our case $14394>14000$, so it makes no sense to go on and we abandon the last number, 8744, in our set, makes a new set of 3 numbers $4015,1635,1236$, and do the same thing to check if it makes sense to go on (in this case $4015+1635+1236=6886$). Since it did not exceed the limit of 14000, we continue to
 >
 > 1. add a new number into the the set
 >
@@ -356,22 +354,22 @@ You may have already imagined, DPLL is basically a [depth-first search](https://
 >
 > once we exceed the limit we abandon the last number just like before (and hence *backtracking*)... Keep doing so until we have
 >
->1. either tried every sensible combination (sum < 14000), but there is no prime 
+>1. either tried every sensible combination (sum < 14000), but there is no prime
 >
 >2. or we arrive at a solution, a set of numbers that meets our criteria.
 >
-> Read up on [the Eight queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) and its backtracking algorithm and you'd have a complete grasp of the concept (if you haven't). 
+> Read up on [the Eight queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle) and its backtracking algorithm and you'd have a complete grasp of the concept (if you haven't).
 
 
 The other 2 techniques classical DPLL uses are
 
 1. **pure literal elimination**: The idea is simple. If a literal appears only as positive or negative (but not both, and hence we call it **pure**) in the formula,  
-    
-    1. we assign a value to the literal for it to yield `True`.
-    
-    2. and delete all the clauses which contain it in the formula. 
 
-    >This is because since it is pure, we can just make it yield `True` and it won't have any other consequence to the overall satisfiable. 
+    1. we assign a value to the literal for it to yield `True`.
+
+    2. and delete all the clauses which contain it in the formula.
+
+    >This is because since it is pure, we can just make it yield `True` and it won't have any other consequence to the overall satisfiable.
     >
     >    $$ (a \lor b \lor \neg c) \land (a \lor \neg b) \land ( b \lor \neg c) $$
     >
@@ -384,11 +382,11 @@ The other 2 techniques classical DPLL uses are
     >    </div>
     >
 
-2. **unit propagation**: It is obvious that for clauses made up of 1 literal, that 1 literal has to evaluate `True` for the formula to yield `True`. Therefore 
+2. **unit propagation**: It is obvious that for clauses made up of 1 literal, that 1 literal has to evaluate `True` for the formula to yield `True`. Therefore
 
-    1. we assign a value for the literal to yield `True` 
+    1. we assign a value for the literal to yield `True`
 
-    2. delete clauses that contains the literal, and instances of it in opposite polarity (the opposite of positive is negative, vice versa). 
+    2. delete clauses that contains the literal, and instances of it in opposite polarity (the opposite of positive is negative, vice versa).
 
     > Take this CNF for example:
     >
@@ -413,7 +411,7 @@ The other 2 techniques classical DPLL uses are
     >
     > <p class="text-center"> ● ● ● </p>
     >
-    > When we end up in a situation where there is an **empty clause** (a clause with 0 literals), it indicates that there is a set of variables no matter what value we assign them, we can't satisfy the formula. And thus it is unsatisfiable. 
+    > When we end up in a situation where there is an **empty clause** (a clause with 0 literals), it indicates that there is a set of variables no matter what value we assign them, we can't satisfy the formula. And thus it is unsatisfiable.
     >
     >Here is an example where after one round of unit propagation, we'd have an empty clause, indicating that no matter what values we assign $a$ and $b$, it won't satisfy the formula.
     >
@@ -438,12 +436,12 @@ type VariableAssignement = (Int,Bool)
 
 --extract variable from literal
 exv :: Literal -> Variable
-exv l 
+exv l
     | l > 0 = l
     | l < 0 = -l
 
 exvWithValue:: Literal -> VariableAssignement
-exvWithValue l 
+exvWithValue l
     | l > 0 = (l,True)
     | l < 0 = (-l,False)
 
@@ -455,7 +453,7 @@ hasConflict = (elem) []
 dpll :: ([Variable], [Clause]) -> [VariableAssignement] ->(Satisfiability,[VariableAssignement])
 dpll (vss@(x:vs),cnf) as
     | hasConflict cnf = (UNSAT,[])
-    | let (result,list) = enterDecisionLevelWAL x, 
+    | let (result,list) = enterDecisionLevelWAL x,
         result == SAT = (result,list)
     | otherwise = enterDecisionLevelWAL (-x)
         -- enterDecisionLevelWAL: enter Decision Level With Assigned Literal
@@ -465,10 +463,10 @@ dpll ([],_) as = (SAT,as)
 -- do_up_and_ple: do unit propagation && pure literal elimination
 do_up_and_ple :: ([Variable], [Clause]) -> [VariableAssignement] ->(Satisfiability,[VariableAssignement])
 do_up_and_ple (vs,cnf) as = dpll (vs',cnf') as'
-    where 
+    where
         ((vs',cnf'),as') = up_and_ple ((vs,cnf),as)
         up_and_ple x = check_if_ple_gets_same_result (ple x') x'
-            where x' = (up (ple x)) 
+            where x' = (up (ple x))
         check_if_ple_gets_same_result x previous
             | x == previous = x
             | otherwise = up_and_ple x
@@ -481,10 +479,10 @@ ple ((vs,cnf),as)
         cnf' = foldl (assignTrueFor) cnf pls
         vs' = vs \\ (fmap exv pls)
         as' = as ++ (fmap exvWithValue pls)
-        pls = nubBy (==) $ find_pure_literals literals [] 
+        pls = nubBy (==) $ find_pure_literals literals []
         literals = concat cnf
         find_pure_literals (x:xs) o = find_pure_literals xs o'
-            where 
+            where
                 o'
                     | (x `elem` literals) && ( -x `elem` literals) = o
                     | (-x `elem` literals) = -x:o
@@ -505,14 +503,14 @@ dpllStart :: ([Variable], [Clause]) ->(Satisfiability,[VariableAssignement])
 dpllStart (vs,cnf) = do_up_and_ple (vs, cnf) []
 {% endhighlight %}
 
-To run it, simply invoke `dpllStart` with a parameter in the form `([Int], [[Int]])` 
+To run it, simply invoke `dpllStart` with a parameter in the form `([Int], [[Int]])`
 
 $$ (a \lor b) \land (a \lor c ) \land (c \lor -d) \\ \text{would be ([1,2,3],[[1,2],[1,3],[3,-4]])}$$
 
-and it would return either `UNSAT` with an empty list or `SAT` with a list of boolean assignments. 
+and it would return either `UNSAT` with an empty list or `SAT` with a list of boolean assignments.
 
 >
->I've integrated a parser for parsing CNF formula in [DIMACS format](http://www.satcompetition.org/2009/format-benchmarks2009.html) into the implementation above. 
+>I've integrated a parser for parsing CNF formula in [DIMACS format](http://www.satcompetition.org/2009/format-benchmarks2009.html) into the implementation above.
 >
 >[It's available on GitHub.](https://github.com/0a-/Haskell-DPLL-SAT-Solver)
 >
@@ -521,7 +519,7 @@ Below is DPLL in pseudo-code with JavaScript-like syntax. (I have omitted the ar
 
 {% highlight JavaScript %}
 function dpll(formula){
-    if(formula.has(empty_clause)){ 
+    if(formula.has(empty_clause)){
         return "UNSAT";
     }else if(formula.variables.length === 0){
         return "SAT";
@@ -541,11 +539,11 @@ function dpll(formula){
 function doUPandPLE(f){
     //LiteralElmination & UnitPropagation would remove elements in f.variables
     //as they make changes to the formula
-    do{ 
+    do{
       f.repeatedlyDo("PureLiteralElmination");
       f.repeatedlyDo("UnitPropagation");
     }while(f.ifDoPureLiteralElminationCanMakeChanges());
-    
+
     return dpll(f);
 }
 {% endhighlight %}
@@ -561,7 +559,7 @@ The idea of VSIDS is simple: a variable is chosen for each decision according a 
 >To learn more about VSIDS you can check out [Understanding VSIDS Branching Heuristics
 in Conflict-Driven Clause-Learning S<small>AT</small> Solvers](http://arxiv.org/pdf/1506.08905v1.pdf) and [The Effect of VSIDS on S<small>AT</small> Solver Performance](https://classes.soe.ucsc.edu/cmps217/Fall07/Project/jaeheon/final_paper/final_paper/input-dist-subm.pdf).
 >
-> Conflict clause learning is a technique that generates an "conflict clause" by using an [implication graph](https://en.wikipedia.org/wiki/Implication_graph) that examines how conflict arises after unit propagation. Conflict happens when all literals in a clause are forced to yield `False` (which is the case when we have an empty clause, if our algorithm deletes False literal). Thus the process above is often referred to as conflict analysis. If you are interested in learning more about it, check out [this great article (with pictures)](http://www.msoos.org/2011/05/understanding-implication-graphs/) by [msoos](https://github.com/msoos) from [Wondering of a S<small>AT</small> geek](http://www.msoos.org/). Wanna dive deeper? You'd certainly find these papers useful: 
+> Conflict clause learning is a technique that generates an "conflict clause" by using an [implication graph](https://en.wikipedia.org/wiki/Implication_graph) that examines how conflict arises after unit propagation. Conflict happens when all literals in a clause are forced to yield `False` (which is the case when we have an empty clause, if our algorithm deletes False literal). Thus the process above is often referred to as conflict analysis. If you are interested in learning more about it, check out [this great article (with pictures)](http://www.msoos.org/2011/05/understanding-implication-graphs/) by [msoos](https://github.com/msoos) from [Wondering of a S<small>AT</small> geek](http://www.msoos.org/). Wanna dive deeper? You'd certainly find these papers useful:
 >
 > 1. [Understanding the Power of Clause Learning](https://www.cs.rochester.edu/u/kautz/papers/learnIjcai.pdf)
 >
@@ -579,13 +577,13 @@ Other ways of improving performance of DPLL-based algorithms include
 
 1. adding conflict clauses (generated by conflict analysis as described above) into the formula to prevent from getting into the same conflict again.
 
-2. implementing unit propagation by using a technique that watches 2 literals at a time, instead of keeping track of all literals, in which case [you'd need to sacrifice pure literal elimination](http://cs.stackexchange.com/q/44924/11573). To learn more read [this 2001 paper](http://www.princeton.edu/~chaff/publication/DAC2001v56.pdf). 
+2. implementing unit propagation by using a technique that watches 2 literals at a time, instead of keeping track of all literals, in which case [you'd need to sacrifice pure literal elimination](http://cs.stackexchange.com/q/44924/11573). To learn more read [this 2001 paper](http://www.princeton.edu/~chaff/publication/DAC2001v56.pdf).
 
 3. Other than using heuristic for decision as described above, we can use heuristic for backtracking. And that is actually what's done in many CDCL S<small>AT</small> Solvers.  
 
     >Backtracking like the one in classical DPLL is called chronological backtracking. Chronological in the sense that we we simply go back to the previous decision level. In heuristic backtracking, we go back to a decision level (or backtrack point) based on a **heuristic function**. The principal behind it is that we should learn from conflicts and avoid making the mistake of trying out all different variables assignments down a decision level only to find out that all the assignment at that decision level would only lead to unsatisfiability. That is to say that we would rely on the heuristic to help us in figuring out if the boolean assignment at some previous decision level may be a bad pick, and that we should backtrack all the way up.
 
-4. implementing some *restart* policies, which force the solver to backtrack to decision level 0 (or some other level) when some condition is met. This is to prevent the solver from getting "stuck" at some part of the [search space](http://wiki.lesswrong.com/wiki/Search_space) for a long time. To learn more about it, check out [The Effect of Restarts on the Efficiency of Clause Learning](http://users.cecs.anu.edu.au/~jinbo/07-ijcai-restarts.pdf) and [Dynamic Restart Policies](ftp://ftp.research.microsoft.com/pub/ejh/drestart.pdf). 
+4. implementing some *restart* policies, which force the solver to backtrack to decision level 0 (or some other level) when some condition is met. This is to prevent the solver from getting "stuck" at some part of the [search space](http://wiki.lesswrong.com/wiki/Search_space) for a long time. To learn more about it, check out [The Effect of Restarts on the Efficiency of Clause Learning](http://users.cecs.anu.edu.au/~jinbo/07-ijcai-restarts.pdf) and [Dynamic Restart Policies](ftp://ftp.research.microsoft.com/pub/ejh/drestart.pdf).
 
 
 and many and many more.  
