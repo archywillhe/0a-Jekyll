@@ -35,7 +35,7 @@ Back when I was working on [The HacKIDemia Event Site](https://github.com/0a-/ha
 
 Sadly I don't have a use case for it. I wanted to give it to the friend I made the promise with, but as a designer and a developer, that just doesn't feel right. So I decided to use it to bootstrap the old project of mine and see if I can have something for my friend's birthday this year.
 
-Yesterday was the day, and I barely made it. 
+Yesterday was the day, and I barely made it.
 
 [DancePrince.com is now live](http://danceprince.com/).
 
@@ -92,7 +92,7 @@ function get_only_few_lines($content,$id){
   <p>For anyone who is curious, this is how the prototype looks like.</p>
 <p class="text-center"><img src="/assets/img/dp_proto.jpg" alt="dance_prince_prototype"></p>
   <p class="text-center"><img src="/assets/img/dp_proto2.jpg" alt="dance_prince_prototype2"></p>
-  <p>The design of the prototype was done one and a half year ago. As you can see it is rather immature. I have learnt a lot since then.</p>
+  <p>The design of the prototype was done one and a half year ago. At that time I was still pretty immature (as you can see from the style of it). I have learnt a lot since then.</p>
   <p>Needless to say, some of the changes I made for the final design are inspired by elements in Dicot's. And I did borrow some DOM objects & CSS from it. (I got the license anyway.)</p>
   <p> p.s. The typography used in the logo was an imitation of that used in the cover of <a href="https://en.wikipedia.org/wiki/The_Little_Prince">Le Petit Prince</a>, designed by <a href="https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry">Antoine de Saint-Exupéry</a>. </p>
 

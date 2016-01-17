@@ -23,7 +23,7 @@ There is only one game in life that actually matters, and that is life itself.
 
 The game of socializing, the game of corporate-ladder climbing, the game of winning someone's heart ... these games become so trivial in the face of it, for each is contained within it. It is the superset of everything we had experienced, are experiencing, and will experience during the time of our existence. What came before and comes after it are out of its context. Certainly, they instigate a continuum of interesting thoughts to be pondered upon, but let's not forget that whatever new light any musing would shine into the matter of "before and afterlife" only reflects the very nature of the mental framework under which we, as members of homo sapiens, compose our thoughts. We shall thus keep in mind that the primary focus in life ought to be life per se, while we are in it.
 
-To properly play the game of life, one is advised to try to define goals to accomplish in this game. They don't have to be well-defined. A goal can be as indefinite and meta as figuring out what goals are to be defined. One is then recommended to allow these goals to evolve over time as she or he contemplates over them. Some people may arrive at the conclusion that they should live in conformity with some set of doctrines, often promulgated by a religious body, from which some goals of life can be derived. Some people may conclude that there exists no actual goal or purpose in life, in which case they either play the game of life purposelessly, or come up with goals/purposes themselves.
+To properly play the game of life, one is advised to define goals to accomplish in this game. They don't have to be well-defined. A goal can be as indefinite and meta as figuring out what goals are to be defined. One is then recommended to allow these goals to evolve over time. Some people may arrive at the conclusion that they should live in conformity with some set of doctrines, often promulgated by a religious body, from which some goals of life can be derived. Some people may conclude that there exists no actual goal or purpose in life, in which case they either play the game of life purposelessly, or come up with goals/purposes themselves.
 
 All these years I have been searching for a set of goals in the game of life. I, standing on the shoulders of the giants, have recently found somewhat a set of goals worthy of pursuing. Live a life worth living: I shall stop indulging in other games, and dedicate my life to these goals. Only then would I stand some chance of realizing them. That said, I would keep human interaction to a minimum and conceive no unnecessary mental construct, when possible. Disenthrall the mind from everything else, and allocate all that the mind has solely to these goals.
 
@@ -34,18 +34,3 @@ Perhaps it is such dedication that enables one to, with little effort, achieve t
 <p>“… <i>flow</i> – the state in which people are so involved in an activity that nothing else seems to matter; the experience itself is so enjoyable that people will do it even at great cost, for the sheer sake of doing it.” - Csikzentmihalyi, 1991</p>
 
 </blockquote>
-
-The eight distinct dimensions in the experience of <i>flow</i> as defined by Csikszentmihalyi in the book <a target="_blank" href="http://www.amazon.com/The-Evolving-Self-Psychology-Millennium/dp/0060921927">The Evolving Self (1994)</a> are as followed:
-
-<ul>
-<li>Clear goals and immediate feedback</li>
-<li>Equilibrium between the level of challenge and personal skill</li>
-<li>Merging of action and awareness</li>
-<li>Focussed concentration</li>
-<li>Sense of potential control</li>
-<li>Loss of self-consciousness</li>
-<li>Time distortion</li>
-<li>Autotelic or self-rewarding experience</li>
-</ul>
-
-Time distortion is a common experience to me, and so is "focussed concentration". But only occasionally would it be truly "self-rewarding", and rarely there is a "loss of self-consciousness" and a "sense of potential control". Entering the state of <i><i>flow</i></i> on a regular basis is the zeroth goal I would like to achieve before working on the other goals - goals that would require a lifetime of devotion - in this wondrous game of life.
