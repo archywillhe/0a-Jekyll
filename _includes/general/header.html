@@ -2,13 +2,13 @@
   <div class="archyhead">
     <div class="page_meta_info_wrapper">
       <div class="page_meta_info">
-          {% if page.subspace %}
+          {% if layout.subspace %}
          {% include 0a.html %}
         <div class="arrow inline hideInMobile">
           <img src="/assets/img/arrow.png">
         </div>
         <div class="current_region inline hideInMobile">
-          <a href= "{% if page.subspacePath %} {{page.subspacePath}} {%else%} {% endif %}"><span>{{page.subspace}}</span></a>
+          <a href= "{% if layout.subspacePath %} {{layout.subspacePath}} {%else%} {% endif %}"><span>{{layout.subspace}}</span></a>
 
         </div>
         {% endif %}
@@ -33,7 +33,7 @@
         {% endif %}
       </div>
     </div>
-     {% unless page.subspace %}
+     {% unless layout.subspace %}
    {% include 0a.html %}
     <div class="about_me  garamond">
       <div class="about_0a_content" itemscope itemtype="http://schema.org/Person">

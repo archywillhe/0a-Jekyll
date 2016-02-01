@@ -77,8 +77,8 @@ function allDailyLogsCtrl ($scope, $http){
 
   var logNumbers = [2,3,2,1];
   getPosts("all-dailylogs",$scope, $http,function(){
-    $scope.logNumber = function(a){ 
-      return logNumbers[a%4] 
+    $scope.logNumber = function(a){
+      return logNumbers[a%4]
     };
   });
 }
@@ -117,11 +117,11 @@ hl.config(['$routeProvider', '$locationProvider', function($routeProvider,$locat
       }).
       when('/all-dailylogs', {
         controller: allDailyLogsCtrl,
-        templateUrl: 'partials/all-dailylogs.html',
+        templateUrl: 'partials/all-dailylogs',
       }).
       when('/logs-from-the-past', {
         controller: logsFromThePastCtrl,
-        templateUrl: 'partials/logs-from-the-past.html',
+        templateUrl: 'partials/logs-from-the-past',
       });
      $locationProvider.html5Mode({
       enabled: true,
